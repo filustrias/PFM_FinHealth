@@ -3,7 +3,7 @@ title: "Isto é GFP (This is PFM)"
 subtitle: "Tradução integral do artigo de Andrews e colegas, 2014"
 ---
 
-*Segue a tradução integral do documento para o português (com a terminologia e ortografia técnica adequadas ao contexto de finanças públicas em Angola, como *Gestão das Finanças Públicas – GFP*, *exercício económico*, *Assembleia Nacional*, *Tribunal de Contas*, *SIGFE/TSA*, entre outros termos padrão da administração pública angolana):*
+*Tradução integral do documento [This is PFM](https://drive.google.com/file/d/1cHOXDeBl9pxa9CX_CCdcKevVmFYR4L44/view?usp=drive_link) para o português (com a terminologia e ortografia técnica adequadas ao contexto de finanças públicas em Angola, como *Gestão das Finanças Públicas – GFP*, *exercício económico*, *Assembleia Nacional*, *Tribunal de Contas*, *SIGFE/TSA*, entre outros termos padrão da administração pública angolana):*
 
 **Matt Andrews, Marco Cangiano, Neil Cole, Paolo de Renzio, Philipp Krause e Renaud Seligmann¹**
 

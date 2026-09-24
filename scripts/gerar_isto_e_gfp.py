@@ -43,6 +43,14 @@ IMG_ORIG = RAIZ / "figuras" / "gfp-ciclo-original-en.png"
 NS_W = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
 NS_A = "{http://schemas.openxmlformats.org/drawingml/2006/main}"
 
+# O original vive na pasta do Google Drive partilhada com o grupo de trabalho.
+LINK_ORIGINAL = ("https://drive.google.com/file/d/"
+                 "1cHOXDeBl9pxa9CX_CCdcKevVmFYR4L44/view?usp=drive_link")
+
+# A nota de abertura do .docx passa a remeter para o original.
+NOTA_DE = "Segue a tradução integral do documento"
+NOTA_PARA = f"Tradução integral do documento [This is PFM]({LINK_ORIGINAL})"
+
 # O bloco de rótulos da figura, que o SVG passa a dispensar: vai do parágrafo
 # que o abre até ao primeiro parágrafo do corpo que se lhe segue.
 ABRE_ROTULOS = "(Representação do ciclo"
@@ -249,6 +257,11 @@ def main():
            'subtitle: "Tradução integral do artigo de Andrews e colegas, 2014"',
            "---", ""]
     if nota:
+        if NOTA_DE in nota:
+            nota = nota.replace(NOTA_DE, NOTA_PARA, 1)
+        else:
+            print(f"  AVISO: a nota de abertura mudou; o link para o original "
+                  f"não foi inserido. Começa por: {nota[:60]!r}")
         cab.append(f"*{nota}*\n")
 
     SAIDA.write_text("\n".join(cab + o), encoding="utf-8")
