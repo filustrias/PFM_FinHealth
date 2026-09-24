@@ -7,3 +7,5 @@
 # Documentos de trabalho: ficam fora do repositório público.
 *.xlsx
 *.docx
+*.pdf
+materiais_de_referencia/
