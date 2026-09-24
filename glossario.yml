@@ -367,7 +367,7 @@ entradas:
 - id: g-conta-unica-do-tesouro
   termo: Conta Única do Tesouro
   ingles: Treasury Single Account | TSA / Conta Única do Tesouro, CUT
-  definicao: Estrutura unificada de contas bancárias do Governo que consolida e gere ncia os
+  definicao: Estrutura unificada de contas bancárias do Governo que consolida e gerencia os
     recursos de tesouraria. Em Moçambique, a Conta Única do Tesouro (CUT) é a designação nacional
     utilizada.
   ligar: false
@@ -1198,11 +1198,16 @@ entradas:
 - id: g-proteccao-financeira
   termo: Protecção financeira
   ingles: Financial protection
-  definicao: 'Protecção das famílias contra dificuldades financeiras decorrentes do pagamento
-    de serviços de saúde. Q Quadro de Despesa de Médio Prazo (Medium-term expenditure framework
-    | MTEF / Quadro de Despesa de Médio Prazo; CFMP in Mozambique): Quadro que liga previsões
-    macrofiscais, tectos de despesa de médio prazo e prioridades sectoriais ao longo de vários
-    anos. Em Moçambique, o CFMP é uma referência nacional específica.'
+  definicao: Protecção das famílias contra dificuldades financeiras decorrentes do pagamento
+    de serviços de saúde.
+  ligar: false
+  variantes: []
+- id: g-quadro-de-despesa-de-medio-prazo
+  termo: Quadro de Despesa de Médio Prazo
+  ingles: Medium-term expenditure framework | MTEF / Quadro de Despesa de Médio Prazo; CFMP
+    in Mozambique
+  definicao: Quadro que liga previsões macrofiscais, tectos de despesa de médio prazo e prioridades
+    sectoriais ao longo de vários anos. Em Moçambique, o CFMP é uma referência nacional específica.
   ligar: false
   variantes: []
 - id: g-quadro-fiscal-de-medio-prazo
@@ -1236,7 +1241,7 @@ entradas:
 - id: g-realocacao-orcamental
   termo: Realocação orçamental
   ingles: Reallocation
-  definicao: Movimentação autorizada de recursos orçament ários entre rubricas, programas ou
+  definicao: Movimentação autorizada de recursos orçamentários entre rubricas, programas ou
     instituições.
   ligar: false
   variantes: []

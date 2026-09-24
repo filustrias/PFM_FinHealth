@@ -131,6 +131,934 @@ comentarios:
       orçamento». No FinHealth, este padrão enquadra-se nas dificuldades no
       fluxo de fundos (secção 3.2.1, p. 32).
 
+  g-agregacao-de-fundos:
+    comentario: >-
+      É a segunda das três funções do financiamento da saúde, entre a
+      [[g-mobilizacao|mobilização de receitas]] e a
+      [[g-compra-estrategica|compra de serviços]]. Quanto maior e mais
+      diversificado o conjunto agregado, mais o custo da doença de uns é
+      suportado por todos. Exemplo: um fundo alimentado pelo orçamento e por
+      contribuições obrigatórias, que cobre toda a população, agrega mais do que
+      vários esquemas pequenos, cada um para um grupo profissional. Distingue-se
+      da [[g-partilha-de-riscos|partilha de riscos]], que é o efeito que a
+      agregação permite.
+
+  g-ajustamento-orcamental-intra-anual:
+    comentario: >-
+      Termo guarda-chuva para tudo o que altera o orçamento aprovado durante o
+      exercício: a [[g-transferencia|transferência entre rubricas]], a
+      [[g-realocacao-orcamental|realocação]], o
+      [[g-orcamento-suplementar|orçamento suplementar]] e o uso da
+      [[g-reserva-de-contingencia|reserva de contingência]]. Algum ajustamento
+      é normal; ajustamentos muito frequentes ou de grande dimensão indicam
+      falta de [[g-credibilidade-orcamental|credibilidade]] do orçamento
+      inicial.
+
+  g-alocacao:
+    comentario: >-
+      Na prática usa-se «alocação» para a decisão de distribuir recursos e
+      «dotação» para o montante inscrito numa rubrica do orçamento. Uma
+      alocação só se torna gastável quando existe
+      [[g-dotacao-orcamental-autorizada|dotação autorizada]] e os fundos são
+      [[g-libertacao|libertados]] — é nesse intervalo que muitos problemas de
+      execução nascem.
+
+  g-alocacao-baseada-em-formula:
+    comentario: >-
+      Substitui a negociação caso a caso por uma regra conhecida por todos.
+      Exemplo: distribuir a verba dos cuidados primários pelos municípios
+      segundo a população, ajustada por um índice de pobreza e pela distância
+      média às unidades sanitárias. A fórmula só funciona se os dados que a
+      alimentam forem fiáveis e actualizados; o FinHealth trata a incapacidade
+      de a aplicar como um constrangimento próprio (secção 3.4.4, p. 48).
+
+  g-alocacao-estrategica-de-recursos:
+    comentario: >-
+      É um dos três resultados que se esperam de uma boa GFP, ao lado da
+      [[g-disciplina-fiscal|disciplina fiscal]] agregada e da prestação
+      eficiente de serviços (PEFA). Mede-se comparando o que as políticas dizem
+      ser prioritário com o que o orçamento e a execução efectivamente
+      financiam. Exemplo: uma estratégia que declara os cuidados primários
+      prioritários, mas cuja execução concentra a despesa nos hospitais
+      centrais, falha a alocação estratégica.
+
+  g-ambiente-de-regras-de-gfp:
+    comentario: >-
+      O mesmo dinheiro público pode chegar a uma unidade sob regras muito
+      diferentes, e é isso que este conceito capta. O FinHealth distingue
+      quatro ambientes: regras do Tesouro, regras extraorçamentais (fundos
+      estatutários, contas especiais), regras de financiadores externos
+      (unidades de gestão de projectos) e fluxos fora da GFP, como os
+      pagamentos directos dos doentes (Anexo 1, Tabela A1.1, p. 58). Exemplo:
+      num mesmo hospital, os salários seguem as regras do Tesouro, um projecto
+      financiado por um parceiro segue as regras desse parceiro, e as taxas
+      cobradas aos doentes seguem regulamentos internos.
+
+  g-analise-causal:
+    comentario: >-
+      É o terceiro dos quatro passos do FinHealth: depois de seleccionar os
+      problemas e mapear os fluxos, a equipa pergunta que regras ou práticas de
+      GFP os explicam e porque persistem (secção 2.3, p. 8). O resultado
+      costuma ser um [[g-diagrama-de-espinha-de-peixe|diagrama de espinha de
+      peixe]]. Não é uma lista de todas as fraquezas da GFP do país: só entram
+      os constrangimentos ligados aos problemas escolhidos.
+
+  g-analise-custo-utilidade:
+    comentario: >-
+      É uma forma de [[g-cea|análise de custo-efectividade]] em que o efeito se
+      mede numa unidade que combina quantidade e qualidade de vida, geralmente
+      o QALY (ano de vida ajustado pela qualidade) ou o DALY (ano de vida
+      ajustado por incapacidade). A vantagem é permitir comparar intervenções
+      muito diferentes — por exemplo, o tratamento da hipertensão e a cirurgia
+      das cataratas — numa mesma escala de custo por ano de vida saudável
+      ganho.
+
+  g-analise-da-despesa-publica:
+    comentario: >-
+      Designação genérica para qualquer exame sistemático da despesa; a
+      [[g-revisao-da-despesa-publica|Revisão da Despesa Pública (PER)]] é o
+      formato mais estruturado deste tipo de análise, normalmente produzido com
+      o Banco Mundial. Exemplo de pergunta: que parte da despesa pública em
+      saúde dos últimos cinco anos chegou efectivamente aos cuidados primários,
+      e como variou entre províncias?
+
+  g-apoio-orcamental:
+    comentario: >-
+      É a modalidade de ajuda externa mais integrada nos sistemas nacionais: o
+      dinheiro entra no Tesouro e passa a ser gasto segundo as regras do
+      orçamento do país, sem circuito paralelo. O contrário são os projectos
+      geridos por unidades próprias do financiador, com regras de contratação e
+      de reporte diferentes. Pelo critério do FinHealth, o apoio orçamental
+      conta como [[g-financiamento-governamental-e-nao-governamental|financiamento
+      governamental]].
+
+  g-atrasados:
+    comentario: >-
+      Os atrasados são muitas vezes o sintoma visível de um compromisso
+      assumido sem liquidez para o pagar. Exemplo: um hospital recebe
+      medicamentos e o fornecedor não é pago no prazo; no ano seguinte, o
+      fornecedor inflaciona os preços para compensar o risco, ou deixa de
+      fornecer. Por isso os atrasados afectam a prestação muito para lá do
+      montante em dívida.
+
+  g-auditoria-externa:
+    comentario: >-
+      Diferencia-se da [[g-auditoria-interna|auditoria interna]] pela
+      independência em relação a quem é auditado e pelo destinatário: a
+      auditoria externa responde, em última instância, ao órgão legislativo e
+      ao público. Em Angola, a instituição superior de controlo é o Tribunal de
+      Contas (ver [[g-sai|SAI]]). O valor da auditoria externa depende tanto da
+      qualidade do relatório como do seguimento dado às recomendações.
+
+  g-auditoria-interna:
+    comentario: >-
+      Trabalha dentro da organização e para a sua direcção: avalia se os
+      controlos funcionam antes de os problemas chegarem à auditoria externa.
+      Exemplo: uma auditoria interna ao armazém de um hospital provincial
+      verifica se as saídas de medicamentos registadas correspondem às
+      requisições dos serviços.
+
+  g-autonomia-do-prestador:
+    comentario: >-
+      Refere-se, por exemplo, à capacidade de um hospital ou centro de saúde
+      decidir como gastar parte do orçamento, contratar pessoal temporário ou
+      reter as receitas que cobra. Mais autonomia permite responder mais
+      depressa às necessidades locais, mas exige capacidade de gestão e
+      mecanismos de prestação de contas; o FinHealth dá como exemplo de risco a
+      falta de capacidade contabilística local quando os gestores das unidades
+      assumem novas responsabilidades financeiras (p. 14).
+
+  g-avaliacao-economica:
+    comentario: >-
+      Família de métodos que comparam alternativas pelos custos e pelas
+      consequências: [[g-cea|custo-efectividade]],
+      [[g-analise-custo-utilidade|custo-utilidade]] e
+      [[g-cba|custo-benefício]]. Responde à pergunta «vale o que custa?»; não
+      responde à pergunta «cabe no orçamento?», que é tarefa da
+      [[g-analise-do-impacto-orcamental|análise do impacto orçamental]].
+
+  g-caso-de-investimento:
+    comentario: >-
+      Serve para convencer: mostra porque vale a pena investir e o que se
+      espera ganhar. A definição sublinha o limite: um caso de investimento bem
+      feito não traz, por si, o dinheiro nem a autorização para o gastar.
+      Exemplo: um caso de investimento para a expansão dos cuidados primários
+      pode mostrar ganhos em mortalidade evitada, mas continua a ser preciso
+      inscrever os recursos no orçamento e garantir a sua execução.
+
+  g-ciclo-orcamental:
+    comentario: >-
+      O FinHealth agrupa este ciclo em três grandes fases para organizar os
+      constrangimentos: preparação e aprovação do orçamento; execução; e
+      reporte, auditoria e avaliação ex post (Tabela 3.1, p. 17). Um mesmo
+      problema de prestação pode ter causas em fases diferentes do ciclo — por
+      exemplo, uma dotação irrealista na preparação e libertações tardias na
+      execução.
+
+  g-circular-orcamental:
+    comentario: >-
+      É o documento que abre a preparação do orçamento de cada ano: diz aos
+      ministérios e às unidades como, quando e dentro de que limites devem
+      apresentar as suas propostas. É um ponto de entrada importante para o
+      sector da saúde, porque é aí que se fixam os
+      [[g-tecto-orcamental|tectos]] e os formatos que condicionam o que as
+      unidades podem pedir.
+
+  g-classificador-orcamental:
+    comentario: >-
+      A mesma despesa pode ser lida por várias «lentes» ao mesmo tempo. Um
+      pagamento de salário a uma enfermeira de um centro de saúde é, na
+      classificação [[g-classificacao-administrativa|administrativa]], despesa
+      da entidade que a emprega; na [[g-classificacao-economica|económica]],
+      remuneração do pessoal; na [[g-classificacao-funcional|funcional]],
+      saúde — serviços ambulatórios; e na
+      [[g-classificacao-programatica|programática]], o programa de cuidados
+      primários, se existir. O FinHealth trata como constrangimento a
+      classificação que não deixa ver as prioridades do governo (secção 3.1.3,
+      p. 22).
+
+  g-compra-estrategica:
+    comentario: >-
+      Opõe-se à compra passiva, em que o financiador paga o que lhe é
+      apresentado, com base em orçamentos históricos. Na compra estratégica o
+      comprador decide activamente que serviços compra, a quem e como paga.
+      Exemplo: pagar às unidades de cuidados primários uma parte por pessoa
+      inscrita (capitação) e outra parte ligada a indicadores de qualidade, em
+      vez de apenas transferir verbas para salários e consumíveis. O FinHealth
+      trata como constrangimento os mecanismos de GFP que impedem este tipo de
+      compra (secção 3.4.3, p. 47).
+
+  g-consignacao:
+    comentario: >-
+      Exemplo clássico: uma parte do imposto sobre o tabaco reservada para a
+      saúde. A consignação pode proteger recursos para uma finalidade, mas
+      também torna o orçamento mais rígido e nem sempre aumenta o total: o
+      governo pode reduzir outras dotações da saúde na mesma medida, e o ganho
+      líquido desaparece.
+
+  g-contabilidade-de-acrescimo:
+    comentario: >-
+      A diferença face à [[g-contabilidade-de-caixa|contabilidade de caixa]]
+      vê-se nos compromissos em aberto. Exemplo: um hospital recebe em Novembro
+      reagentes que só paga em Fevereiro. Na contabilidade de caixa, a despesa
+      aparece em Fevereiro, no ano seguinte; na de acréscimo, aparece em
+      Novembro, quando o bem foi recebido. Por isso a contabilidade de
+      acréscimo mostra melhor as dívidas e os
+      [[g-atrasados|atrasados]].
+
+  g-controlador-de-fundos:
+    comentario: >-
+      É o primeiro elo do [[g-mapeamento-dos-fluxos-de-financiamento|mapeamento
+      dos fluxos]]: a entidade que tem o dinheiro e decide quando o liberta. O
+      FinHealth dá como exemplos o Ministério das Finanças, o Ministério da
+      Saúde, os fundos de seguro de saúde, as administrações locais e os
+      parceiros que financiam directamente as unidades (Anexo 1, p. 55).
+      Seguem-se os [[g-intermediario-de-financiamento|intermediários]] e os
+      [[g-utilizador-final-dos-fundos|utilizadores finais]].
+
+  g-controlo-de-compromissos:
+    comentario: >-
+      É o travão que impede uma unidade de encomendar o que não pode pagar. Sem
+      ele, acumulam-se [[g-atrasados|atrasados]]; com ele mal calibrado — por
+      exemplo, limites de compromisso trimestrais muito abaixo das necessidades
+      —, a unidade fica impedida de comprar a tempo, mesmo tendo dotação. O
+      FinHealth refere-o como a alavanca relevante no exemplo da Box 2.5
+      (p. 15).
+
+  g-controlo-ex-ante:
+    comentario: >-
+      Exemplo: o visto prévio de uma entidade de controlo antes da assinatura
+      de um contrato. Controlos ex ante protegem contra erros e desvios, mas
+      cada um acrescenta tempo; quando se acumulam — e se aplicam também a
+      despesas pequenas e urgentes — tornam-se uma causa frequente de
+      [[g-dificuldades-no-fluxo-de-fundos|dificuldades no fluxo de fundos]].
+      O equilíbrio com o [[g-controlo-ex-post|controlo ex post]] é uma escolha
+      de desenho.
+
+  g-credibilidade-orcamental:
+    comentario: >-
+      Um orçamento sem credibilidade não é executado como aprovado porque partiu
+      de previsões irrealistas: receita sobrestimada ou despesa subestimada
+      (FinHealth, secção 3.1.5, p. 24). Exemplo: a meio do ano a receita fica
+      abaixo do previsto e o Ministério das Finanças corta todas as rubricas por
+      igual; as unidades sanitárias recebem menos do que a dotação e ficam sem
+      medicamentos (Box 2.5, p. 15). No PEFA, o conceito equivalente chama-se
+      [[g-fiabilidade-orcamental|fiabilidade orçamental]].
+
+  g-custeio:
+    comentario: >-
+      Responde à pergunta «quanto custa?», não à pergunta «quem paga?». Exemplo:
+      custear um pacote de cuidados primários por habitante indica o montante
+      necessário; comparar esse montante com os recursos previstos revela a
+      [[g-lacuna-de-financiamento|lacuna de financiamento]]; saber se o país
+      pode cobri-la de forma sustentável é já uma questão de
+      [[g-espaco-fiscal-para-a-saude|espaço fiscal]].
+
+  g-custo-de-oportunidade:
+    comentario: >-
+      Todo o kwanza gasto numa coisa deixa de estar disponível para outra.
+      Exemplo: o custo de oportunidade de equipar mais uma unidade de cuidados
+      intensivos pode ser a vacinação que deixa de ser feita em vários
+      municípios. O conceito está por detrás de toda a
+      [[g-avaliacao-economica|avaliação económica]].
+
+  g-dah:
+    comentario: >-
+      Inclui donativos, empréstimos em condições favoráveis e assistência
+      técnica. Para a análise da GFP, interessa sobretudo por onde passa: se
+      entra no orçamento e segue as regras nacionais, ou se corre em circuitos
+      paralelos. Quando fica [[g-fora-do-orcamento|fora do orçamento]],
+      fragmenta o financiamento e aumenta a carga administrativa das unidades
+      que a recebem (FinHealth, p. 7).
+
+  g-desconcentracao:
+    comentario: >-
+      A diferença face à [[g-descentralizacao|descentralização]] está em quem
+      decide: na desconcentração, os serviços provinciais ou municipais
+      executam, mas continuam a responder ao ministério central; na
+      descentralização, a decisão passa para um nível de governo com
+      autonomia própria. Exemplo: um gabinete provincial de saúde que executa
+      o orçamento definido pelo Ministério da Saúde é uma estrutura
+      desconcentrada.
+
+  g-desembolso:
+    comentario: >-
+      Mede-se do lado de quem entrega o dinheiro. Exemplo: um parceiro pode ter
+      um compromisso de 10 milhões de dólares com o sector, ter desembolsado 6
+      milhões para o Tesouro, e o Tesouro ter executado apenas 3 milhões em
+      despesa. Os três números são diferentes e respondem a perguntas
+      diferentes.
+
+  g-despesa-corrente:
+    comentario: >-
+      Opõe-se à [[g-despesa-de-investimento|despesa de investimento]]. Numa
+      unidade sanitária, salários, medicamentos, água, electricidade e
+      combustível são despesa corrente; a construção de um novo bloco ou a
+      compra de um ecógrafo são investimento.
+    divergencia: >-
+      O glossário tem também a entrada [[g-despesa-recorrente|despesa
+      recorrente / corrente]], com definição praticamente sobreposta. Na
+      prática, os dois termos usam-se como sinónimos.
+
+  g-despesa-de-prestacao-de-servicos:
+    comentario: >-
+      Interessa ao FinHealth porque junta, numa mesma categoria, dinheiro que
+      passa por circuitos diferentes: o orçamento do Estado e os fundos
+      extraorçamentais, como um seguro social de saúde. Para saber quanto chega
+      a uma unidade, é preciso somar os dois.
+
+  g-despesa-fiscal:
+    comentario: >-
+      O nome engana: não é uma despesa que se paga, é receita a que o Estado
+      renuncia. Exemplo: a isenção de impostos na importação de medicamentos é
+      uma despesa fiscal. Tem um custo real para o orçamento, mas raramente
+      aparece nos documentos orçamentais, o que dificulta a sua avaliação.
+
+  g-dotacao-orcamental-autorizada:
+    comentario: >-
+      É o limite legal para gastar, não o dinheiro em si. Exemplo: o Orçamento
+      Geral do Estado pode autorizar uma verba para medicamentos essenciais,
+      mas a unidade só pode comprar quando os fundos são
+      [[g-libertacao|libertados]] e, depois, só paga quando o Tesouro tem
+      liquidez. Confundir dotação com disponibilidade é uma das fontes mais
+      comuns de mal-entendidos entre a saúde e as finanças.
+  g-eficacia:
+    comentario: >-
+      Pergunta se se chegou onde se queria, independentemente do custo. A
+      [[g-eficiencia|eficiência]] pergunta a que custo lá se chegou. Exemplo:
+      uma campanha de vacinação que atinge 95% das crianças é eficaz; se o
+      mesmo resultado pudesse ser alcançado com metade das deslocações de
+      equipas, não foi eficiente.
+
+  g-eficiencia:
+    comentario: >-
+      Costuma distinguir-se a eficiência técnica — produzir o máximo com os
+      recursos dados, por exemplo mais consultas por médico sem perder
+      qualidade — da [[g-eficiencia-alocativa|eficiência alocativa]], que
+      pergunta se os recursos estão a ser gastos nas coisas certas.
+
+  g-eficiencia-alocativa:
+    comentario: >-
+      Um hospital pode ser tecnicamente muito eficiente e o sistema, ainda
+      assim, ter má eficiência alocativa, se estiver a gastar demasiado em
+      cuidados hospitalares e pouco em prevenção e cuidados primários, onde cada
+      kwanza produziria mais saúde. A eficiência alocativa é, por isso, uma
+      questão de escolhas entre programas e níveis de cuidados.
+
+  g-entidade-orcamental-de-primeiro-nivel:
+    comentario: >-
+      A distinção entre primeiro e
+      [[g-entidade-orcamental-de-segundo-nivel|segundo nível]] mostra quantos
+      degraus o dinheiro tem de descer. Exemplo: o Ministério da Saúde recebe a
+      dotação directamente do Ministério das Finanças (primeiro nível); um
+      hospital que recebe os fundos através do Ministério da Saúde é de segundo
+      nível. Cada degrau acrescenta autorizações e prazos, o que ajuda a
+      explicar atrasos na chegada dos fundos (FinHealth, Anexo 1, p. 60).
+
+  g-espaco-fiscal-para-a-saude:
+    comentario: >-
+      Pergunta de onde pode vir, de forma sustentável, mais dinheiro público para
+      a saúde. A literatura da OMS e do Banco Mundial aponta cinco vias:
+      crescimento económico, maior prioridade à saúde no orçamento, receitas
+      consignadas, recursos externos e ganhos de eficiência. Não se confunde
+      com a [[g-lacuna-de-financiamento|lacuna de financiamento]], que é o
+      que falta, nem com a [[g-mobilizacao-de-recursos-domesticos|mobilização
+      de recursos domésticos]], que é apenas uma das vias. O FinHealth não
+      analisa o espaço fiscal: trata o nível de financiamento como uma escolha
+      de política, e não como um constrangimento de GFP (p. 14).
+    divergencia: >-
+      A nota técnica 02 do IGFP define-o como a margem para «aumentar ou
+      sustentar» recursos, sem deslocar «de forma inadequada» outras despesas
+      (p. 3); aqui lê-se «aumentar» e «inaceitável». A nota apresenta também o
+      espaço fiscal como um dos «três conceitos centrais da avaliação» (p. 1),
+      enquadramento que o FinHealth 2.0 não adopta. O glossário não tem
+      entrada para o espaço fiscal em sentido geral.
+
+  g-execucao-efectiva:
+    comentario: >-
+      Em inglês, «outturn»: o que realmente aconteceu, por oposição ao que foi
+      orçamentado. É a base de todas as medidas de
+      [[g-fiabilidade-orcamental|fiabilidade orçamental]] do PEFA. Exemplo:
+      orçamento aprovado para medicamentos de 100; execução efectiva de 62.
+
+  g-execucao-orcamental:
+    comentario: >-
+      A definição enumera a sequência: autorização, compromisso, verificação,
+      pagamento e contabilização. Cada etapa é um ponto onde o dinheiro pode
+      parar. O relatório da OMS e do Banco Mundial sobre execução orçamental na
+      saúde mostra que a saúde executa pior do que a educação — cerca de 7
+      pontos percentuais abaixo, em média, nos países de baixo rendimento — e
+      que a sub-execução se concentra em bens e serviços («Budget Execution in
+      Health», 2025, p. v). O problema não é apenas ter pouco orçamento, mas
+      não conseguir gastar o que foi aprovado.
+
+  g-execucao-por-composicao:
+    comentario: >-
+      Mesmo que o total executado bata certo com o orçamento, a composição pode
+      ter mudado muito. Exemplo: um ministério executa 100% do orçamento total,
+      mas gasta 130% em salários e apenas 50% em medicamentos e manutenção. O
+      PEFA mede esse desvio separadamente do desvio agregado.
+
+  g-fiabilidade-orcamental:
+    comentario: >-
+      É o nome que o PEFA dá, desde 2016, ao que antes se chamava credibilidade
+      orçamental (Pilar I). O PEFA considera desempenho de topo um desvio de
+      até 5% entre o orçamento original e a execução efectiva, e fraco um
+      desvio acima de 15% (OMS e Banco Mundial, «Budget Execution in Health»,
+      2025, p. 19 do PDF). Ver também [[g-credibilidade-orcamental|credibilidade
+      orçamental]].
+
+  g-financas-publicas:
+    comentario: >-
+      A distinção tem consequências práticas no FinHealth: decidir quanto
+      dinheiro vai para a saúde é uma decisão de finanças públicas (política
+      fiscal); garantir que esse dinheiro chega a tempo e é bem usado é uma
+      questão de GFP. Por isso o FinHealth não recomenda aumentos de
+      financiamento; quando o subfinanciamento pesa, trata-o como um
+      [[g-constrangimento-nao-gfp|constrangimento não-GFP]] (p. 14).
+
+  g-financiamento-baseado-em-resultados:
+    comentario: >-
+      Termo amplo, que cobre qualquer pagamento condicionado a resultados
+      verificados, pagos a governos, a prestadores ou até a utentes. O
+      [[g-financiamento-baseado-no-desempenho|financiamento baseado no
+      desempenho]] é a sua forma mais comum na saúde, dirigida às unidades
+      prestadoras. Exemplo: um parceiro desembolsa uma parcela do financiamento
+      ao governo quando a cobertura de partos institucionais atinge a meta
+      acordada.
+
+  g-financiamento-baseado-no-desempenho:
+    comentario: >-
+      Exemplo: um centro de saúde recebe, além do orçamento normal, um valor
+      por cada parto assistido, por cada criança completamente vacinada e por
+      cada consulta pré-natal, verificados por uma entidade independente. Os
+      estudos mostram resultados mistos: funciona melhor quando as unidades têm
+      autonomia para usar o dinheiro recebido e quando a verificação é
+      credível.
+
+  g-fluxo-de-fundos:
+    comentario: >-
+      Esta entrada descreve o percurso; o FinHealth usa a mesma expressão para
+      nomear um constrangimento — as
+      [[g-dificuldades-no-fluxo-de-fundos|dificuldades no fluxo de fundos]] —,
+      um dos dois mais frequentes na sua Tabela 2.2. Para ver o percurso, usa-se o
+      [[g-mapeamento-dos-fluxos-de-financiamento|mapeamento dos fluxos de
+      financiamento]].
+
+  g-fora-do-orcamento:
+    comentario: >-
+      Exemplo: um parceiro compra e distribui directamente antirretrovirais às
+      unidades sanitárias, sem que esses recursos apareçam no Orçamento Geral
+      do Estado. A despesa existe e beneficia os doentes, mas o governo não a
+      vê quando planeia, o que dificulta evitar duplicações e lacunas. O
+      oposto é estar [[g-inscrito|inscrito no orçamento]].
+
+  g-fia:
+    comentario: >-
+      Alarga a [[g-bia|análise de incidência de benefícios]]: além de olhar
+      para quem beneficia da despesa, olha também para quem paga os impostos.
+      Permite responder se, no conjunto, o sistema fiscal e a despesa pública
+      reduzem ou aumentam a desigualdade.
+
+  g-gestao-das-financas-publicas:
+    comentario: >-
+      A GFP não decide quanto se gasta nem em quê — isso é
+      [[g-politica-fiscal|política fiscal]] e política sectorial —, mas
+      determina se o que foi decidido acontece: se os salários são pagos a
+      tempo, se os medicamentos chegam, se o dinheiro é registado e auditado
+      (FinHealth, p. 1). É por isso que o FinHealth começa pelos problemas de
+      prestação e só depois procura as regras de GFP que os explicam.
+    divergencia: >-
+      No livro usa-se a sigla inglesa PFM (por exemplo, «Múltiplos requisitos
+      de PFM» na Tabela 2.2). A nota técnica 02 do IGFP dá uma definição mais
+      larga, que inclui «políticas» e a função de «mobilizar» recursos (p. 2),
+      aproximando a GFP das decisões de política fiscal que a entrada
+      [[g-financas-publicas|finanças públicas]] e a própria nota (p. 2)
+      procuram separar.
+
+  g-gestao-de-tesouraria:
+    comentario: >-
+      Bem feita, permite pagar a tempo sem ter dinheiro parado; mal feita,
+      conduz ao [[g-racionamento-de-caixa|racionamento de caixa]], em que o
+      Tesouro liberta fundos à medida que a receita entra e não conforme o
+      calendário de necessidades das unidades. Assenta na
+      [[g-previsao-de-tesouraria|previsão de tesouraria]].
+
+  g-gestor:
+    comentario: >-
+      O termo em inglês, «fund holder», é usado de formas diferentes na
+      literatura. Aqui aparece no sentido do financiamento da saúde: quem
+      detém um conjunto de fundos para comprar serviços. No mapeamento do
+      FinHealth, o conceito mais próximo é o de
+      [[g-controlador-de-fundos|controlador de fundos]], e o FinHealth usa
+      ainda «budget holder» para a entidade a quem a dotação é atribuída (ver
+      [[g-detentor-do-orcamento-e-ponto-de-autorizacao|detentor do orçamento]]).
+    divergencia: >-
+      O termo principal no PDF do IGFP é só «Gestor», o que o torna difícil de
+      encontrar; a forma completa é «Gestor / detentor de fundos». O FinHealth
+      usa «fund holder» num sentido mais largo, que inclui o Ministério das
+      Finanças (Tabela 2.1, p. 6).
+
+  g-governo-geral:
+    comentario: >-
+      É o perímetro usado nas estatísticas internacionais: governo central,
+      governos subnacionais e fundos de segurança social, mas não as empresas
+      públicas. A delimitação importa para comparar países e para saber que
+      despesa em saúde está a ser contada — por exemplo, se um hospital
+      empresarializado entra ou não nas contas públicas.
+
+  g-inscrito:
+    comentario: >-
+      Estar inscrito no orçamento não garante que o dinheiro siga as regras
+      nacionais. Exemplo: um projecto de um parceiro pode aparecer no orçamento
+      para informação, mas ser executado por uma unidade de gestão própria, com
+      conta bancária, contratação e contabilidade do parceiro. Por isso se
+      distingue estar inscrito («on budget») de passar pela tesouraria («on
+      treasury») ou pela contratação nacional («on procurement»).
+    divergencia: >-
+      O termo principal no PDF do IGFP é só «Inscrito»; a forma completa é
+      «Inscrito / reflectido no orçamento».
+
+  g-instituicao-extraorcamental:
+    comentario: >-
+      Exemplos comuns: um fundo de seguro social de saúde ou um hospital com
+      estatuto autónomo e receitas próprias. Estas instituições ganham
+      flexibilidade, mas afastam-se das regras e dos controlos do Tesouro, o
+      que muda a forma como os fundos são libertados, usados e acompanhados
+      (FinHealth, Anexo 1, p. 59–60).
+
+  g-intermediario-de-financiamento:
+    comentario: >-
+      Exemplo: um governo provincial que recebe fundos do Ministério das
+      Finanças e os transfere para os hospitais municipais age como
+      intermediário. A mesma entidade pode ser, ao mesmo tempo, intermediário
+      e [[g-utilizador-final-dos-fundos|utilizador final]]: fica com uma parte
+      para as suas próprias funções e transfere o resto (FinHealth, Anexo 1,
+      p. 55).
+
+  g-lacuna-de-financiamento:
+    comentario: >-
+      É uma diferença aritmética entre necessidades e recursos previstos.
+      Exemplo: um plano de cuidados primários custeado em 500 milhões para
+      três anos, com 320 milhões previstos, tem uma lacuna de 180 milhões. A
+      existência de uma lacuna não diz se há
+      [[g-espaco-fiscal-para-a-saude|espaço fiscal]] para a cobrir.
+
+  g-limite-de-compromisso:
+    comentario: >-
+      Instrumento do [[g-controlo-de-compromissos|controlo de compromissos]],
+      muitas vezes fixado por trimestre. Exemplo: um hospital com dotação anual
+      de 400 para medicamentos pode estar limitado a comprometer 100 por
+      trimestre; se as necessidades se concentrarem no primeiro trimestre,
+      como numa época de malária, o limite impede a compra atempada.
+
+  g-liquidez:
+    comentario: >-
+      Uma entidade pode ter dotação e não ter liquidez: o orçamento autoriza a
+      despesa, mas não há dinheiro em caixa para a pagar naquele momento. É a
+      falta de liquidez que leva ao [[g-racionamento-de-caixa|racionamento de
+      caixa]] e aos [[g-atrasados|atrasados]].
+
+  g-mapeamento-dos-fluxos-de-financiamento:
+    comentario: >-
+      É o segundo passo do FinHealth, feito só para os fluxos relevantes aos
+      problemas seleccionados. O resultado é um diagrama por categoria de
+      utilizador final — por exemplo, um para hospitais, outro para os
+      cuidados primários — que mostra os
+      [[g-controlador-de-fundos|controladores]], os
+      [[g-intermediario-de-financiamento|intermediários]], os
+      [[g-utilizador-final-dos-fundos|utilizadores finais]] e as regras de cada
+      percurso (Anexo 1, p. 55–56).
+
+  g-marcacao:
+    comentario: >-
+      Permite seguir uma prioridade transversal sem mudar a estrutura do
+      orçamento. Exemplo: marcar todas as rubricas, em vários programas, que
+      financiam cuidados primários, para saber quanto o orçamento lhes dedica
+      de facto.
+    divergencia: >-
+      O termo principal no PDF do IGFP é só «Marcação»; a forma completa é
+      «Marcação / etiquetagem orçamental».
+
+  g-massa-salarial:
+    comentario: >-
+      Na saúde, costuma ser a maior fatia da despesa. Quando cresce sem
+      planeamento, comprime o que sobra para medicamentos, combustível e
+      manutenção: o FinHealth cita casos em que os salários absorvem 60 a 80%
+      do orçamento das unidades (Anexo 2, p. 65). O controlo da massa
+      salarial passa pela [[g-controlo-da-folha-salarial-e-trabalhadores-fantasma|folha
+      salarial]].
+
+  g-mobilizacao:
+    divergencia: >-
+      O termo principal no PDF do IGFP é só «Mobilização»; a forma completa é
+      «Mobilização / arrecadação de receitas para saúde». Nesta entrada lê-se
+      ainda «junto às famílias», forma do português do Brasil.
+
+  g-oop:
+    comentario: >-
+      Exemplo: o que uma família paga na farmácia pela receita que a unidade
+      sanitária não tinha para dar, ou a taxa cobrada na consulta. É a forma
+      menos solidária de financiar a saúde, porque o custo recai sobre quem
+      está doente no momento em que precisa. É o principal indicador da falta
+      de [[g-proteccao-financeira|protecção financeira]].
+
+  g-orcamentacao-por-programas:
+    comentario: >-
+      Contrasta com a [[g-orcamentacao-por-rubricas|orçamentação por
+      rubricas]]. Por rubricas, o orçamento diz quanto se gasta em salários,
+      combustível e medicamentos; por programas, diz quanto se gasta em saúde
+      materna, controlo da malária ou cuidados primários, e que resultados se
+      esperam. Muitos países mantêm os dois, com os programas por cima das
+      rubricas.
+
+  g-orcamento-suplementar:
+    comentario: >-
+      Exige nova aprovação pelo órgão legislativo, ao contrário das
+      [[g-transferencia|transferências]] entre rubricas, que costumam ser
+      decididas pelo executivo dentro de limites legais. É o caminho para
+      acrescentar recursos quando a
+      [[g-reserva-de-contingencia|reserva de contingência]] não basta, por
+      exemplo numa epidemia.
+  g-pagamento-a-prestadores:
+    comentario: >-
+      Cada método cria incentivos diferentes. Por
+      [[g-orcamentacao-por-rubricas|rubricas]], a unidade recebe para insumos e
+      não ganha nada em produzir mais. Por capitação (um valor por pessoa
+      inscrita), ganha em manter a população saudável, mas pode ser tentada a
+      referir doentes. Por acto, ganha em produzir mais, com risco de excesso.
+      Por caso (por exemplo, por diagnóstico hospitalar), ganha em tratar com
+      menos recursos, com risco de altas precoces. Muitos sistemas combinam
+      métodos para equilibrar estes incentivos.
+
+  g-partilha-de-riscos:
+    comentario: >-
+      A ideia é simples: poucas pessoas adoecem gravemente num dado ano, mas
+      ninguém sabe quem serão. Juntando os recursos de muitos, o custo de uma
+      cirurgia cara deixa de arruinar uma família e passa a ser suportado por
+      todos. A [[g-agregacao-de-fundos|agregação de fundos]] é o mecanismo; a
+      partilha de riscos é o efeito.
+
+  g-passivo-contingente:
+    comentario: >-
+      Exemplo na saúde: numa [[g-parceria-publico-privada|parceria
+      público-privada]] para construir e gerir um hospital, o Estado garante ao
+      parceiro uma receita mínima; se a procura ficar abaixo do previsto, o
+      Estado paga a diferença. Enquanto a procura for suficiente, a obrigação
+      não aparece nas contas, mas o risco existe.
+
+  g-pefa:
+    comentario: >-
+      É o instrumento de referência para avaliar a GFP de um país como um todo.
+      O FinHealth é diferente: parte de problemas concretos de prestação de
+      serviços de saúde e procura apenas as fraquezas de GFP que os explicam.
+      Os dois complementam-se — uma avaliação PEFA recente é uma boa fonte de
+      evidência para o passo de análise causal, e o FinHealth remete para
+      indicadores PEFA nas suas questões de diagnóstico.
+
+  g-problema-de-prestacao-de-servicos-de-saude:
+    comentario: >-
+      É o ponto de partida do FinHealth, que começa pelos sistemas de saúde e
+      não pelos sistemas de GFP (p. 3). Um bom enunciado diz o que não está a
+      funcionar, porque importa e onde acontece (p. 5). Exemplos: «os
+      medicamentos essenciais não chegam às unidades de cuidados primários a
+      tempo, apesar de orçamentados, o que interrompe tratamentos»; «as
+      unidades rurais não conseguem reter parteiras». Não é um problema de
+      prestação uma fraqueza de GFP («a contratação é lenta») nem um
+      [[g-resultado|resultado]] («a mortalidade materna é alta»). O FinHealth
+      recomenda trabalhar com um a cinco problemas (p. 5).
+    divergencia: >-
+      No livro usa-se «problema de serviço»; o original é «health service
+      problem». O termo deste glossário acrescenta «prestação», o que é fiel ao
+      sentido, mas torna-o mais longo do que o original.
+
+  g-produto:
+    comentario: >-
+      No FinHealth, o problema de prestação situa-se ao nível do produto: são
+      os bens e serviços que o sistema entrega, como vacinas administradas,
+      consultas realizadas ou camas ocupadas (Box 2.2, p. 4). O produto
+      distingue-se do insumo (dinheiro, pessoal, medicamentos) e do
+      [[g-resultado|resultado]] (o efeito na saúde).
+
+  g-proteccao-financeira:
+    comentario: >-
+      Mede-se, geralmente, pela proporção de famílias com despesas de saúde
+      catastróficas (acima de 10% ou 25% do seu consumo) ou empurradas para a
+      pobreza por pagarem cuidados de saúde. É uma das duas dimensões da
+      [[g-cobertura-universal-de-saude|cobertura universal de saúde]], ao lado
+      do acesso aos serviços.
+
+  g-quadro-de-despesa-de-medio-prazo:
+    comentario: >-
+      Liga o orçamento de um ano às decisões dos anos seguintes. Exemplo: se o
+      governo decide contratar mil enfermeiros este ano, o quadro de médio
+      prazo mostra que o custo desses salários se repete — e cresce — nos anos
+      seguintes. O FinHealth trata como constrangimento a falta de atenção a
+      estas implicações plurianuais (secção 3.1.4, p. 23).
+    divergencia: >-
+      A definição refere o CFMP, designação moçambicana. A designação e o
+      instrumento equivalentes em Angola devem ser confirmados com o Ministério
+      das Finanças. Esta entrada não aparecia na versão anterior da página por
+      um erro de extracção, já corrigido.
+
+  g-racionamento-de-caixa:
+    comentario: >-
+      Acontece quando o Tesouro não tem dinheiro para pagar tudo o que está
+      autorizado e escolhe o que paga primeiro — normalmente salários e dívida.
+      Os bens e serviços das unidades sanitárias ficam para depois. Para as
+      unidades, o efeito é o mesmo de um corte no orçamento, só que imprevisto.
+
+  g-rastreamento-da-despesa:
+    comentario: >-
+      O instrumento mais conhecido é o inquérito de rastreio da despesa pública
+      (PETS, na sigla inglesa), que segue o dinheiro de nível em nível até à
+      unidade sanitária. Exemplo: comparar o que o orçamento atribuiu aos
+      centros de saúde de uma província com o que estes efectivamente
+      receberam, em dinheiro ou em espécie, e quando.
+
+  g-recomendacao-accionavel:
+    comentario: >-
+      O FinHealth pede recomendações que distingam o objectivo de política
+      («melhorar o fluxo de fundos») do instrumento operacional («emitir uma
+      circular que permita às unidades reter as taxas cobradas») (p. 13). Cada
+      recomendação é avaliada pelo impacto e pela exequibilidade, tem
+      responsáveis identificados e um
+      [[g-horizontes-temporais-das-recomendacoes|horizonte temporal]]
+      (Tabelas 2.3 e 2.4, p. 16–17).
+
+  g-revisao-da-despesa-publica:
+    comentario: >-
+      Estudo aprofundado, normalmente preparado com o Banco Mundial, que olha
+      para a despesa pública total ou de um sector. O FinHealth recomenda usar
+      PER existentes como fonte para o mapeamento (p. 7), em vez de recolher
+      dados novos.
+
+  g-rigidez-das-dotacoes-orcamentais:
+    comentario: >-
+      Exemplo: um centro de saúde tem saldo na rubrica de material de escritório
+      e falta de verba para combustível da ambulância, mas as regras não lhe
+      permitem mudar o dinheiro de uma rubrica para a outra sem uma autorização
+      que demora meses; no fim do ano, o saldo é devolvido ao Tesouro. O
+      FinHealth liga esta rigidez, entre outros, a problemas de resposta a
+      emergências de saúde pública.
+    divergencia: >-
+      O FinHealth define o constrangimento pelo efeito observável: a
+      classificação e o carácter anual das autorizações criam obstáculos a
+      gastar integralmente os fundos alocados (secção 3.1.6, p. 26). A
+      definição acima centra-se na adaptação às necessidades operacionais.
+
+  g-risco-fiduciario:
+    comentario: >-
+      Fragilidades na GFP aumentam o risco fiduciário, mas as duas coisas não
+      se confundem: uma avaliação de risco considera também a exposição, os
+      controlos existentes e as consequências. Exemplo: numa unidade sem
+      inventário actualizado de medicamentos, o risco fiduciário é que
+      medicamentos pagos com dinheiro público desapareçam sem deixar rasto. O
+      risco fiduciário é a principal preocupação dos parceiros quando decidem
+      se usam ou não os sistemas nacionais.
+    divergencia: >-
+      A nota técnica 02 do IGFP formula-o como o risco de os recursos «não
+      serem utilizados de forma económica e eficiente para os fins previstos»
+      (p. 2). O sentido é o mesmo; convém fixar uma única formulação. O
+      FinHealth 2.0 não usa o risco fiduciário como categoria de análise.
+
+  g-reserva-de-contingencia:
+    comentario: >-
+      Protege o orçamento contra o imprevisível. Exemplo: um surto de cólera
+      exige comprar soros e deslocar equipas; em vez de cortar outras rubricas,
+      o sector recorre à reserva. O FinHealth trata a falta de mecanismos
+      destes, ou a sua lentidão, como constrangimento (secção 3.2.5, p. 39).
+
+  g-sai:
+    comentario: >-
+      Além de auditar as contas do Estado, a instituição superior de controlo
+      pode fazer auditorias de desempenho a programas de saúde. O efeito
+      depende de as constatações chegarem ao Parlamento e de haver seguimento.
+    divergencia: >-
+      A definição remete para «Angola ou Moçambique». Em Angola, a instituição
+      superior de controlo é o Tribunal de Contas.
+
+  g-sistema-de-informacao-de-gestao-financeira:
+    comentario: >-
+      Um bom sistema permite saber, quase em tempo real, quanto foi
+      comprometido e pago por cada unidade. Muitas vezes, porém, só chega até
+      um certo nível — o ministério ou o gabinete provincial —, e abaixo dele os
+      registos voltam a ser em papel ou folhas de cálculo. Saber até onde o
+      sistema chega é uma pergunta útil no mapeamento.
+    divergencia: >-
+      A definição cita o e-SISTAFE, de Moçambique. O sistema angolano
+      correspondente é o SIGFE (Sistema Integrado de Gestão Financeira do
+      Estado), referido nas notas do grupo de trabalho.
+
+  g-suplementacao-orcamental:
+    comentario: >-
+      O FinHealth trata como constrangimento a situação em que obter recursos
+      adicionais durante o ano é demasiado difícil ou lento quando surgem
+      necessidades urgentes, como uma emergência de saúde pública (secção
+      3.2.5, p. 39). Ver [[g-orcamento-suplementar|orçamento suplementar]] e
+      [[g-reserva-de-contingencia|reserva de contingência]].
+
+  g-taxa-de-execucao-orcamental:
+    comentario: >-
+      O mesmo orçamento pode ter taxas muito diferentes consoante o que se
+      mede. Exemplo: 90% em relação ao orçamento revisto e 70% em relação ao
+      original; 85% em compromissos e 60% em pagamentos. Por isso a definição
+      exige dizer sempre qual é o denominador e a fase da despesa. Uma taxa
+      baixa não quer dizer que o dinheiro não fazia falta — muitas vezes quer
+      dizer que não conseguiu chegar a tempo.
+
+  g-taxas-moderadoras-taxas-de-utilizacao:
+    comentario: >-
+      Podem servir para moderar a procura desnecessária ou para dar às unidades
+      alguma receita própria que usam com flexibilidade. O risco é afastar quem
+      mais precisa. O FinHealth dá como exemplo de recomendação a emissão de
+      uma circular que permita às unidades reter as taxas cobradas (p. 13),
+      e trata como problema de prestação as cobranças indevidas aos doentes.
+
+  g-tecto-orcamental:
+    comentario: >-
+      Os tectos são fixados no início da preparação do orçamento e raramente
+      mudam depois. Por isso, é antes de os tectos serem fixados que o sector
+      da saúde tem mais margem para influenciar o seu envelope com evidência.
+
+  g-transferencia:
+    comentario: >-
+      Exemplo: mudar verba da rubrica de viagens para a de medicamentos, dentro
+      do orçamento de um hospital. As regras dizem quem pode autorizar e até
+      que montante; se forem demasiado restritivas, geram
+      [[g-rigidez-das-dotacoes-orcamentais|rigidez]]; se forem demasiado
+      permissivas, o orçamento aprovado perde significado.
+    divergencia: >-
+      O termo principal no PDF do IGFP é só «Transferência»; a forma completa é
+      «Transferência / redistribuição orçamental». Não confundir com as
+      [[g-transferencias-intergovernamentais|transferências
+      intergovernamentais]].
+
+  g-conta-unica-do-tesouro:
+    comentario: >-
+      Com a conta única, o dinheiro público deixa de estar espalhado por
+      centenas de contas bancárias com saldos parados. A contrapartida é que as
+      unidades dependem do Tesouro para cada pagamento; se o circuito de
+      pagamento for lento, a conta única pode agravar as dificuldades no fluxo
+      de fundos.
+    divergencia: >-
+      A definição refere a designação usada em Moçambique. A designação
+      angolana deve ser confirmada com o Ministério das Finanças.
+
+  g-unidade:
+    comentario: >-
+      Exemplo: um fundo com receitas próprias criado por lei, fora do orçamento
+      principal, mas que continua a ser público. Ver
+      [[g-instituicao-extraorcamental|instituição extraorçamental]].
+    divergencia: >-
+      O termo principal no PDF do IGFP é só «Unidade», o que é enganador; a
+      forma completa é «Unidade / entidade extraorçamental».
+
+  g-unidade-de-prestacao-de-servicos-de-primeira-linha:
+    comentario: >-
+      Exemplo: um posto de saúde ou um centro de saúde municipal. É aqui que os
+      problemas de prestação se tornam visíveis e é aqui que o FinHealth quer
+      saber se o dinheiro chega.
+    divergencia: >-
+      A definição é praticamente igual à de
+      [[g-unidade-de-prestacao-de-servicos|unidade de prestação de serviços]];
+      só o exemplo as distingue.
+
+  g-unidade-executora-unidade-de-despesa:
+    comentario: >-
+      No FinHealth é a entidade que executa o orçamento ou incorre na despesa
+      (Anexo 1, p. 57). Pode não ser a mesma que presta o serviço: um gabinete
+      provincial pode comprar medicamentos que depois são usados nos centros
+      de saúde, que são os [[g-utilizador-final-dos-fundos|utilizadores
+      finais]].
+
+  g-utilizador-final-dos-fundos:
+    comentario: >-
+      Exemplos: um hospital que paga salários e compra consumíveis, ou o
+      próprio Ministério da Saúde, na parte do orçamento que usa para as suas
+      funções de regulação e política (FinHealth, Anexo 1, p. 55).
+
+  g-valor-pelo-dinheiro-relacao-custo-beneficio:
+    comentario: >-
+      É um juízo, não um cálculo: pergunta se cada kwanza foi bem gasto ao
+      longo de toda a cadeia, do insumo ao resultado. Costuma decompor-se em
+      três «E». Economia: comprar os insumos ao menor preço para a qualidade
+      exigida. Eficiência: transformar esses insumos no máximo de produtos.
+      Eficácia: os produtos alcançarem o resultado pretendido. Muitos
+      financiadores acrescentam um quarto, a equidade: os benefícios chegarem a
+      quem mais precisa. Exemplo com testes rápidos de malária. Economia: o
+      preço unitário obtido no concurso. Eficiência: quantos testes são
+      realmente usados e quantos expiram no armazém. Eficácia: os doentes com
+      teste positivo serem tratados correctamente. Equidade: os testes
+      chegarem aos postos rurais e não apenas aos hospitais urbanos. Um concurso
+      que baixa o preço em 20% mas faz os testes chegarem com três meses de
+      atraso ganha em economia e perde valor pelo dinheiro. O FinHealth usa o
+      conceito no constrangimento do escrutínio insuficiente da despesa, isto
+      é, a falta de processos para identificar e reduzir despesa com baixo
+      valor pelo dinheiro (secção 3.1.2, p. 20).
+    divergencia: >-
+      A tradução alternativa «relação custo-benefício» pode confundir-se com a
+      [[g-cba|análise custo-benefício (CBA)]], que é uma técnica específica. O
+      valor pelo dinheiro é um conceito mais largo e não exige converter os
+      benefícios em moeda.
+
+  g-via-de-financiamento:
+    comentario: >-
+      Cada via combina uma fonte, um percurso e um conjunto de regras. Exemplo:
+      o dinheiro do Orçamento Geral do Estado que chega a um hospital municipal
+      através do governo provincial segue uma via; o dinheiro de um parceiro
+      que chega ao mesmo hospital por uma unidade de gestão de projecto segue
+      outra, com regras diferentes. Ver [[g-ambiente-de-regras-de-gfp|ambiente
+      de regras de GFP]].
+
+  g-verificacao:
+    comentario: >-
+      Exemplo: antes de pagar ao fornecedor, o hospital confirma que as caixas
+      de luvas recebidas correspondem à encomenda em quantidade, tipo e prazo
+      de validade. Sem verificação, paga-se o que não foi entregue; com uma
+      verificação demasiado lenta, os fornecedores esperam meses e deixam de
+      querer fornecer.
+
 novas:
 
   - id: g-diagrama-de-espinha-de-peixe
@@ -173,3 +1101,202 @@ novas:
       governamental. Os pagamentos de doentes privados a instituições privadas
       ficam fora da análise do FinHealth, por estarem fora do sistema de
       financiamento público.
+
+  - id: g-enunciado-do-problema
+    termo: Enunciado do problema
+    ingles: Problem statement
+    definicao: >-
+      Formulação clara e específica de um problema de prestação de serviços de
+      saúde, que diz o que não está a funcionar, porque importa e onde
+      acontece. É o produto do primeiro passo do FinHealth e ocupa a «cabeça»
+      do diagrama de espinha de peixe.
+    fonte: FinHealth 2.0, secção 2.1, p. 3 e 5
+    comentario: >-
+      O FinHealth dá como exemplo: «os medicamentos essenciais não chegam às
+      unidades primárias a tempo, apesar de estarem orçamentados, o que leva à
+      interrupção de tratamentos» (p. 5). O erro mais comum nas avaliações
+      anteriores foi enunciar problemas «baixos demais» — uma fraqueza de GFP,
+      como «a contratação é lenta» — ou «altos demais» — um
+      [[g-resultado|resultado]], como «a mortalidade infantil é alta» (p. 3).
+
+  - id: g-constrangimento-nao-gfp
+    termo: Constrangimento não-GFP
+    ingles: Non-PFM bottleneck
+    definicao: >-
+      Causa de um problema de prestação de serviços de saúde que não reside nas
+      regras nem nas práticas de GFP. A análise causal do FinHealth pode
+      reconhecê-lo e registá-lo como contexto, mas não o investiga em
+      profundidade.
+    fonte: FinHealth 2.0, secções 2.3 e 2.4, p. 8 e 14
+    comentario: >-
+      Exemplos: falta de profissionais formados no país, estradas intransitáveis
+      na época das chuvas, normas clínicas desactualizadas. O caso mais
+      importante é o subfinanciamento: como o nível de financiamento é uma
+      escolha de política, o FinHealth não recomenda mais dinheiro, mas pode
+      apontar o subfinanciamento como constrangimento não-GFP quando ele pesa
+      claramente no problema (p. 14). Registar estes constrangimentos ajuda a
+      mostrar que medidas de GFP, sozinhas, não resolvem tudo.
+
+  - id: g-restricao-vinculativa
+    termo: Restrição vinculativa
+    ingles: Binding constraint
+    definicao: >-
+      Constrangimento de GFP que, enquanto não for resolvido, impede a
+      melhoria do problema de prestação, mesmo que outros constrangimentos
+      sejam resolvidos. As recomendações de alto impacto são as que actuam
+      sobre restrições vinculativas.
+    fonte: FinHealth 2.0, secção 2.4, p. 14
+    comentario: >-
+      Exemplo: se os fundos para medicamentos só chegam às unidades em
+      Setembro, melhorar a previsão das necessidades ou o sistema de
+      inventário tem pouco efeito enquanto a libertação continuar tardia — a
+      libertação é a restrição vinculativa. Este filtro evita uma lista de
+      recomendações que melhora a GFP em geral mas não o problema escolhido.
+
+  - id: g-alavanca-de-gfp
+    termo: Alavanca de GFP
+    ingles: PFM lever
+    definicao: >-
+      Regra, procedimento ou instrumento de GFP concreto que pode ser alterado,
+      ou mais bem utilizado, para resolver um constrangimento.
+    fonte: FinHealth 2.0, Box 2.5, p. 15; Tabela 2.3, p. 16
+    comentario: >-
+      O constrangimento diz o que está mal; a alavanca diz onde mexer. No
+      exemplo do FinHealth, o constrangimento é a falta de credibilidade
+      orçamental (cortes a meio do ano sem protecção para a saúde) e a
+      alavanca relevante é o quadro de controlo de compromissos e de revisão do
+      orçamento, que está nas mãos do Ministério das Finanças (Box 2.5, p. 15).
+      Identificar a alavanca mostra também quem tem de agir.
+
+  - id: g-horizontes-temporais-das-recomendacoes
+    termo: Horizontes temporais das recomendações
+    ingles: Short, medium and long term
+    definicao: >-
+      Classificação das recomendações do FinHealth segundo o tempo de
+      implementação: curto prazo, até 2 anos; médio prazo, 3 a 5 anos; longo
+      prazo, mais de 5 anos.
+    fonte: FinHealth 2.0, secção 2.4, p. 16
+    comentario: >-
+      Curto prazo corresponde, em geral, a mudanças dentro do quadro legal
+      existente, como emitir uma circular ou rever um procedimento interno;
+      médio prazo, a alterações legislativas, novos sistemas ou reforço
+      significativo de capacidades; longo prazo, a mudanças estruturais ou de
+      economia política. O FinHealth recomenda ajustar estes limites ao ciclo
+      orçamental e ao calendário político do país (p. 16).
+
+  - id: g-opcao-de-segundo-optimo
+    termo: Opção de segundo óptimo
+    ingles: Second-best option
+    definicao: >-
+      Recomendação que não é a solução tecnicamente ideal, mas é mais
+      exequível dados os interesses e os incentivos dos actores capazes de
+      promover ou bloquear a mudança.
+    fonte: FinHealth 2.0, secção 2.4, p. 14 e 16
+    comentario: >-
+      Exemplo: a solução ideal para libertações tardias poderia ser rever toda a
+      programação financeira do Estado; uma opção de segundo óptimo é garantir
+      um regime de libertação prioritária apenas para medicamentos essenciais
+      e vacinas. É menos ambiciosa, mas pode ser aprovada e aplicada já.
+
+  - id: g-dificuldades-no-fluxo-de-fundos
+    termo: Dificuldades no fluxo de fundos
+    ingles: Flow of funds difficulties
+    definicao: >-
+      Constrangimento em que as unidades executoras não conseguem usar a tempo
+      as suas dotações ou outros fundos, porque as aprovações exigidas ou a
+      transferência dos fundos são complicadas ou mal administradas.
+    fonte: FinHealth 2.0, secção 3.2.1, p. 32
+    comentario: >-
+      Com a falta de credibilidade orçamental, é um dos dois constrangimentos
+      mais frequentes na Tabela 2.2 do FinHealth: aparece ligado a 13 dos 25
+      problemas de prestação (a credibilidade, a 14). Exemplo: a verba de combustível de
+      um centro de saúde está aprovada, mas cada libertação exige três
+      assinaturas em níveis diferentes e chega com dois meses de atraso; as
+      visitas às comunidades param, apesar de o dinheiro existir. Distingue-se
+      da [[g-credibilidade-orcamental|falta de credibilidade]]: aí, o dinheiro
+      não chega porque o orçamento era irrealista; aqui, o dinheiro existe mas
+      fica preso no caminho.
+
+  - id: g-escrutinio-da-despesa
+    termo: Escrutínio da despesa
+    ingles: Scrutiny of spending
+    definicao: >-
+      Processos para identificar e reduzir a despesa com baixo valor pelo
+      dinheiro, tanto na despesa já existente como nas novas propostas. O
+      FinHealth trata a sua insuficiência como um constrangimento da
+      preparação do orçamento.
+    fonte: FinHealth 2.0, secção 3.1.2, p. 20
+    comentario: >-
+      A maior parte do orçamento repete-se de ano para ano sem que ninguém
+      pergunte se a despesa antiga ainda se justifica; o escrutínio incide
+      muitas vezes só sobre as propostas novas. Exemplo: um subsídio pago há
+      anos a uma categoria de pessoal que já não existe continua no orçamento
+      porque nunca foi revisto. Ver
+      [[g-valor-pelo-dinheiro-relacao-custo-beneficio|valor pelo dinheiro]].
+
+  - id: g-gestao-de-inventarios
+    termo: Gestão de inventários
+    ingles: Inventory management
+    definicao: >-
+      Acompanhamento e gestão dos níveis de existências — por exemplo, de
+      medicamentos — para garantir que não são nem insuficientes nem
+      excessivos. O FinHealth trata as práticas inadequadas de gestão de
+      inventários como um constrangimento da execução orçamental.
+    fonte: FinHealth 2.0, secção 3.2.4, p. 38
+    comentario: >-
+      Relaciona-se com dois problemas opostos: rupturas de stock, quando falta
+      o que é preciso, e desperdício, quando o que se comprou expira antes de
+      ser usado. Exemplo: um armazém provincial com excesso de um antibiótico,
+      que vai expirar, enquanto os centros de saúde da mesma província estão
+      sem ele, porque ninguém tem informação actualizada sobre as existências.
+      Ver [[g-gestao-da-cadeia-de-abastecimento|gestão da cadeia de
+      abastecimento]].
+
+  - id: g-controlo-da-folha-salarial-e-trabalhadores-fantasma
+    termo: Controlo da folha salarial e trabalhadores fantasma
+    ingles: Payroll control and ghost workers
+    definicao: >-
+      Controlos que garantem que a massa salarial é executada como orçamentada
+      e que só o pessoal legalmente contratado e presente na folha salarial
+      recebe os salários devidos. Trabalhadores fantasma são pessoas que
+      recebem salário sem trabalharem de facto no serviço — porque saíram,
+      morreram ou nunca existiram.
+    fonte: FinHealth 2.0, secção 3.2.7, p. 41 e 43
+    comentario: >-
+      O controlo exige cruzar três registos que muitas vezes não falam entre
+      si: a folha de pagamento, a base de dados de pessoal e a presença efectiva
+      nas unidades. O FinHealth sugere usar os resultados da última auditoria
+      à folha salarial ou de uma prova de vida dos funcionários (p. 43). Cada
+      trabalhador fantasma ocupa um lugar orçamentado que podia pagar um
+      profissional real.
+
+  - id: g-detentor-do-orcamento-e-ponto-de-autorizacao
+    termo: Detentor do orçamento e ponto de autorização
+    ingles: Budget holder; authorizing point
+    definicao: >-
+      No mapeamento das regras de GFP, o detentor do orçamento é a entidade a
+      quem a dotação é atribuída; o ponto de autorização é a entidade que
+      autoriza a libertação dos fundos.
+    fonte: FinHealth 2.0, Anexo 1, Box A1.1, p. 57
+    comentario: >-
+      Exemplo do FinHealth: os fundos para os hospitais nacionais são dotados
+      ao Ministério da Saúde (detentor do orçamento), a sua libertação é
+      autorizada pelo Ministério das Finanças ou pelo Tesouro (ponto de
+      autorização) e os hospitais executam-nos como unidades executoras.
+      Separar estes papéis ajuda a localizar onde o dinheiro pára.
+
+  - id: g-servicos-de-saude
+    termo: Serviços de saúde
+    ingles: Health services
+    definicao: >-
+      Conjunto de actividades, intervenções e funções de apoio prestadas pelos
+      sistemas de saúde para manter, melhorar ou restabelecer a saúde das
+      pessoas: promoção, prevenção, diagnóstico, tratamento, reabilitação e
+      cuidados paliativos, nos vários níveis do sistema.
+    fonte: FinHealth 2.0, secção 2.1, p. 3 (adaptado de OMS, 2000)
+    comentario: >-
+      A definição é deliberadamente larga: inclui o trabalho comunitário e as
+      funções de apoio, como laboratórios e farmácias, e não apenas as
+      consultas e os internamentos. É este conjunto que delimita onde se
+      procuram os [[g-problema-de-prestacao-de-servicos-de-saude|problemas de
+      prestação]].

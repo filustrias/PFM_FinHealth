@@ -36,8 +36,8 @@ CABECALHO = re.compile(r"Documento Interno de Trabalho\s*|Página \d+ de \d+")
 # Uma entrada é "Termo (English term): definição", com o termo a começar por
 # maiúscula e a definição a correr até à entrada seguinte.
 ENTRADA = re.compile(
-    r"(?m)^\s*([A-ZÁÉÍÓÚÂÊÔÃÕÇ][^\n:()]{1,60}?)\s*\(([^)]{1,90})\)\s*:\s*"
-    r"(.+?)(?=\n\s*[A-ZÁÉÍÓÚÂÊÔÃÕÇ][^\n:()]{1,60}?\s*\([^)]{1,90}\)\s*:|\Z)",
+    r"(?m)^\s*([A-ZÁÉÍÓÚÂÊÔÃÕÇ][^\n:()]{1,60}?)\s*\(([^)]{1,130})\)\s*:\s*"
+    r"(.+?)(?=\n\s*[A-ZÁÉÍÓÚÂÊÔÃÕÇ][^\n:()]{1,60}?\s*\([^)]{1,130}\)\s*:|\Z)",
     re.S,
 )
 
@@ -53,6 +53,13 @@ NAO_LIGAR = {
 
 
 PALAVRA = re.compile(r"[A-Za-zÀ-ÿ]{2,}")
+
+# Palavras que a extração parte e que reunir_palavras() não consegue juntar,
+# por a forma inteira não ocorrer noutro ponto do documento.
+CORRECOES = {
+    "gere ncia": "gerencia",
+    "orçament ários": "orçamentários",
+}
 
 
 def reunir_palavras(texto):
@@ -124,6 +131,8 @@ def main():
     bruto = "\n".join((p.extract_text() or "") for p in PdfReader(PDF).pages)
     texto = CABECALHO.sub(" ", bruto)
     texto, juntos = reunir_palavras(texto)
+    for errado, certo in CORRECOES.items():
+        texto = texto.replace(errado, certo)
     print(f"  {len(juntos)} palavras partidas pela extração foram reunidas")
     for j in juntos[:10]:
         print("     ", j)
