@@ -176,25 +176,30 @@ class Doc:
             if "".join(textos).strip() and self.idx(p) < 1093:
                 self.faltas.append(self.idx(p))
 
+        # Percorre os runs pela ordem do documento para não perder os
+        # tabuladores, que são runs próprios sem texto e separam a sigla da
+        # sua expansão na lista de siglas.
+        #
+        # O negrito do original não é reproduzido: cobre um terço a metade do
+        # texto, o que o torna ruído em vez de ênfase.
         pedacos = []
-        for k in cheios:
-            txt = partes.get(k, "")
-            if not txt:
-                continue
-            rpr = runs[k].find(q("rPr"))
-            neg = rpr is not None and rpr.find(q("b")) is not None
-            ital = rpr is not None and rpr.find(q("i")) is not None
-            s = escapar(txt)
-            nu = s.strip()
-            if nu:
-                pre = s[: len(s) - len(s.lstrip())]
-                pos = s[len(s.rstrip()):]
-                if neg:
-                    nu = f"**{nu}**"
-                if ital:
-                    nu = f"*{nu}*"
-                s = pre + nu + pos
-            pedacos.append(s)
+        for r in p.iter(q("r")):
+            k = next((j for j, x in enumerate(runs) if x is r), None)
+            if k is not None and k in cheios:
+                txt = partes.get(k, "")
+                if not txt:
+                    continue
+                rpr = runs[k].find(q("rPr"))
+                ital = rpr is not None and rpr.find(q("i")) is not None
+                s = escapar(txt)
+                nu = s.strip()
+                if nu and ital:
+                    pre = s[: len(s) - len(s.lstrip())]
+                    pos = s[len(s.rstrip()):]
+                    s = pre + f"*{nu}*" + pos
+                pedacos.append(s)
+            elif r.find(q("tab")) is not None:
+                pedacos.append("\t")
         texto = "".join(pedacos)
 
         # notas de rodapé, no ponto em que ocorrem
@@ -202,7 +207,8 @@ class Doc:
             fid = fr.get(q("id"))
             if fid in self.notas:
                 texto += f"[^{fid}]"
-        return re.sub(r"[ \t]+", " ", texto).strip()
+        # o tabulador só interessa na lista de siglas; no resto é um espaço
+        return re.sub(r"[ ]+", " ", texto).strip()
 
     def texto_simples(self, p):
         t = self.tr.get(f"doc:{self.idx(p)}")
@@ -388,16 +394,57 @@ def ligar_glossario(linhas, termos):
     return n
 
 
-def arejar(linhas):
-    """Garante uma linha em branco antes de cada título.
+def tabelar_tabulacoes(linhas):
+    """Transforma blocos separados por tabulador numa tabela.
 
-    Um `## Título` logo a seguir a um item de lista, sem linha em branco no
-    meio, não é lido como título: fica texto do item.
+    A lista de siglas do original usa tabuladores entre a sigla e o que ela
+    significa. Em corrido ficariam encavaladas; em tabela lêem-se.
+    """
+    out, bloco = [], []
+
+    def despejar():
+        if not bloco:
+            return
+        if len(bloco) == 1:                      # um caso isolado não é tabela
+            out.append(bloco[0].replace("\t", " — "))
+        else:
+            out.extend(["| Sigla | Significado |", "|:--|:--|"])
+            for l in bloco:
+                pedacos = [x.strip() for x in l.split("\t") if x.strip()]
+                sigla = pedacos[0] if pedacos else ""
+                resto = " ".join(pedacos[1:]).replace("|", "\\|")
+                out.append(f"| **{sigla}** | {resto} |")
+            out.extend(["", ': {tbl-colwidths="[16,84]"}', ""])
+        bloco.clear()
+
+    for l in linhas:
+        if "\t" in l and l.strip():
+            bloco.append(l.strip())
+            continue
+        if l.strip():
+            despejar()
+        out.append(l)
+    despejar()
+    return out
+
+
+def arejar(linhas):
+    """Separa blocos que o Markdown juntaria.
+
+    Sem linha em branco a seguir a um item de lista, tanto um título como um
+    parágrafo são absorvidos pelo item: o título deixa de ser título e o
+    parágrafo passa a fazer parte do ponto anterior.
     """
     out = []
     for l in linhas:
-        if l.lstrip().startswith("#") and out and out[-1].strip():
-            out.append("")
+        anterior = out[-1] if out else ""
+        if anterior.strip():
+            titulo = l.lstrip().startswith("#")
+            saiu_da_lista = (anterior.lstrip().startswith(("- ", "* "))
+                             and l.strip()
+                             and not l.lstrip().startswith(("- ", "* ")))
+            if titulo or saiu_da_lista:
+                out.append("")
         out.append(l)
     return out
 
@@ -518,7 +565,7 @@ def main():
         cab = ["---", f'title: "{titulo}"', "---", ""]
         if nome.startswith("01"):
             cab.append(AVISO)
-        texto = "\n".join(arejar(cab + linhas))
+        texto = "\n".join(arejar(tabelar_tabulacoes(cab + linhas)))
         texto = re.sub(r"\n{3,}", "\n\n", texto).rstrip() + "\n"
         (DESTINO / nome).write_text(texto, encoding="utf-8", newline="\n")
         resumo.append((nome, len(texto.split()), n_gloss,

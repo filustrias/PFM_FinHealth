@@ -79,15 +79,22 @@ def escapar(s):
 
 
 def arejar(linhas):
-    """Garante uma linha em branco antes de cada título.
+    """Separa blocos que o Markdown juntaria.
 
-    Um `## Título` logo a seguir a um item de lista, sem linha em branco no
-    meio, não é lido como título: fica texto do item.
+    Sem linha em branco a seguir a um item de lista, tanto um título como um
+    parágrafo são absorvidos pelo item: o título deixa de ser título e o
+    parágrafo passa a fazer parte do ponto anterior.
     """
     out = []
     for l in linhas:
-        if l.lstrip().startswith("#") and out and out[-1].strip():
-            out.append("")
+        anterior = out[-1] if out else ""
+        if anterior.strip():
+            titulo = l.lstrip().startswith("#")
+            saiu_da_lista = (anterior.lstrip().startswith(("- ", "* "))
+                             and l.strip()
+                             and not l.lstrip().startswith(("- ", "* ")))
+            if titulo or saiu_da_lista:
+                out.append("")
         out.append(l)
     return out
 
