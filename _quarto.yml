@@ -23,6 +23,7 @@ book:
         - finhealth-apresentacao.qmd
         - finhealth-tabela-2-2.qmd
         - finhealth-caso-timor.qmd
+    - glossario.qmd
     # - part: "PFM em Angola"
     #   chapters:
     #     - (a acrescentar)

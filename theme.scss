@@ -248,6 +248,127 @@ font-weight: 600;
 }
 
 /* ======================================================================
+   Glossário (.gl-*): índice consultável, com filtro ao vivo, navegação A–Z
+   e uma âncora por termo. As âncoras são o destino das hiperligações
+   automáticas que virão no corpo do livro.
+   ====================================================================== */
+.gl-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 1.4rem 0 0.6rem;
+  padding: 0.7rem 0.9rem;
+  background: rgba(128, 137, 150, 0.07);
+  border: 1px solid rgba(128, 137, 150, 0.28);
+  border-radius: 8px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+#gl-filter {
+  flex: 1 1 22rem;
+  min-width: 0;
+  font-size: 0.95rem;
+  padding: 0.4rem 0.7rem;
+  border: 1px solid rgba(128, 137, 150, 0.45);
+  border-radius: 6px;
+  background: var(--bs-body-bg);
+  color: inherit;
+
+  &:focus { outline: 2px solid rgba(46, 90, 136, 0.5); outline-offset: 1px; }
+}
+
+.gl-count { font-size: 0.85rem; color: #6b7280; white-space: nowrap; }
+
+.gl-btn {
+  font-family: $headings-font-family;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.35rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid rgba(46, 90, 136, 0.45);
+  background: transparent;
+  color: #2e5a88;
+  cursor: pointer;
+
+  &:hover { background: rgba(46, 90, 136, 0.1); }
+}
+
+.gl-az {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-bottom: 1.2rem;
+
+  a {
+    font-family: $headings-font-family;
+    font-size: 0.82rem;
+    font-weight: 600;
+    min-width: 1.6rem;
+    text-align: center;
+    padding: 0.1rem 0.3rem;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #2e5a88;
+    background: rgba(46, 90, 136, 0.09);
+
+    &:hover { background: rgba(46, 90, 136, 0.22); }
+    &.gl-off { opacity: 0.28; pointer-events: none; }
+  }
+}
+
+.gl-letter {
+  font-size: 1.1rem;
+  color: #8a919c;
+  border-bottom: 1px solid rgba(128, 137, 150, 0.3);
+  margin: 1.6rem 0 0.4rem;
+  padding-bottom: 0.15rem;
+}
+
+.gl-item {
+  border-bottom: 1px solid rgba(128, 137, 150, 0.2);
+  padding: 0.45rem 0;
+
+  > summary {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.6rem;
+
+    &::-webkit-details-marker { display: none; }
+    &::before { content: "\25B8"; color: #9aa1ab; font-size: 0.8em; }
+  }
+  &[open] > summary::before { content: "\25BE"; }
+
+  > p {
+    margin: 0.35rem 0 0.2rem 1.4rem;
+    max-width: 68ch;
+    font-size: 0.94rem;
+  }
+
+  &.gl-alvo { background: rgba(46, 90, 136, 0.12); border-radius: 6px; }
+}
+
+.gl-term { font-family: $headings-font-family; font-weight: 600; }
+.gl-en { font-size: 0.85rem; color: #7a818c; font-style: italic; }
+
+.quarto-dark {
+  .gl-btn, .gl-az a { color: #8fb8e8; }
+  .gl-az a { background: rgba(80, 140, 210, 0.16); }
+  .gl-az a:hover { background: rgba(80, 140, 210, 0.3); }
+  .gl-item.gl-alvo { background: rgba(80, 140, 210, 0.18); }
+  #gl-filter { border-color: rgba(143, 184, 232, 0.4); }
+}
+
+@media (max-width: 575.98px) {
+  .gl-controls { position: static; }
+}
+
+/* ======================================================================
    Capítulo "Narrative structure of PHC investment actions" (.pia-*).
    O corpo desta página é mais largo (grid.body-width no front matter);
    são os blocos em grelha que ocupam a largura: opções lado a lado,

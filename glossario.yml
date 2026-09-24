@@ -1,0 +1,1490 @@
+# Fonte de verdade do glossário. Gerado de materiais_de_referencia/
+# por scripts/extrair_glossario.py; 'ligar' e 'variantes' são curados
+# à mão e sobrevivem à reextração.
+fonte: 01 draft IGFP Doc Trabalho - Glossário GFP.pdf
+preambulo:
+- rotulo: Objectivo
+  texto: 'Este glossário é um instrumento de trabalho desenvolvido para apoiar a implementação
+    da Avaliação da Gestão das Finanças Públicas no Sector da Saúde de Angola, realizada com
+    o apoio técnico da Organização Mundial da Saúde (OMS) Angola, com recurso ao FinHealth Toolkit
+    2.0: Public Financial Management (PFM) in the Health Diagnostic Toolkit (Kit de Ferramentas
+    de Diagnóstico de Gestão de Finanças Públicas (GFP) na Saúde), desenvolvido conjuntamente
+    pela Organização Mundial da Saúde e pelo Banco Mundial. O glossário procura estabelecer
+    uma compreensão comum dos principais conceitos utilizados ao longo da avaliação, facilitar
+    a comunicação entre profissionais de saúde, finanças, planeamento, orçamento, contratação
+    pública, contabilidade, auditoria e controlo, bem como apoiar os pontos focais, parceiros
+    de desenvolvimento e outras instituições envolvidas na recolha, análise, validação e utilização
+    da evidência. Visa igualmente contribuir para o desenvolvimento de capacidades e para uma
+    utilização mais consistente da terminologia de Gestão das Finanças Públicas (GFP) aplicada
+    ao Sector da Saúde.'
+- rotulo: Como Utilizar
+  texto: O glossário deve ser utilizado como instrumento de consulta ao longo das diferentes
+    etapas da avaliação FinHealth 2.0, incluindo a formação, os pedidos e a recolha de informação,
+    as entrevistas e sessões técnicas, a identificação e análise dos problemas de prestação
+    de serviços de saúde, o mapeamento das instituições, dos fluxos de financiamento e das regras
+    de GFP, a análise dos constrangimentos de GFP e das respectivas causas subjacentes e a formulação
+    e discussão de recomendações. As definições privilegiam a utilização prática dos conceitos
+    no contexto da GFP, do financiamento da saúde e da prestação de serviços. Mantêm-se os termos
+    e siglas em inglês quando amplamente utilizados no FinHealth 2.0 ou na literatura internacional
+    relevante. Sempre que necessário, a terminologia deverá ser interpretada à luz do quadro
+    legal, institucional, orçamental e contabilístico vigente em Angola.
+- rotulo: Distinções Essenciais
+  texto: A abordagem FinHealth 2.0 parte dos problemas observados na prestação de serviços de
+    saúde e procura determinar em que medida constrangimentos de GFP contribuem para esses problemas.
+    É, por isso, importante distinguir entre um problema de prestação de serviços de saúde,
+    que descreve o que não está a funcionar; um constrangimento de GFP, que identifica uma regra
+    ou prática de GFP que contribui significativamente para esse problema; e uma causa subjacente,
+    que procura explicar por que razão esse constrangimento existe ou persiste. Nem toda a fragilidade
+    do sistema de GFP constitui, por si só, um constrangimento relevante para a análise FinHealth.
+    A utilização consistente dos conceitos é igualmente essencial na análise da execução orçamental
+    e dos fluxos de recursos. Orçamento original aprovado, orçamento actualizado ou revisto,
+    disponibilização de fundos, cabimento, compromisso, liquidação, pagamento e despesa contabilizada
+    correspondem a conceitos e etapas distintas. Da mesma forma, compromisso de financiamento,
+    desembolso e despesa efectiva não são equivalentes; custeio, necessidade de financiamento,
+    lacuna de financiamento e espaço fiscal não são sinónimos; e a inscrição de recursos no
+    orçamento não significa necessariamente que estes transitem pela tesouraria ou utilizem
+    os sistemas nacionais de contratação pública, contabilidade, controlo e reporte. Estas distinções
+    devem ser preservadas na recolha, reconciliação, análise e interpretação dos dados.
+- rotulo: Sobre Este Documento
+  texto: Este glossário é um documento interno de trabalho preparado pelos consultores como
+    parte dos instrumentos de apoio à implementação da avaliação FinHealth 2.0 e ao desenvolvimento
+    de capacidades. Não constitui uma tradução oficial do FinHealth 2.0 ou de outros documentos
+    metodológicos internacionais de referência, nem substitui as definições estabelecidas na
+    legislação, regulamentação, classificadores, manuais ou outros instrumentos oficiais aplicáveis
+    em Angola. Sempre que uma definição possa afectar a aplicação ou interpretação da metodologia,
+    a delimitação do âmbito da análise, a utilização da evidência ou a formulação das conclusões,
+    prevalecem o FinHealth Toolkit 2.0 e, quando necessário, a respectiva versão original em
+    inglês. O glossário poderá ser actualizado ao longo da avaliação à medida que surjam conceitos
+    adicionais ou seja necessário harmonizar a terminologia utilizada pelas instituições participantes.
+entradas:
+- id: g-agregacao-de-fundos
+  termo: Agregação de fundos
+  ingles: Pooling | Agregação de fundos / pooling
+  definicao: Acumulação e gestão de recursos de financiamento pré-pago da saúde em nome de uma
+    população, permitindo partilha do risco financeiro.
+  ligar: false
+  variantes: []
+- id: g-ajustamento-orcamental-intra-anual
+  termo: Ajustamento orçamental intra-anual
+  ingles: In-year budget adjustment
+  definicao: Alteração das dotações aprovadas durante a execução, por meio de transferências
+    autorizadas, redistribuições, orçamento suplementar ou outros mecanismos.
+  ligar: false
+  variantes: []
+- id: g-alocacao
+  termo: Alocação
+  ingles: Allocation | Alocação / dotação
+  definicao: Atribuição de recursos orçamentais a sectores, instituições, programas, actividades,
+    territórios ou categorias económicas.
+  ligar: false
+  variantes: []
+- id: g-alocacao-baseada-em-formula
+  termo: Alocação baseada em fórmula
+  ingles: Formula-based allocation
+  definicao: Alocação segundo critérios explícitos, como população, necessidade, pobreza, carga
+    de trabalho ou localização geográfica, em vez de negociação ad hoc.
+  ligar: false
+  variantes: []
+- id: g-alocacao-de-recursos
+  termo: Alocação de recursos
+  ingles: Resource allocation
+  definicao: Distribuição dos recursos disponíveis entre sectores, programas, populações, territórios
+    ou factores de produção concorrentes.
+  ligar: false
+  variantes: []
+- id: g-alocacao-estrategica-de-recursos
+  termo: Alocação estratégica de recursos
+  ingles: Strategic allocation of resources
+  definicao: Planeamento e execução do orçamento em conformidade com as prioridades do Governo
+    e os objectivos de política.
+  ligar: false
+  variantes: []
+- id: g-ambiente-de-regras-de-gfp
+  termo: Ambiente de regras de GFP
+  ingles: PFM Rule Environment
+  definicao: Conjunto de regras, procedimentos, controlos e mecanismos de supervisão que regem
+    uma determinada via de financiamento, incluindo regras de tesouraria, extraorçamentais,
+    de financiadores externos ou outros regimes aplicáveis.
+  ligar: false
+  variantes: []
+- id: g-analise-actuarial
+  termo: Análise actuarial
+  ingles: Actuarial Analysis
+  definicao: Análise de riscos e das respectivas implicações financeiras, particularmente relevante
+    para seguros e mecanismos de partilha de risco em saúde.
+  ligar: false
+  variantes: []
+- id: g-analise-causal
+  termo: Análise causal
+  ingles: Causal Analysis
+  definicao: Etapa do FinHealth 2.0 que liga os problemas seleccionados de prestação de serviços
+    aos constrangimentos de GFP e investiga as causas subjacentes que explicam por que esses
+    constrangimentos existem ou persistem.
+  ligar: false
+  variantes: []
+- id: g-analise-custo-utilidade
+  termo: Análise custo-utilidade
+  ingles: Cost-Utility Analysis, CUA
+  definicao: Avaliação económica que compara custos com resultados ajustados pela qualidade
+    e pela duração da vida, frequentemente expressos em QALY.
+  ligar: false
+  variantes: []
+- id: g-analise-da-despesa-publica
+  termo: Análise da despesa pública
+  ingles: Public Expenditure Analysis
+  definicao: Exame sistemático dos níveis, composição, tendências, execução, eficiência, equidade
+    e resultados da despesa pública.
+  ligar: false
+  variantes: []
+- id: g-analise-de-equidade
+  termo: Análise de equidade
+  ingles: Equity Analysis
+  definicao: Análise da distribuição de recursos, encargos, acesso, utilização ou benefícios
+    entre grupos populacionais e territórios.
+  ligar: false
+  variantes: []
+- id: g-analise-do-impacto-orcamental
+  termo: Análise do impacto orçamental
+  ingles: Budget Impact Analysis, BIA
+  definicao: Estimativa das consequências financeiras da adopção ou expansão de uma tecnologia,
+    intervenção ou política sobre um orçamento específico.
+  ligar: false
+  variantes: []
+- id: g-analise-orcamental
+  termo: Análise orçamental
+  ingles: Budget analysis
+  definicao: Exame sistemático das dotações, composição, tendências, execução e distribuição
+    do orçamento.
+  ligar: false
+  variantes: []
+- id: g-ano-fiscal
+  termo: Ano fiscal
+  ingles: Fiscal Year, FY
+  definicao: Período anual utilizado para orçamento, contabilidade e reporte financeiro; as
+    datas dependem do país.
+  ligar: false
+  variantes: []
+- id: g-apoio-orcamental
+  termo: Apoio orçamental
+  ingles: Budget support
+  definicao: Financiamento externo transferido ao Tesouro e gerido por meio do orçamento e dos
+    sistemas nacionais de GFP.
+  ligar: false
+  variantes: []
+- id: g-atrasados
+  termo: Atrasados
+  ingles: Arrears | Atrasados / pagamentos em atraso
+  definicao: Obrigações financeiras que permanecem por pagar depois da data de vencimento contratual
+    ou legal.
+  ligar: false
+  variantes: []
+- id: g-atrasados-de-despesa
+  termo: Atrasados de despesa
+  ingles: Expenditure arrears
+  definicao: Obrigações de despesa não pagas após a data de vencimento.
+  ligar: false
+  variantes: []
+- id: g-auditoria
+  termo: Auditoria
+  ingles: Audit
+  definicao: Exame interno ou independente de registos financeiros, controlos, conformidade,
+    sistemas ou desempenho face a critérios definidos.
+  ligar: false
+  variantes: []
+- id: g-auditoria-externa
+  termo: Auditoria externa
+  ingles: External audit
+  definicao: Auditoria independente realizada pela instituição superior de controlo ou por outro
+    auditor externo legalmente autorizado.
+  ligar: false
+  variantes: []
+- id: g-auditoria-interna
+  termo: Auditoria interna
+  ingles: Internal audit
+  definicao: Função independente de garantia e aconselhamento no Governo que avalia a governação,
+    a gestão de riscos e os controlos.
+  ligar: false
+  variantes: []
+- id: g-autonomia-do-prestador
+  termo: Autonomia do prestador
+  ingles: Provider autonomy
+  definicao: Grau de discricionariedade de um prestador nas decisões financeiras e operacionais,
+    dentro das regras de responsabilização aplicáveis.
+  ligar: false
+  variantes: []
+- id: g-autorizacao-de-pagamento
+  termo: Autorização de pagamento
+  ingles: Payment authorization
+  definicao: Aprovação formal para a emissão de ordem de pagamento, após o cumprimento dos requisitos
+    aplicáveis de compromisso e de verificação.
+  ligar: false
+  variantes: []
+- id: g-avaliacao-economica
+  termo: Avaliação económica
+  ingles: Economic Evaluation
+  definicao: Análise comparativa de alternativas em termos de custos e resultados, incluindo
+    custo-efectividade, custo-utilidade e custo-benefício.
+  ligar: false
+  variantes: []
+- id: g-bia
+  termo: BIA
+  ingles: Benefit incidence analysis | BIA / análise de incidência de benefícios
+  definicao: Análise da distribuição dos benefícios da despesa pública entre diferentes grupos
+    da população.
+  ligar: false
+  variantes: []
+- id: g-calendario-orcamental
+  termo: Calendário orçamental
+  ingles: Budget calendar
+  definicao: Cronograma formal para preparação, submissão, aprovação, execução e reporte do
+    orçamento.
+  ligar: false
+  variantes: []
+- id: g-caso-de-investimento
+  termo: Caso de investimento
+  ingles: Investment case
+  definicao: Análise que apresenta a justificação, os benefícios esperados, os custos e, frequentemente,
+    os retornos de um investimento. Não constitui plano de financiamento nem autorização orçamental.
+  ligar: false
+  variantes: []
+- id: g-causa-subjacente
+  termo: Causa subjacente
+  ingles: Root Cause
+  definicao: Razão específica que explica a existência ou persistência de um constrangimento
+    de GFP.
+  ligar: false
+  variantes: []
+- id: g-cba
+  termo: CBA
+  ingles: Cost benefit analysis | CBA / análise custo benefício
+  definicao: Avaliação económica em que custos e benefícios são ambos expressos em termos monetários.
+  ligar: false
+  variantes: []
+- id: g-cea
+  termo: CEA
+  ingles: Cost effectiveness analysis | CEA / análise de custo efectividade
+  definicao: Avaliação económica que compara os custos e os resultados em saúde de intervenções
+    alternativas.
+  ligar: false
+  variantes: []
+- id: g-ciclo-orcamental
+  termo: Ciclo orçamental
+  ingles: Budget Cycle
+  definicao: Processo recorrente de planeamento, preparação, aprovação, execução, contabilização,
+    reporte, fiscalização e avaliação do orçamento.
+  ligar: false
+  variantes: []
+- id: g-circular-orcamental
+  termo: Circular orçamental
+  ingles: Budget circular
+  definicao: Instruções formais da autoridade central das finanças sobre requisitos, tectos,
+    classificações, calendário e procedimentos de preparação do orçamento.
+  ligar: false
+  variantes: []
+- id: g-classificacao-administrativa
+  termo: Classificação administrativa
+  ingles: Administrative classification
+  definicao: Classificação orçamental que identifica a instituição ou unidade orgânica responsável
+    pelos recursos públicos.
+  ligar: false
+  variantes: []
+- id: g-classificacao-economica
+  termo: Classificação económica
+  ingles: Economic classification
+  definicao: Classificação da despesa segundo a natureza económica da transacção, por exemplo,
+    remunerações, bens e serviços, transferências, juros ou capital.
+  ligar: false
+  variantes: []
+- id: g-classificacao-funcional
+  termo: Classificação funcional
+  ingles: Functional classification
+  definicao: Classificação da despesa segundo a finalidade ou função do Governo, normalmente
+    compatível com a COFOG.
+  ligar: false
+  variantes: []
+- id: g-classificacao-programatica
+  termo: Classificação programática
+  ingles: Programme classification
+  definicao: Classificação orçamental que organiza os recursos em torno de programas ou objectivos
+    de política, e não apenas de instituições ou factores de produção.
+  ligar: false
+  variantes: []
+- id: g-classificador-orcamental
+  termo: Classificador orçamental
+  ingles: Budget classification
+  definicao: Sistema de códigos para registar orçamento e despesa segundo dimensões administrativas,
+    económicas, funcionais, programáticas e outras.
+  ligar: false
+  variantes: []
+- id: g-cobertura-universal-de-saude
+  termo: Cobertura Universal de Saúde
+  ingles: Universal Health Coverage | UHC / Cobertura Universal de Saúde
+  definicao: Situação em que todas as pessoas podem aceder aos serviços de saúde de qualidade
+    de que necessitam sem dificuldades financeiras.
+  ligar: false
+  variantes: []
+- id: g-cofinanciamento
+  termo: Cofinanciamento
+  ingles: Co-financing
+  definicao: Arranjo em que duas ou mais fontes financiam conjuntamente uma actividade, programa
+    ou investimento segundo responsabilidades acordadas.
+  ligar: false
+  variantes: []
+- id: g-compra-estrategica
+  termo: Compra estratégica
+  ingles: Strategic purchasing
+  definicao: Utilização deliberada das decisões de compra e dos mecanismos de pagamento a prestadores
+    para melhorar eficiência, qualidade, equidade e responsabilização.
+  ligar: false
+  variantes: []
+- id: g-compromisso
+  termo: Compromisso
+  ingles: Commitment
+  definicao: Obrigação reconhecida legal ou administrativamente de efectuar um pagamento futuro,
+    normalmente decorrente de contrato, ordem de compra ou acto equivalente autorizado.
+  ligar: false
+  variantes: []
+- id: g-conformidade
+  termo: Conformidade
+  ingles: Compliance
+  definicao: Cumprimento das leis, regulamentos, normas, procedimentos e condições aplicáveis.
+  ligar: false
+  variantes: []
+- id: g-consignacao
+  termo: Consignação
+  ingles: Earmarking | Consignação / afectação específica
+  definicao: Afectação de uma fonte de receita ou dotação orçamental a uma finalidade específica.
+  ligar: false
+  variantes: []
+- id: g-constrangimento-de-gfp
+  termo: Constrangimento de GFP
+  ingles: PFM Bottleneck
+  definicao: Regra ou prática de GFP que constitui uma causa significativa de um problema seleccionado
+    na prestação de serviços de saúde. Nem toda a fragilidade de GFP é, por si só, um constrangimento
+    relevante no FinHealth 2.0.
+  ligar: false
+  variantes: []
+- id: g-conta-unica-do-tesouro
+  termo: Conta Única do Tesouro
+  ingles: Treasury Single Account | TSA / Conta Única do Tesouro, CUT
+  definicao: Estrutura unificada de contas bancárias do Governo que consolida e gere ncia os
+    recursos de tesouraria. Em Moçambique, a Conta Única do Tesouro (CUT) é a designação nacional
+    utilizada.
+  ligar: false
+  variantes: []
+- id: g-contabilidade
+  termo: Contabilidade
+  ingles: Accounting
+  definicao: Registo, classificação, reconciliação e reporte sistemáticos das transacções financeiras.
+  ligar: false
+  variantes: []
+- id: g-contabilidade-de-acrescimo
+  termo: Contabilidade de acréscimo
+  ingles: Accrual Accounting
+  definicao: Método contabilístico em que receitas são reconhecidas quando geradas e despesas
+    quando incorridas, independentemente do momento do recebimento ou do pagamento.
+  ligar: false
+  variantes: []
+- id: g-contabilidade-de-caixa
+  termo: Contabilidade de caixa
+  ingles: Cash Accounting
+  definicao: Método contabilístico em que as receitas são reconhecidas quando recebidas e as
+    despesas quando efectivamente pagas.
+  ligar: false
+  variantes: []
+- id: g-contabilidade-de-partidas-dobradas
+  termo: Contabilidade de partidas dobradas
+  ingles: Double Entry Accounting
+  definicao: Sistema em que cada transacção é registada com lançamentos correspondentes de débito
+    e crédito.
+  ligar: false
+  variantes: []
+- id: g-contas-de-saude
+  termo: Contas de saúde
+  ingles: Health accounts
+  definicao: Quadro sistemático para medir os fluxos de despesa em saúde segundo a fonte, o
+    esquema de financiamento, o prestador, a função e outras dimensões.
+  ligar: false
+  variantes: []
+- id: g-contas-nacionais-de-saude
+  termo: Contas Nacionais de Saúde
+  ingles: National Health Accounts | NHA / Contas Nacionais de Saúde
+  definicao: Aplicação nacional da contabilidade da despesa em saúde, normalmente baseada no
+    Sistema de Contas de Saúde.
+  ligar: false
+  variantes: []
+- id: g-contratacao-publica
+  termo: Contratação pública
+  ingles: Procurement | Contratação pública / aquisições
+  definicao: Processo de aquisição de bens, obras e serviços com recursos públicos, desde o
+    planeamento e concurso até à adjudicação e gestão contratual.
+  ligar: false
+  variantes: []
+- id: g-contribuicoes-em-especie
+  termo: Contribuições em espécie
+  ingles: In-kind Contributions
+  definicao: Bens, serviços ou outros recursos não monetários fornecidos a uma actividade e
+    susceptíveis de valorização económica.
+  ligar: false
+  variantes: []
+- id: g-controlador-de-fundos
+  termo: Controlador de fundos
+  ingles: Fund Controller
+  definicao: Instituição que detém ou controla o conjunto inicial de recursos utilizado pelos
+    componentes do sistema de saúde e pode autorizar a sua libertação.
+  ligar: false
+  variantes: []
+- id: g-controlo-da-despesa
+  termo: Controlo da despesa
+  ingles: Expenditure control
+  definicao: Regras e processos destinados a manter a despesa dentro dos limites autorizados
+    e assegurar a conformidade das transacções.
+  ligar: false
+  variantes: []
+- id: g-controlo-de-compromissos
+  termo: Controlo de compromissos
+  ingles: Commitment control
+  definicao: Controlos destinados a impedir a assunção de obrigações sem dotação autorizada
+    suficiente e, quando aplicável, sem perspectiva adequada de tesouraria.
+  ligar: false
+  variantes: []
+- id: g-controlo-ex-ante
+  termo: Controlo ex ante
+  ingles: Ex ante control
+  definicao: Controlo aplicado antes de uma transacção ser autorizada, comprometida ou paga.
+  ligar: false
+  variantes: []
+- id: g-controlo-ex-post
+  termo: Controlo ex post
+  ingles: Ex post control
+  definicao: Revisão ou controlo realizado após a ocorrência de uma transacção ou actividade.
+  ligar: false
+  variantes: []
+- id: g-controlo-interno
+  termo: Controlo interno
+  ingles: Internal control
+  definicao: Políticas, procedimentos e mecanismos organizacionais destinados a proporcionar
+    garantia razoável sobre a legalidade, a eficiência e a fiabilidade das operações e do reporte.
+  ligar: false
+  variantes: []
+- id: g-credibilidade-orcamental
+  termo: Credibilidade orçamental
+  ingles: Budget credibility
+  definicao: Grau em que o orçamento aprovado é realista e, em termos gerais, executado conforme
+    previsto.
+  ligar: false
+  variantes: []
+- id: g-cuidados-de-saude-primarios
+  termo: Cuidados de Saúde Primários
+  ingles: Primary health care | PHC / Cuidados de Saúde Primários
+  definicao: Abordagem de toda a sociedade à saúde, centrada nos cuidados primários, nas funções
+    essenciais de saúde pública e na acção multissectorial.
+  ligar: false
+  variantes: []
+- id: g-custeio
+  termo: Custeio
+  ingles: Costing | Custeio / orçamentação de custos
+  definicao: Estimativa dos recursos e custos necessários para implementar uma política, programa,
+    pacote de serviços ou plano. O custeio, por si só, não identifica financiamento nem espaço
+    fiscal.
+  ligar: false
+  variantes: []
+- id: g-custeio-integral
+  termo: Custeio integral
+  ingles: Full-cost Accounting
+  definicao: Abordagem que identifica custos directos, indirectos e gerais associados à prestação
+    de um serviço ou execução de uma actividade.
+  ligar: false
+  variantes: []
+- id: g-custo-de-oportunidade
+  termo: Custo de oportunidade
+  ingles: Opportunity Cost
+  definicao: Valor da melhor alternativa sacrificada quando recursos escassos são empregados
+    em determinada finalidade.
+  ligar: false
+  variantes: []
+- id: g-custos-directos
+  termo: Custos directos
+  ingles: Direct Costs
+  definicao: Custos directamente atribuíveis a uma actividade, intervenção, serviço ou programa
+    específico.
+  ligar: false
+  variantes: []
+- id: g-dah
+  termo: DAH
+  ingles: Development assistance for health | DAH / ajuda externa à saúde
+  definicao: Subvenções externas, financiamento concessional e outras formas de assistência
+    ao desenvolvimento destinadas à saúde.
+  ligar: false
+  variantes: []
+- id: g-defice-orcamental
+  termo: Défice orçamental
+  ingles: Budget Deficit
+  definicao: Situação em que a despesa excede a receita num período, o que exige financiamento
+    ou a utilização de activos financeiros.
+  ligar: false
+  variantes: []
+- id: g-demonstracoes-financeiras-anuais
+  termo: Demonstrações financeiras anuais
+  ingles: Annual Financial Statements
+  definicao: Relatórios anuais que apresentam a posição financeira, as transacções e os resultados
+    financeiros de uma entidade, segundo o quadro contabilístico aplicável.
+  ligar: false
+  variantes: []
+- id: g-descentralizacao
+  termo: Descentralização
+  ingles: Decentralization
+  definicao: Transferência de funções, autoridade, recursos e responsabilização do Governo central
+    para governos subnacionais com algum grau de autonomia.
+  ligar: false
+  variantes: []
+- id: g-descentralizacao-fiscal
+  termo: Descentralização fiscal
+  ingles: Fiscal decentralization
+  definicao: Distribuição das responsabilidades de despesa, de receitas, de transferências,
+    de poderes de endividamento e de responsabilização fiscal entre os níveis de governo.
+  ligar: false
+  variantes: []
+- id: g-desconcentracao
+  termo: Desconcentração
+  ingles: Deconcentration
+  definicao: Redistribuição administrativa de responsabilidades para unidades territoriais que
+    permanecem integradas e subordinadas ao Governo central.
+  ligar: false
+  variantes: []
+- id: g-desembolso
+  termo: Desembolso
+  ingles: Disbursement
+  definicao: Libertação ou transferência de fundos por uma fonte de financiamento a um beneficiário
+    ou a uma entidade executora; é distinto de compromisso e de despesa.
+  ligar: false
+  variantes: []
+- id: g-despesa
+  termo: Despesa
+  ingles: Expenditure
+  definicao: Utilização de recursos públicos reconhecida de acordo com o quadro contabilístico
+    e estatístico aplicável.
+  ligar: false
+  variantes: []
+- id: g-despesa-agregada
+  termo: Despesa agregada
+  ingles: Aggregate Expenditure
+  definicao: Despesa total realizada pelo Governo, pelo sector ou por uma entidade durante um
+    período definido.
+  ligar: false
+  variantes: []
+- id: g-despesa-corrente
+  termo: Despesa corrente
+  ingles: Current expenditure
+  definicao: Despesa associada ao funcionamento regular, normalmente incluindo remunerações,
+    bens e serviços, transferências e outras despesas recorrentes.
+  ligar: false
+  variantes: []
+- id: g-despesa-de-investimento
+  termo: Despesa de investimento
+  ingles: Capital expenditure | Despesa de investimento / capital
+  definicao: Despesa destinada à aquisição, criação ou melhoria significativa de activos com
+    benefícios esperados ao longo de mais de um período.
+  ligar: false
+  variantes: []
+- id: g-despesa-de-prestacao-de-servicos
+  termo: Despesa de prestação de serviços
+  ingles: Service delivery expenditure
+  definicao: Despesa pública decorrente de operações orçamentárias e extraorçamentárias destinada
+    à prestação de serviços.
+  ligar: false
+  variantes: []
+- id: g-despesa-fiscal
+  termo: Despesa fiscal
+  ingles: Tax Expenditure
+  definicao: Receita que o Governo deixa de arrecadar devido a isenções, deduções, créditos
+    ou outros benefícios fiscais.
+  ligar: false
+  variantes: []
+- id: g-despesa-recorrente
+  termo: Despesa recorrente
+  ingles: Recurrent expenditure | Despesa recorrente / corrente
+  definicao: Despesa contínua necessária ao funcionamento dos serviços, incluindo pessoal, medicamentos,
+    serviços públicos, manutenção e outros custos operacionais.
+  ligar: false
+  variantes: []
+- id: g-disciplina-fiscal
+  termo: Disciplina fiscal
+  ingles: Fiscal discipline
+  definicao: Controlo da despesa agregada, dos défices, da dívida e dos riscos fiscais dentro
+    de limites sustentáveis.
+  ligar: false
+  variantes: []
+- id: g-divida-publica
+  termo: Dívida pública
+  ingles: Public Debt
+  definicao: Conjunto das obrigações de dívida do Governo perante credores internos e externos.
+  ligar: false
+  variantes: []
+- id: g-documentacao-orcamental
+  termo: Documentação orçamental
+  ingles: Budget documentation
+  definicao: Conjunto de documentos que acompanha a proposta e o orçamento aprovado, incluindo
+    pressupostos fiscais, alterações de política e informações sobre despesas.
+  ligar: false
+  variantes: []
+- id: g-dotacao-orcamental-autorizada
+  termo: Dotação orçamental autorizada
+  ingles: Appropriation
+  definicao: Autorização legal para realizar despesa para finalidades específicas dentro de
+    um montante e período aprovados; não equivale à disponibilidade de tesouraria ou pagamento.
+  ligar: false
+  variantes: []
+- id: g-eficacia
+  termo: Eficácia
+  ingles: Effectiveness
+  definicao: Grau em que uma intervenção, programa ou despesa alcança os produtos e resultados
+    pretendidos.
+  ligar: false
+  variantes: []
+- id: g-eficiencia
+  termo: Eficiência
+  ingles: Efficiency
+  definicao: Relação entre os recursos utilizados e os produtos ou resultados obtidos.
+  ligar: false
+  variantes: []
+- id: g-eficiencia-alocativa
+  termo: Eficiência alocativa
+  ingles: Allocative Efficiency
+  definicao: Grau em que os recursos são distribuídos entre intervenções, programas, níveis
+    de cuidados ou grupos populacionais, de modo a maximizar os resultados face às prioridades.
+  ligar: false
+  variantes: []
+- id: g-entidade-orcamental-de-primeiro-nivel
+  termo: Entidade orçamental de primeiro nível
+  ingles: First-level Budget Entity
+  definicao: Entidade que recebe financiamento directamente da autoridade financeira central
+    através de uma dotação orçamental.
+  ligar: false
+  variantes: []
+- id: g-entidade-orcamental-de-segundo-nivel
+  termo: Entidade orçamental de segundo nível
+  ingles: Second-level Budget Entity
+  definicao: Entidade que recebe recursos através de uma entidade pública hierarquicamente superior,
+    em vez de directamente da autoridade financeira central.
+  ligar: false
+  variantes: []
+- id: g-envelope-de-recursos
+  termo: Envelope de recursos
+  ingles: Resource envelope
+  definicao: Montante total de recursos que se prevê estar realisticamente disponível para um
+    orçamento, sector ou plano durante um período definido.
+  ligar: false
+  variantes: []
+- id: g-equidade
+  termo: Equidade
+  ingles: Equity
+  definicao: Distribuição justa de recursos, encargos financeiros, acesso ou benefícios em função
+    das necessidades e desvantagens relevantes.
+  ligar: false
+  variantes: []
+- id: g-espaco-fiscal-para-a-saude
+  termo: Espaço fiscal para a saúde
+  ingles: Fiscal space for health
+  definicao: Margem para aumentar a despesa pública em saúde sem comprometer a sustentabilidade
+    fiscal nem deslocar, de forma inaceitável, outras despesas prioritárias.
+  ligar: false
+  variantes: []
+- id: g-estatisticas-das-financas-publicas
+  termo: Estatísticas das Finanças Públicas
+  ingles: Government Finance Statistics | GFS / Estatísticas das Finanças Públicas
+  definicao: Quadro estatístico do FMI para classificar as instituições públicas, as receitas,
+    as despesas, os activos, os passivos e as transacções.
+  ligar: false
+  variantes: []
+- id: g-estimativa-de-custos
+  termo: Estimativa de custos
+  ingles: Cost Estimation
+  definicao: Cálculo dos custos de uma actividade, programa ou serviço com base em quantidades,
+    custos unitários e pressupostos relevantes.
+  ligar: false
+  variantes: []
+- id: g-estrategia-de-financiamento-da-saude
+  termo: Estratégia de financiamento da saúde
+  ingles: Health financing strategy
+  definicao: Quadro de política que define objectivos e reformas para mobilização de receitas,
+    pooling, compra de serviços, protecção financeira e financiamento público da saúde.
+  ligar: false
+  variantes: []
+- id: g-estrategia-fiscal
+  termo: Estratégia fiscal
+  ingles: Fiscal strategy
+  definicao: Abordagem do Governo à receita, despesa, saldo fiscal, dívida e riscos fiscais
+    ao longo de um horizonte definido.
+  ligar: false
+  variantes: []
+- id: g-execucao-efectiva
+  termo: Execução efectiva
+  ingles: Outturn | Execução efectiva / resultado realizado
+  definicao: Receita, despesa ou transferência efectivamente realizada num período, comparada
+    com o valor orçamentado ou previsto.
+  ligar: false
+  variantes: []
+- id: g-execucao-orcamental
+  termo: Execução orçamental
+  ingles: Budget execution
+  definicao: Fase em que o orçamento aprovado é implementado por meio de autorização, compromisso,
+    verificação, pagamento e contabilização. Na saúde, deve permitir a utilização atempada dos
+    recursos, de acordo com as prioridades e necessidades dos serviços.
+  ligar: false
+  variantes: []
+- id: g-execucao-por-composicao
+  termo: Execução por composição
+  ingles: Expenditure composition outturn
+  definicao: Comparação entre a composição efectiva da despesa e o orçamento original aprovado,
+    por função, instituição ou categoria económica.
+  ligar: false
+  variantes: []
+- id: g-factor-determinante-de-custo
+  termo: Factor determinante de custo
+  ingles: Cost driver
+  definicao: Factor que influencia materialmente o custo de um serviço ou intervenção, como
+    a população, as normas de pessoal, os preços ou a utilização.
+  ligar: false
+  variantes: []
+- id: g-fia
+  termo: FIA
+  ingles: Fiscal incidence analysis | FIA / análise de incidência fiscal
+  definicao: Análise dos efeitos de impostos, transferências, subsídios e serviços públicos
+    sobre o rendimento e a distribuição entre as famílias.
+  ligar: false
+  variantes: []
+- id: g-fiabilidade-orcamental
+  termo: Fiabilidade orçamental
+  ingles: Budget reliability
+  definicao: Conceito do PEFA que avalia se o orçamento é realista e executado conforme aprovado,
+    comparando a execução efectiva com o orçamento original aprovado.
+  ligar: false
+  variantes: []
+- id: g-financas-publicas
+  termo: Finanças públicas
+  ingles: Public Finance
+  definicao: Domínio relativo às decisões de política pública sobre a mobilização de receitas,
+    os níveis e a composição agregada da despesa, o saldo orçamental e o financiamento. O FinHealth
+    2.0 distingue estas decisões dos sistemas, regras e instituições de GFP utilizados para
+    gerir, executar e contabilizar os recursos.
+  ligar: false
+  variantes: []
+- id: g-financiamento-baseado-em-resultados
+  termo: Financiamento baseado em resultados
+  ingles: Results-Based Financing, RBF
+  definicao: Abordagem em que pagamentos ou desembolsos dependem do alcance e verificação de
+    resultados previamente definidos.
+  ligar: false
+  variantes: []
+- id: g-financiamento-baseado-no-desempenho
+  termo: Financiamento baseado no desempenho
+  ingles: Performance-Based Financing, PBF
+  definicao: Mecanismo em que parte do financiamento ou do pagamento está vinculada ao alcance
+    verificado de indicadores ou resultados previamente definidos.
+  ligar: false
+  variantes: []
+- id: g-financiamento-da-saude
+  termo: Financiamento da saúde
+  ingles: Health financing
+  definicao: Funções e mecanismos por meio dos quais os recursos para a saúde são mobilizados,
+    agregados e utilizados na aquisição de serviços.
+  ligar: false
+  variantes: []
+- id: g-financiamento-externo
+  termo: Financiamento externo
+  ingles: External financing
+  definicao: Recursos provenientes de fora da base doméstica de receitas públicas, incluindo
+    subvenções e empréstimos externos.
+  ligar: false
+  variantes: []
+- id: g-fluxo-de-fundos
+  termo: Fluxo de fundos
+  ingles: Flow of funds
+  definicao: Percurso dos recursos desde a fonte de financiamento, passando pelos gestores e
+    intermediários, até às unidades que efectuam despesa ou prestam serviços.
+  ligar: false
+  variantes: []
+- id: g-fontes-de-financiamento-da-saude
+  termo: Fontes de financiamento da saúde
+  ingles: Health Financing Sources
+  definicao: Origem dos recursos utilizados para financiar a saúde, incluindo receitas públicas
+    domésticas, contribuições, pagamentos das famílias e financiamento externo.
+  ligar: false
+  variantes: []
+- id: g-fora-do-orcamento
+  termo: Fora do orçamento
+  ingles: Off budget
+  definicao: Financiamento ou despesa não incluído na documentação orçamental ou nas autorizações
+    orçamentais do Governo.
+  ligar: false
+  variantes: []
+- id: g-formulacao-orcamental
+  termo: Formulação orçamental
+  ingles: Budget formulation
+  definicao: Processo de tradução das previsões fiscais, prioridades de política, planos e custos
+    numa proposta orçamental.
+  ligar: false
+  variantes: []
+- id: g-gestao-da-cadeia-de-abastecimento
+  termo: Gestão da cadeia de abastecimento
+  ingles: Supply Chain Management, SCM
+  definicao: Planeamento e gestão do fluxo de produtos, informação e recursos desde os fornecedores
+    até ao ponto de utilização; na saúde, é crítica para medicamentos, vacinas e consumíveis.
+  ligar: false
+  variantes: []
+- id: g-gestao-das-financas-publicas
+  termo: Gestão das Finanças Públicas
+  ingles: Public financial management | PFM / GFP
+  definicao: Leis, instituições, sistemas e processos por meio dos quais os governos planeiam,
+    orçamentam, executam, contabilizam, reportam e fiscalizam os recursos públicos.
+  ligar: false
+  variantes: []
+- id: g-gestao-de-activos
+  termo: Gestão de activos
+  ingles: Asset management
+  definicao: Processos de registo, salvaguarda, manutenção, utilização e alienação de activos
+    públicos.
+  ligar: false
+  variantes: []
+- id: g-gestao-de-tesouraria
+  termo: Gestão de tesouraria
+  ingles: Cash management
+  definicao: Gestão dos recursos de tesouraria para assegurar o pagamento das obrigações quando
+    vencem, reduzindo saldos ociosos e financiamento desnecessário.
+  ligar: false
+  variantes: []
+- id: g-gestao-do-investimento-publico
+  termo: Gestão do Investimento Público
+  ingles: Public investment management | PIM / gestão do investimento público
+  definicao: Instituições e processos que regem avaliação, selecção, orçamentação, implementação,
+    monitoria e avaliação de projectos de investimento público.
+  ligar: false
+  variantes: []
+- id: g-gestor
+  termo: Gestor
+  ingles: Fund holder | Gestor / detentor de fundos
+  definicao: Instituição que controla ou utiliza um conjunto de fundos para adquirir serviços,
+    como um ministério, um fundo de seguro ou um governo local.
+  ligar: false
+  variantes: []
+- id: g-gfp-sensivel-ao-clima
+  termo: GFP sensível ao clima
+  ingles: Climate-responsive PFM | CRPFM / GFP sensível ao clima
+  definicao: Instituições, sistemas e processos de GFP que incorporam considerações climáticas
+    ao longo do ciclo orçamental.
+  ligar: false
+  variantes: []
+- id: g-gfp-sensivel-ao-genero
+  termo: GFP sensível ao género
+  ingles: Gender-responsive PFM | GRPFM / GFP sensível ao género
+  definicao: Instituições, sistemas e processos de GFP que incorporam sistematicamente considerações
+    de género.
+  ligar: false
+  variantes: []
+- id: g-governo-geral
+  termo: Governo geral
+  ingles: General government
+  definicao: Sector institucional que compreende o Governo central, os níveis subnacionais de
+    governo e os fundos de segurança social, segundo as Estatísticas das Finanças Públicas.
+  ligar: false
+  variantes: []
+- id: g-indicador
+  termo: Indicador
+  ingles: Indicator
+  definicao: Variável quantitativa ou qualitativa utilizada para acompanhar o progresso, o desempenho,
+    os produtos, os resultados ou as mudanças.
+  ligar: false
+  variantes: []
+- id: g-inflacao
+  termo: Inflação
+  ingles: Inflation
+  definicao: Aumento generalizado do nível de preços ao longo do tempo, reduzindo o poder de
+    compra de dotações nominais quando estas não acompanham os preços.
+  ligar: false
+  variantes: []
+- id: g-informacao-de-desempenho
+  termo: Informação de desempenho
+  ingles: Performance information
+  definicao: Informação sobre produtos, resultados, indicadores e desempenho da prestação de
+    serviços, planeados e efectivamente alcançados.
+  ligar: false
+  variantes: []
+- id: g-inscrito
+  termo: Inscrito
+  ingles: On budget | Inscrito / reflectido no orçamento
+  definicao: Financiamento ou despesa formalmente incluído na documentação orçamental segundo
+    as regras nacionais. Não significa necessariamente a utilização da tesouraria, a contratação
+    pública ou a contabilidade nacional.
+  ligar: false
+  variantes: []
+- id: g-instituicao-extraorcamental
+  termo: Instituição extraorçamental
+  ingles: Extra-budgetary Institution, EBI
+  definicao: Instituição governamental cujo orçamento não está integralmente coberto pelo orçamento
+    principal e que pode gerir recursos de acordo com a legislação, os estatutos ou regras próprias.
+  ligar: false
+  variantes: []
+- id: g-instituicao-orcamental
+  termo: Instituição orçamental
+  ingles: Budgetary Institution
+  definicao: Instituição governamental cujas receitas e despesas são, em grande medida, autorizadas
+    por meio do orçamento anual e executadas segundo os processos orçamentais e de tesouraria
+    aplicáveis.
+  ligar: false
+  variantes: []
+- id: g-intermediario-de-financiamento
+  termo: Intermediário de financiamento
+  ingles: Intermediary
+  definicao: Instituição que recebe recursos de um controlador ou detentor de fundos e os canaliza
+    a utilizadores finais ou a outro intermediário.
+  ligar: false
+  variantes: []
+- id: g-lacuna-de-financiamento
+  termo: Lacuna de financiamento
+  ingles: Funding gap
+  definicao: Diferença entre as necessidades estimadas e os recursos previstos para um plano
+    e período definidos. Não é sinónimo de espaço fiscal.
+  ligar: false
+  variantes: []
+- id: g-libertacao
+  termo: Libertação
+  ingles: Release of funds | Libertação / disponibilização de fundos
+  definicao: Acto administrativo ou de tesouraria que torna recursos autorizados disponíveis
+    para compromisso ou pagamento durante a execução.
+  ligar: false
+  variantes: []
+- id: g-limite-de-compromisso
+  termo: Limite de compromisso
+  ingles: Commitment ceiling
+  definicao: Limite, durante o exercício, ao montante que uma unidade pode comprometer.
+  ligar: false
+  variantes: []
+- id: g-liquidez
+  termo: Liquidez
+  ingles: Liquidity
+  definicao: Disponibilidade de recursos de caixa suficientes para cumprir obrigações à medida
+    que vencem.
+  ligar: false
+  variantes: []
+- id: g-mapeamento-dos-fluxos-de-financiamento
+  termo: Mapeamento dos fluxos de financiamento
+  ingles: Funding Flow Mapping
+  definicao: Processo de identificar e representar como os recursos, por meio de eventuais intermediários,
+    passam dos controladores de fundos até às entidades que os utilizam para prestar serviços
+    ou executar outras funções.
+  ligar: false
+  variantes: []
+- id: g-marcacao
+  termo: Marcação
+  ingles: Budget tagging | Marcação / etiquetagem orçamental
+  definicao: Método para identificar e acompanhar rubricas orçamentais associadas a um objectivo
+    transversal, como o clima ou o género.
+  ligar: false
+  variantes: []
+- id: g-massa-salarial
+  termo: Massa salarial
+  ingles: Wage bill
+  definicao: Despesa total do Governo com remuneração dos trabalhadores, incluindo salários
+    e, conforme aplicável, subsídios e contribuições do empregador.
+  ligar: false
+  variantes: []
+- id: g-mobilizacao
+  termo: Mobilização
+  ingles: Revenue raising | Mobilização / arrecadação de receitas para saúde
+  definicao: Função do financiamento da saúde relativa à forma como os recursos são mobilizados
+    junto às famílias, empresas, governo e fontes externas.
+  ligar: false
+  variantes: []
+- id: g-mobilizacao-de-recursos-domesticos
+  termo: Mobilização de recursos domésticos
+  ingles: Domestic resource mobilization
+  definicao: Esforços do governo para mobilizar receitas domésticas sustentáveis, incluindo
+    receitas fiscais e não fiscais.
+  ligar: false
+  variantes: []
+- id: g-monitoria-e-avaliacao
+  termo: Monitoria e avaliação
+  ingles: Monitoring and Evaluation, M&E
+  definicao: Recolha e análise sistemáticas de informação para acompanhar a implementação, o
+    desempenho, os resultados e os efeitos.
+  ligar: false
+  variantes: []
+- id: g-oop
+  termo: OOP
+  ingles: Out-of-pocket expenditure | OOP / despesa directa das famílias
+  definicao: Pagamentos efectuados directamente pelas famílias aos prestadores no momento da
+    utilização de bens ou serviços de saúde, sem reembolso por terceiro.
+  ligar: false
+  variantes: []
+- id: g-orcamentacao-baseada-em-insumos
+  termo: Orçamentação baseada em insumos
+  ingles: Input-based Budgeting
+  definicao: Abordagem que estrutura o orçamento principalmente em torno dos recursos necessários,
+    como pessoal, bens, equipamento e fornecimentos.
+  ligar: false
+  variantes: []
+- id: g-orcamentacao-de-base-zero
+  termo: Orçamentação de base zero
+  ingles: Zero-Based Budgeting, ZBB
+  definicao: Método em que as despesas devem ser justificadas a partir de uma base zero em cada
+    novo período, em vez de serem automaticamente construídas sobre dotações históricas.
+  ligar: false
+  variantes: []
+- id: g-orcamentacao-plurianual
+  termo: Orçamentação plurianual
+  ingles: Multi-Year Budgeting
+  definicao: Planeamento e apresentação de estimativas orçamentais para mais de um exercício,
+    permitindo avaliar as implicações futuras das decisões actuais.
+  ligar: false
+  variantes: []
+- id: g-orcamentacao-por-desempenho
+  termo: Orçamentação por desempenho
+  ingles: Performance budgeting
+  definicao: Utilização de informação sobre objectivos, produtos e resultados para informar
+    as decisões orçamentais e a responsabilização.
+  ligar: false
+  variantes: []
+- id: g-orcamentacao-por-programas
+  termo: Orçamentação por programas
+  ingles: Programme-Based Budgeting
+  definicao: Estruturação do orçamento em torno de programas e objectivos de política, ligando
+    recursos, actividades, produtos e resultados.
+  ligar: false
+  variantes: []
+- id: g-orcamentacao-por-rubricas
+  termo: Orçamentação por rubricas
+  ingles: Line-item Budgeting
+  definicao: Estrutura orçamental que apresenta e controla a despesa por rubricas ou categorias
+    de insumos.
+  ligar: false
+  variantes: []
+- id: g-orcamentacao-sensivel-ao-genero
+  termo: Orçamentação sensível ao género
+  ingles: Gender responsive budgeting | GRB / orçamentação sensível ao género
+  definicao: Integração da análise de género nas decisões fiscais e orçamentais ao longo do
+    planeamento, da alocação, da execução, do reporte e da avaliação.
+  ligar: false
+  variantes: []
+- id: g-orcamento
+  termo: Orçamento
+  ingles: Budget
+  definicao: Plano autorizado pelo Governo para a mobilização, alocação e utilização de recursos
+    públicos durante um período definido.
+  ligar: false
+  variantes: []
+- id: g-orcamento-original-aprovado
+  termo: Orçamento original aprovado
+  ingles: Original approved budget
+  definicao: Orçamento inicialmente aprovado pelo órgão legislativo no início do exercício,
+    antes de eventuais ajustes ao longo do ano.
+  ligar: false
+  variantes: []
+- id: g-orcamento-revisto
+  termo: Orçamento revisto
+  ingles: Revised budget
+  definicao: Orçamento resultante de alterações legalmente autorizadas ao orçamento original
+    aprovado durante o exercício.
+  ligar: false
+  variantes: []
+- id: g-orcamento-suplementar
+  termo: Orçamento suplementar
+  ingles: Supplementary budget | Orçamento suplementar / rectificativo
+  definicao: Alteração formal, durante o exercício, que modifica o orçamento legalmente autorizado
+    por meio do processo de aprovação aplicável.
+  ligar: false
+  variantes: []
+- id: g-pagamento
+  termo: Pagamento
+  ingles: Payment
+  definicao: Liquidação de uma obrigação, verificada por meio de transferência de caixa ou de
+    outro meio de liquidação aceito.
+  ligar: false
+  variantes: []
+- id: g-pagamento-a-prestadores
+  termo: Pagamento a prestadores
+  ingles: Provider payment
+  definicao: Métodos utilizados por um comprador para transferir recursos aos prestadores, como
+    orçamento por rubricas, capitação, pagamento por caso ou pagamento por acto.
+  ligar: false
+  variantes: []
+- id: g-parceria-publico-privada
+  termo: Parceria Público-Privada
+  ingles: Public-private partnership | PPP
+  definicao: Acordo contratual de longo prazo em que uma parte privada fornece um activo ou
+    serviço e assume riscos especificados, podendo gerar pagamentos públicos futuros ou passivos
+    contingentes.
+  ligar: false
+  variantes: []
+- id: g-partilha-de-riscos
+  termo: Partilha de riscos
+  ingles: Risk Pooling
+  definicao: Agregação de riscos financeiros entre muitas pessoas para reduzir a exposição individual
+    aos custos de saúde.
+  ligar: false
+  variantes: []
+- id: g-passivo-contingente
+  termo: Passivo contingente
+  ingles: Contingent liability
+  definicao: Obrigação fiscal potencial cuja existência ou montante depende de um acontecimento
+    futuro, como a execução de uma garantia.
+  ligar: false
+  variantes: []
+- id: g-pefa
+  termo: PEFA
+  ingles: Public Expenditure and Financial Accountability
+  definicao: Quadro de avaliação baseado em evidências do desempenho da GFP, estruturado em
+    sete pilares e 31 indicadores, e orientado para a disciplina fiscal agregada, a alocação
+    estratégica de recursos e a prestação eficiente de serviços.
+  ligar: false
+  variantes: []
+- id: g-plano-de-contas
+  termo: Plano de contas
+  ingles: Chart of accounts
+  definicao: Estrutura de códigos utilizada para registar e classificar transacções financeiras
+    no sistema contabilístico.
+  ligar: false
+  variantes: []
+- id: g-politica-fiscal
+  termo: Política fiscal
+  ingles: Fiscal Policy
+  definicao: Decisões do Governo sobre receitas, despesas, saldo, financiamento e dívida que
+    influenciam a economia e o espaço disponível para políticas sectoriais.
+  ligar: false
+  variantes: []
+- id: g-prestacao-de-servicos
+  termo: Prestação de serviços
+  ingles: Service delivery
+  definicao: Programas ou serviços prestados ao público em geral ou a grupos-alvo utilizando
+    recursos públicos, incluindo cuidados de saúde.
+  ligar: false
+  variantes: []
+- id: g-prestacao-de-servicos-de-saude
+  termo: Prestação de serviços de saúde
+  ingles: Health service delivery
+  definicao: Prestação de serviços de saúde à população por meio de unidades sanitárias, plataformas
+    comunitárias e outros mecanismos de prestação.
+  ligar: false
+  variantes: []
+- id: g-prestador-de-servicos
+  termo: Prestador de serviços
+  ingles: Provider
+  definicao: Organização ou profissional que presta serviços de saúde, como hospital, centro
+    de saúde, clínica ou prestador contratado.
+  ligar: false
+  variantes: []
+- id: g-previsao-de-tesouraria
+  termo: Previsão de tesouraria
+  ingles: Cash forecasting
+  definicao: Projecção das entradas e saídas de caixa previstas para apoiar decisões atempadas
+    de financiamento e pagamento.
+  ligar: false
+  variantes: []
+- id: g-problema-de-prestacao-de-servicos-de-saude
+  termo: Problema de prestação de serviços de saúde
+  ingles: Health Service Problem
+  definicao: Lacuna, deficiência ou desigualdade observável na disponibilidade, acessibilidade,
+    qualidade ou segurança dos cuidados que impede as pessoas de receber os serviços necessários.
+    Descreve o que não está a funcionar, e não a sua causa.
+  ligar: false
+  variantes: []
+- id: g-produto
+  termo: Produto
+  ingles: Output
+  definicao: Bem, serviço ou resultado imediato directamente produzido pelas actividades de
+    um programa ou instituição.
+  ligar: false
+  variantes: []
+- id: g-proteccao-financeira
+  termo: Protecção financeira
+  ingles: Financial protection
+  definicao: 'Protecção das famílias contra dificuldades financeiras decorrentes do pagamento
+    de serviços de saúde. Q Quadro de Despesa de Médio Prazo (Medium-term expenditure framework
+    | MTEF / Quadro de Despesa de Médio Prazo; CFMP in Mozambique): Quadro que liga previsões
+    macrofiscais, tectos de despesa de médio prazo e prioridades sectoriais ao longo de vários
+    anos. Em Moçambique, o CFMP é uma referência nacional específica.'
+  ligar: false
+  variantes: []
+- id: g-quadro-fiscal-de-medio-prazo
+  termo: Quadro Fiscal de Médio Prazo
+  ingles: Medium-term fiscal framework | MTFF / quadro fiscal de médio prazo
+  definicao: Projecções de médio prazo de receitas, despesas, saldo, financiamento e dívida,
+    baseadas em pressupostos explicitados.
+  ligar: false
+  variantes: []
+- id: g-quadro-legal-da-gfp
+  termo: Quadro legal da GFP
+  ingles: Legal Framework for PFM
+  definicao: Conjunto de leis, regulamentos e normas que regem as receitas, o orçamento, a execução,
+    a tesouraria, a contratação, a contabilidade, o reporte, a dívida, a auditoria e a fiscalização.
+  ligar: false
+  variantes: []
+- id: g-racionamento-de-caixa
+  termo: Racionamento de caixa
+  ingles: Cash rationing
+  definicao: Restrição ou priorização administrativa de pagamentos quando a liquidez disponível
+    é insuficiente para cobrir as despesas previstas.
+  ligar: false
+  variantes: []
+- id: g-rastreamento-da-despesa
+  termo: Rastreamento da despesa
+  ingles: Expenditure Tracking
+  definicao: Acompanhamento dos recursos desde a dotação e libertação até à utilização e, quando
+    possível, à unidade de prestação de serviços.
+  ligar: false
+  variantes: []
+- id: g-realocacao-orcamental
+  termo: Realocação orçamental
+  ingles: Reallocation
+  definicao: Movimentação autorizada de recursos orçament ários entre rubricas, programas ou
+    instituições.
+  ligar: false
+  variantes: []
+- id: g-receita
+  termo: Receita
+  ingles: Revenue
+  definicao: Rendimento público proveniente de impostos, taxas, subvenções e outras fontes,
+    conforme o quadro fiscal aplicável.
+  ligar: false
+  variantes: []
+- id: g-recomendacao-accionavel
+  termo: Recomendação accionável
+  ingles: Actionable Recommendation
+  definicao: Acção concreta destinada a resolver um constrangimento de GFP relevante para um
+    problema de prestação de serviços, considerando o impacto, a viabilidade, as responsabilidades
+    e o sequenciamento.
+  ligar: false
+  variantes: []
+- id: g-recursos-humanos-para-a-saude
+  termo: Recursos humanos para a saúde
+  ingles: Human Resources for Health, HRH
+  definicao: Pessoas que prestam ou apoiam a prestação de serviços de saúde, incluindo profissionais
+    clínicos, comunitários, técnicos, gestores e pessoal de apoio.
+  ligar: false
+  variantes: []
+- id: g-reserva-de-contingencia
+  termo: Reserva de contingência
+  ingles: Contingency reserve
+  definicao: Dotação reservada para necessidades de despesa imprevistas ou incertas, utilizada
+    durante o exercício segundo regras definidas.
+  ligar: false
+  variantes: []
+- id: g-responsabilizacao
+  termo: Responsabilização
+  ingles: Accountability | Responsabilização / prestação de contas
+  definicao: Obrigação de explicar, justificar e assumir responsabilidade pelas decisões, pela
+    utilização dos recursos e pelos resultados.
+  ligar: false
+  variantes: []
+- id: g-resultado
+  termo: Resultado
+  ingles: Outcome
+  definicao: Mudança de médio ou longo prazo associada a actividades e produtos, como a melhoria
+    da cobertura, da qualidade, da protecção financeira ou do estado de saúde.
+  ligar: false
+  variantes: []
+- id: g-revisao-da-despesa-publica
+  termo: Revisão da Despesa Pública
+  ingles: Public Expenditure Review | PER
+  definicao: Análise do nível, composição, eficiência, equidade e gestão institucional da despesa
+    pública.
+  ligar: false
+  variantes: []
+- id: g-rigidez-das-dotacoes-orcamentais
+  termo: Rigidez das dotações orçamentais
+  ingles: Budget Appropriation Rigidity
+  definicao: Situação em que a classificação orçamental, as regras de transferência entre rubricas
+    ou a natureza anual das autorizações dificultam a adaptação dos recursos às necessidades
+    operacionais legítimas durante a execução orçamental.
+  ligar: false
+  variantes: []
+- id: g-risco-fiduciario
+  termo: Risco fiduciário
+  ingles: Fiduciary Risk
+  definicao: Risco de os recursos não serem utilizados para os fins previstos, não alcançarem
+    valor adequado ou não serem devidamente contabilizados devido a fraude, corrupção, erro,
+    má gestão ou fragilidades dos sistemas.
+  ligar: false
+  variantes: []
+- id: g-risco-fiscal
+  termo: Risco fiscal
+  ingles: Fiscal risk
+  definicao: Possibilidade de os resultados fiscais divergir das previsões devido a choques,
+    passivos contingentes, empresas públicas, PPPs, desastres ou outras exposições.
+  ligar: false
+  variantes: []
+- id: g-sai
+  termo: SAI
+  ingles: Supreme audit institution | SAI / Instituição Superior de Controlo
+  definicao: Órgão público independente responsável pela auditoria externa das finanças públicas.
+    A designação institucional concreta deve seguir a terminologia vigente em Angola ou Moçambique.
+  ligar: false
+  variantes: []
+- id: g-seguro-social-de-saude
+  termo: Seguro social de saúde
+  ingles: Social Health Insurance, SHI
+  definicao: Mecanismo de seguro de saúde financiado principalmente por contribuições obrigatórias
+    de trabalhadores e empregadores e, em alguns sistemas, por subsídios públicos.
+  ligar: false
+  variantes: []
+- id: g-servico-da-divida
+  termo: Serviço da dívida
+  ingles: Debt Service
+  definicao: Pagamentos de capital, juros e outros encargos de dívida devidos num período determinado.
+  ligar: false
+  variantes: []
+- id: g-sistema-de-contas-de-saude-2011
+  termo: Sistema de Contas de Saúde 2011
+  ingles: System of Health Accounts 2011 | SHA 2011
+  definicao: Norma estatística internacional para classificar e reportar a despesa em saúde
+    segundo o financiamento, o prestador e a função.
+  ligar: false
+  variantes: []
+- id: g-sistema-de-informacao-de-gestao-financeira
+  termo: Sistema de Informação de Gestão Financeira
+  ingles: Financial management information system | FMIS / IFMIS; e SISTAFE in Moçambique
+  definicao: Sistema de informação que apoia execução orçamental, contabilidade, tesouraria,
+    reporte e outros processos de gestão financeira. Em Moçambique, o e SISTAFE é uma referência
+    nacional específica.
+  ligar: false
+  variantes: []
+- id: g-suplementacao-orcamental
+  termo: Suplementação orçamental
+  ingles: Budget Supplementation
+  definicao: Mecanismo para acrescentar recursos a uma dotação durante o exercício, por exemplo,
+    através de orçamento suplementar ou acesso a reservas de contingência, segundo as regras
+    nacionais.
+  ligar: false
+  variantes: []
+- id: g-sustentabilidade-da-divida
+  termo: Sustentabilidade da dívida
+  ingles: Debt sustainability
+  definicao: Capacidade do Governo de cumprir as obrigações de dívida presentes e futuras, sem
+    ajustamentos fiscais irrealistas ou incumprimento.
+  ligar: false
+  variantes: []
+- id: g-taxa-de-execucao-orcamental
+  termo: Taxa de execução orçamental
+  ingles: Budget execution rate
+  definicao: Rácio entre a despesa efectivamente realizada e uma base orçamental indicada, normalmente
+    o orçamento original ou revisto. Devem ser identificados o denominador e a fase da despesa.
+  ligar: false
+  variantes: []
+- id: g-taxa-de-utilizacao
+  termo: Taxa de utilização
+  ingles: Utilization Rate
+  definicao: Medida da utilização de um serviço de saúde por uma população durante um período
+    definido.
+  ligar: false
+  variantes: []
+- id: g-taxas-moderadoras-taxas-de-utilizacao
+  termo: Taxas moderadoras / taxas de utilização
+  ingles: User Fees
+  definicao: Encargos cobrados directamente aos utilizadores de serviços públicos de saúde;
+    podem afectar acesso, utilização e protecção financeira.
+  ligar: false
+  variantes: []
+- id: g-tecto-orcamental
+  termo: Tecto orçamental
+  ingles: Budget ceiling
+  definicao: Limite máximo comunicado a um ministério, programa ou unidade orçamental para preparação
+    do orçamento ou assunção de compromissos.
+  ligar: false
+  variantes: []
+- id: g-transferencia
+  termo: Transferência
+  ingles: Virement | Transferência / redistribuição orçamental
+  definicao: Movimentação autorizada de dotação entre rubricas ou outras classificações orçamentais
+    durante a execução.
+  ligar: false
+  variantes: []
+- id: g-transferencias-intergovernamentais
+  termo: Transferências intergovernamentais
+  ingles: Intergovernmental Transfers
+  definicao: Recursos transferidos entre diferentes níveis de governo, de forma geral ou condicionada,
+    para financiar responsabilidades e serviços públicos.
+  ligar: false
+  variantes: []
+- id: g-transferencias-orcamentais-para-compradores
+  termo: Transferências orçamentais para compradores
+  ingles: Budgetary Transfers to Purchasers
+  definicao: Transferências do orçamento público a entidades que compram serviços de saúde.
+    A sua previsibilidade, suficiência, estrutura e responsabilização influenciam a capacidade
+    do comprador de pagar prestadores e cumprir o seu mandato.
+  ligar: false
+  variantes: []
+- id: g-transparencia-fiscal
+  termo: Transparência fiscal
+  ingles: Fiscal transparency
+  definicao: Divulgação abrangente, atempada, fiável e acessível da posição fiscal, dos riscos,
+    das previsões e dos resultados do Governo.
+  ligar: false
+  variantes: []
+- id: g-transparencia-orcamental
+  termo: Transparência orçamental
+  ingles: Budget transparency
+  definicao: Disponibilidade pública, abrangência, tempestividade e acessibilidade da informação
+    sobre decisões e execução orçamental.
+  ligar: false
+  variantes: []
+- id: g-trilho-de-auditoria
+  termo: Trilho de auditoria
+  ingles: Audit trail
+  definicao: Sequência documental que permite seguir uma transacção desde a autorização até
+    ao pagamento, à contabilização e ao reporte.
+  ligar: false
+  variantes: []
+- id: g-unidade
+  termo: Unidade
+  ingles: Extrabudgetary unit | Unidade / entidade extraorçamental
+  definicao: Entidade ou operação pública fora do orçamento principal do Governo central orçamental,
+    mas incluída no perímetro mais amplo do Governo geral segundo as definições aplicáveis.
+  ligar: false
+  variantes: []
+- id: g-unidade-de-prestacao-de-servicos
+  termo: Unidade de prestação de serviços
+  ingles: Service delivery unit
+  definicao: Unidade orçamental ou extraorçamental que presta directamente serviços aos utilizadores.
+  ligar: false
+  variantes: []
+- id: g-unidade-de-prestacao-de-servicos-de-primeira-linha
+  termo: Unidade de prestação de serviços de primeira linha
+  ingles: Frontline service delivery unit
+  definicao: Unidade orçamental ou extraorçamental que presta directamente serviços aos utilizadores,
+    como uma unidade sanitária de cuidados primários.
+  ligar: false
+  variantes: []
+- id: g-unidade-executora-unidade-de-despesa
+  termo: Unidade executora / unidade de despesa
+  ingles: Spending Unit
+  definicao: Entidade que executa o orçamento, incorre em despesas e utiliza recursos de acordo
+    com as regras aplicáveis.
+  ligar: false
+  variantes: []
+- id: g-utilizador-final-dos-fundos
+  termo: Utilizador final dos fundos
+  ingles: Final User
+  definicao: Instituição que utiliza os recursos para prestar serviços ou desempenhar outras
+    funções finais, em vez de os transferir para outra entidade.
+  ligar: false
+  variantes: []
+- id: g-valor-pelo-dinheiro-relacao-custo-beneficio
+  termo: Valor pelo dinheiro / relação custo-benefício
+  ingles: Value for money | VfM / relação custo - benefício em sentido amplo
+  definicao: Utilização dos recursos tendo em conta economia, eficiência e eficácia.
+  ligar: false
+  variantes: []
+- id: g-verificacao
+  termo: Verificação
+  ingles: Verification
+  definicao: Confirmação de que os bens ou serviços foram entregues ou prestados conforme exigido
+    antes da autorização do pagamento.
+  ligar: false
+  variantes: []
+- id: g-via-de-financiamento
+  termo: Via de financiamento
+  ingles: Funding Pathway
+  definicao: Percurso institucional e financeiro através do qual uma fonte de recursos chega
+    às entidades executoras ou utilizadores finais, incluindo os controlos e regras aplicáveis.
+  ligar: false
+  variantes: []
