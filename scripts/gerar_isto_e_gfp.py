@@ -163,6 +163,20 @@ def svg():
     return "\n".join(p)
 
 
+def arejar(linhas):
+    """Garante uma linha em branco antes de cada título.
+
+    Um `## Título` logo a seguir a um item de lista, sem linha em branco no
+    meio, não é lido como título: fica texto do item.
+    """
+    out = []
+    for l in linhas:
+        if l.lstrip().startswith("#") and out and out[-1].strip():
+            out.append("")
+        out.append(l)
+    return out
+
+
 def main():
     if FONTE is None:
         raise SystemExit("documento não encontrado em materiais_de_referencia/")
@@ -264,7 +278,7 @@ def main():
                   f"não foi inserido. Começa por: {nota[:60]!r}")
         cab.append(f"*{nota}*\n")
 
-    SAIDA.write_text("\n".join(cab + o), encoding="utf-8")
+    SAIDA.write_text("\n".join(arejar(cab + o)), encoding="utf-8")
     print(f"Escrito: {SAIDA}")
     print(f"  título: {titulo}")
     print(f"  {sum(1 for l in o if l.startswith('## '))} secções, "

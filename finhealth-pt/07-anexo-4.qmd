@@ -1,0 +1,84 @@
+---
+title: "Leituras Adicionais sobre os Gargalos de GFP"
+---
+
+**Gargalos na Preparação e Aprovação do Orçamento**
+
+**Gargalo A.1: Integração Inadequada entre Planeamento e Orçamentação**
+
+- Allen, R., M. Betley, C. Renteria, and A. Singh. 2020. "Integrating Infrastructure Planning and Budgeting." In G. Schwartz, M. Fouad, T.S. Hansen, and G. Verdier (eds.), Well Spent: How Strong Infrastructure Governance Can End Waste in Public Investment. Washington, DC: International Monetary Fund.
+- Pacific Financial Technical Assistance Centre (PFTAC). 2018. *“*Improving the Links between National (and Sector) Plans and Budgets for Sustainable Development in Pacific Island Countries: A Practical Guidance Note.” IMF.
+- Schmets, G., D. Rajan, and S. Kadandale. 2016. Strategising National Health in the 21st Century: A Handbook. Geneva: World Health Organization.
+**Gargalo A.2: Escrutínio Inadequado da Despesa**
+
+- International Monetary Fund (IMF). 2022. *PIMA Handbook: Public Investment Management Assessment*, 1st edition.
+- \_\_\_\_\_\_. 2022. “How to Design and Institutionalize Spending Reviews.”
+- Kim, J-H, J. Fallov and S. Groom. 2020. *Public Investment Management Reference Guide**.* World Bank.
+- Organisation for Economic Co-operation and Development (OECD). 2024. *OECD Best Practices for Spending Reviews: Strengthening the Impact of Spending Reviews*.
+- Rajaram, A. insert all authors. 2014. *The Power of Public Investment Management**.* World Bank.
+- Rajaram, A. insert all authors. 2010. *A Diagnostic Framework for Assessing Public Investment Management**.* World Bank.
+- Robinson, M. 2013. "Spending Review." *OECD Journal on Budgeting*(2): page numbers?.
+- Tallercio, R. and E. Estrada. 2020. “Best Practices in Project Appraisal and Selection” in G. Schwartz et al. (ed), *Well Spent: How Strong Infrastructure Governance Can End Waste in Public* *Investment**.* International Monetary Fund.
+**Gargalo A.3: Não Utilização de uma [Classificação Programática](../glossario.qmd#g-classificacao-programatica) Adequada na Orçamentação**
+
+- Barroy, H., M. Blecher and J. Lakin (ed). 2022. *How to Make Budgets Work for Health? A Practical Guide to Designing, Managing and Monitoring Program Budgets in the Health Sector**.* World Health Organization.
+- Brumby, J., A. Hashim and M. Piatti-Fünfkirchen. 2022. *Introducing the New PBB – Pragmatic Program Budgeting**.* World Bank.
+- World Health Organization (WHO). 2025. *Program-based Budgeting for Primary-Care Financing: Insights for Practitioners**.* World Health Organization.
+**Gargalo A.4: Os Métodos de Financiamento das Unidades Sanitárias não Promovem a Eficiência Operacional nem a Eficácia**
+
+- Cashin, C. 2017. *Aligning Public Financial Management and Health Financing: Sustaining Progress Toward Universal Health Coverage.* World Health Organization.
+- World Health Organization (WHO). 2022. *Direct Facility Financing: Concept and Role for UHC*, World Health Organization.
+**Gargalo A.5: As Implicações Plurianuais de Custos não são Devidamente Consideradas nas Decisões de Despesa Orçamental**
+
+- Kim, J-H, J. Fallov and S. Groom. 2020. *Public Investment Management Reference Guide*, World Bank. Rahim, F., C. Wendling and E. Pedastsaar. 2022. “How to Prepare Expenditure Baselines*.”* IMF.
+- Sarraf, F. 2005*.* “Integration of Recurrent and Capital “Development” Budgets: Issues, Problems, Country Experiences, and the Way Forward.” World Bank.
+- World Bank. 1998. *Public Expenditure Management Handbook**.* World Bank.
+**Gargalo A.6: Falta de [Credibilidade Orçamental](../glossario.qmd#g-credibilidade-orcamental)**
+
+- di Renzio, P., J. Lakin and C. Cho. 2019. “Budget Credibility across Countries.” International Budget Partnership.
+- Pattanayak, S. 2016. “Expenditure Control: Key Features, Stages, and Actors.” IMF.
+**Gargalo A.7: [Rigidez das Dotações Orçamentais](../glossario.qmd#g-rigidez-das-dotacoes-orcamentais)**
+
+- Robinson, M. 2011. “Program Appropriation and Expenditure Control,” in *Performance-Based Budgeting Manual*. CLEAR.
+- Saxena, S. and S. Yläoutinen. 2016. “Managing Budgetary Virements.” IMF.
+- World Health Organization and World Bank. 2025. “Budget execution in health: From bottlenecks to solutions.” World Bank.
+**Gargalo A.8: Não Aplicação Adequada de Normas de Serviço (por exemplo, Capitação) na Alocação dos Fundos da Saúde**
+
+- Cashin, C. 2017. *Aligning Public Financial Management and Health Financing: Sustaining Progress Toward Universal Health Coverage**.* World Health Organization.
+**Gargalos na [Execução Orçamental](../glossario.qmd#g-execucao-orcamental)**
+
+**Gargalo B.1: Dificuldades no [Fluxo de Fundos](../glossario.qmd#g-fluxo-de-fundos)**
+
+- Pattanayak, S. 2016. *Expenditure Control: Key Features, Stages, and Actors*. IMF.
+- World Health Organization and World Bank. 2025. “Budget execution in health: From bottlenecks to solutions.” World Bank.
+**Gargalo B.2: Controlos Frágeis da Execução Orçamental**
+
+- World Health Organization and World Bank. 2025. “Budget execution in health: From bottlenecks to solutions.” World Bank.
+**Gargalo B.3: Fragilidades no Processo de [Contratação Pública](../glossario.qmd#g-contratacao-publica)**
+
+- \[Ver o módulo de contratação pública\].
+**Gargalo B.4: [Gestão do Investimento Público](../glossario.qmd#g-gestao-do-investimento-publico)**
+
+- \[Ver o módulo de gestão do investimento público\].
+**Gargalo B.5: [Suplementação Orçamental](../glossario.qmd#g-suplementacao-orcamental) Demasiado Difícil de Obter**
+
+- World Health Organization and World Bank. 2025. “Budget execution in health: From bottlenecks to solutions.” World Bank.
+**Gargalo B.6: Gestão Frágil dos Contratos de Projectos de Investimento**
+
+- Kim, J-H, J. Fallov and S. Groom. 2020. *Public Investment Management Reference Guide**.* World Bank.
+**Gargalo B.7: Má Gestão da Folha Salarial**
+
+- World Bank. Year.?  *Public Employment Management Handbook.*
+- \_\_\_\_\_\_. Year.? *Wage Bill Diagnostic Guidance.*
+**Gargalo B.7: Múltiplos Requisitos de GFP Associados a Diferentes Fontes de Financiamento**
+
+- Barroy, H., G. Kabaniha, C. Boudreaux, T. Cammack, and N. Bain. 2019. “Leveraging Public Financial Management for Better Health in Africa: Key Bottlenecks and Opportunities for Reform.” Health Financing Working Paper No. 19.2. Geneva: World Health Organization.
+- World Health Organization Regional Office for South East Asia (SEARO). 2023. “Leveraging public financial management for universal health coverage in the WHO South-East Asia Region: A Regional Synthesis Report.”
+**Gargalos no Reporte Ex Post, na Auditoria e na Avaliação**
+
+**Gargalo C.1: Reporte Financeiro Ex Post Pouco Fiável**
+
+- World Health Organization and World Bank. 2025. “Budget execution in health: From bottlenecks to solutions.” World Bank.
+**GARGALO C.2: [Monitoria e Avaliação](../glossario.qmd#g-monitoria-e-avaliacao) de Resultados Inexistentes ou Frágeis**
+
+- World Health Organization and World Bank. 2025. “Budget execution in health: from bottlenecks to solutions.” World Bank

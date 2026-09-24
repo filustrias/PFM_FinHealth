@@ -25,6 +25,16 @@ book:
         - finhealth-apresentacao.qmd
         - finhealth-tabela-2-2.qmd
         - finhealth-caso-timor.qmd
+    - part: "FinHealth 2.0 (Português)"
+      chapters:
+        - finhealth-pt/01-introducao.qmd
+        - finhealth-pt/02-realizacao-avaliacao.qmd
+        - finhealth-pt/03-gargalos.qmd
+        - finhealth-pt/04-anexo-1.qmd
+        - finhealth-pt/05-anexo-2.qmd
+        - finhealth-pt/06-anexo-3.qmd
+        - finhealth-pt/07-anexo-4.qmd
+        - problemas-de-traducao.qmd
     - glossario.qmd
     # - part: "PFM em Angola"
     #   chapters:

@@ -9,19 +9,23 @@ subtitle: "Tradução integral do artigo de Andrews e colegas, 2014"
 
 **Julho de 2014**
 
+
 ## Resumo
 
 A sigla "GFP" refere-se à Gestão das Finanças Públicas (*Public Financial Management*): mas o que é, afinal, a gestão das finanças públicas? Esta breve nota procura desmistificar o conceito, baseando-se nas perspectivas de especialistas da área que actuam em contextos diversos e trazem visões distintas (do meio académico, de agências de desenvolvimento multilaterais e bilaterais, centros de estudos e reflexão (*think tanks*), governo e sociedade civil). O documento não pretende ser prescritivo, mas oferecer um ponto de partida para uma discussão mais abrangente sobre os elementos constitutivos dos sistemas de GFP, como e por que surgiram as reformas de GFP e onde se encontram as lacunas que exigem atenção futura.
 
 ¹ *Harvard Kennedy School*, Fundo Monetário Internacional, *Collaborative Africa Budget Reform Initiative* (CABRI), *International Budget Partnership*, *Overseas Development Institute* e Banco Mundial, respectivamente. Este artigo não reflecte as opiniões ou políticas de nenhuma destas organizações nem de qualquer outra entidade aqui mencionada.
 
+
 ## Introdução
 
 A GFP diz respeito à forma como os governos gerem os recursos públicos (tanto as receitas como as despesas) e ao impacto imediato, a médio e a longo prazos desses recursos na economia ou na sociedade. Como tal, a GFP abrange tanto os **processos** (como os governos gerem) quanto os **resultados** (as implicações de curto, médio e longo prazos dos fluxos financeiros). Este guia introdutório descreve a nossa visão sobre a GFP ao incidir sobre ambas as dimensões e oferece uma perspectiva sobre as reformas normalmente introduzidas para melhorar os sistemas de GFP. Não pretende ser um tratado exaustivo, mas uma reflexão orientada a suscitar debates mais aprofundados sobre o tema.
 
+
 ## Visão geral dos principais processos de GFP
 
 Os sistemas de GFP estão inseridos em — e são influenciados por — conjuntos mais amplos de processos, sistemas e instituições. Pense-se, por exemplo, nas regras políticas que determinam o funcionamento dos orçamentos, ou no modo como os sistemas de gestão de recursos humanos se sobrepõem à gestão das finanças públicas. Os sistemas de GFP também integram processos nacionais de políticas públicas mais amplos, responsáveis por produzir directrizes ou planos que orientam a afectação de recursos públicos. Essas influências variam entre países, tornando a GFP contextual. Não obstante as diferenças contextuais, alguns processos são comuns aos sistemas de GFP na maioria dos países. A Figura 1 ilustra estes fluxos.
+
 
 ### Figura 1. Visão simplificada de um sistema típico de GFP
 
@@ -103,6 +107,7 @@ Os procedimentos descritos constituem traços universais que caracterizam a maio
 
 - **Sobreposição de Ciclos Orçamentais:** Vários exercícios orçamentais correm em simultâneo. A auditoria externa e a prestação de contas do ano transcorrido decorrem enquanto a gestão de recursos do ano em curso está activa. Em paralelo, tem início a fase de orçamentação estratégica para o ano seguinte. A gestão das finanças públicas configura-se, assim, como uma rede de processos sobrepostos em permanente dinamismo.
 - **Pluralidade de Intervenientes e Interesses Divergentes:** Cada fase mobiliza um leque heterogéneo de entidades públicas com prioridades distintas. Enquanto as unidades orçamentais sectoriais procuram maximizar as suas dotações, o Ministério das Finanças tem a incumbência de assegurar a disciplina orçamental agregada e a contenção da despesa. Essas fricções tornam a GFP um processo inerentemente concorrencial e disputado. Organizações internacionais somam-se a este cenário em muitos países, prestando assistência técnica a reformas estruturantes e co-financiando parcelas substanciais do orçamento.
+
 ## Objectivos e funções da GFP
 
 A análise feita até aqui fornece um panorama da arquitectura dos sistemas de GFP sob a óptica processual e elucida a sua complexidade. A diversidade de arranjos institucionais entre países complexifica ainda mais o debate. Tome-se como exemplo o controlo externo: a quase totalidade dos países dispõe de um órgão de auditoria externa, mas os modelos institucionais variam, abrangendo auditorias-gerais vinculadas ao parlamento (como na África do Sul), Tribunais de Contas com jurisdição própria (como em França e nos países lusófonos) ou colegiados de auditores (como na Alemanha). Será um modelo funcionalmente superior aos demais? Mais ainda: será a existência de um auditor externo independente um requisito estritamente indispensável para evitar o desperdício, o extravio ou o descaminho de fundos públicos? Poderia a mesma finalidade ser obtida por outros meios? Tais indagações remetem a uma questão fulcral frequentemente ignorada: **"Quais são os principais objectivos e funções de um sistema de GFP?"** Em termos práticos: **"Por que motivo os países implementam estes processos?"**
@@ -141,6 +146,7 @@ Em detalhe:
 - Os alertas e recomendações emitidos pelos órgãos de auditoria externa são objecto de debate público e transparente pelos deputados, motivando medidas correctivas céleres por parte do executivo.
 Esta abordagem sobre objectivos e funcionalidades afasta-se pontualmente da visão convencional, que costuma avaliar os sistemas de GFP com base em metas agregadas de estabilidade macroeconómica, eficiência alocativa e eficiência operacional. Consideramos que as quatro dimensões funcionais aqui propostas exercem influência decisiva sobre estes três factores macro, mas reconhecemos igualmente que a estabilidade macroeconómica e a eficiência global dependem de factores exógenos (não constituindo, por isso, métricas directas e exclusivas do sistema de GFP). A disciplina fiscal, por exemplo, é impactada pela prudência orçamental, mas sofre também a influência de choques nos ciclos económicos, oscilações no sistema político, receitas voláteis de recursos naturais ou flutuações de ajuda externa. A aferição directa da GFP deve concentrar-se nos seus impactos imediatos e directos (fomentar decisões prudentes, gerar orçamentos fiáveis, garantir fluxos de pagamentos regulares e viabilizar a prestação de contas) e não nos equilíbrios macroeconómicos amplos, sobre os quais a GFP actua apenas parcialmente.
 
+
 ## Reformas de GFP
 
 Os objectivos e funcionalidades enumerados têm-se revelado difíceis de concretizar em muitos países, traduzindo-se em sistemas de GFP com baixo nível de funcionalidade operacional. Para mitigar essas fragilidades, promove-se com frequência a implementação de programas de reforma da GFP. Tais reformas definem-se como "alterações deliberadas nas instituições e normas orçamentais, destinadas a melhorar a sua qualidade e os seus resultados". Os países implementam-nas amiúde com assistência técnica e financeira de agências internacionais. Nas últimas duas décadas, o apoio financeiro externo às reformas de GFP decuplicou, saltando de cerca de 50 milhões de dólares norte-americanos em 1995 para cerca de 500 milhões de dólares nos finais da década de 2000. Apesar da diversidade dos países beneficiários, as reformas tendem a replicar um conjunto padrão de intervenções estruturantes:
@@ -160,6 +166,7 @@ Os objectivos e funcionalidades enumerados têm-se revelado difíceis de concret
 - **Normalização Contabilística e Prestação de Contas:** Modernização do Plano Geral de Contabilidade Pública, harmonização dos planos de contas e profissionalização das carreiras de contabilidade pública, aproximando os sistemas de reporte à prestação de contas no SIGFE.
 - **Reforço do Controlo Externo:** Elevação da autonomia orçamental e técnica das Instituições Superiores de Controlo (como os Tribunais de Contas), conferindo maior peso e eficácia à apreciação da Conta Geral do Estado.
 - **Transparência Orçamental e Participação Comunitária:** Dinamização do acesso público a dados orçamentais abertos, orçamentos dos cidadãos e iniciativas de auditoria social promovidas por entidades não-governamentais e parlamento.
+
 ## O que sabemos sobre os sistemas dos países?
 
 O crescente interesse pelas reformas de GFP fez-se acompanhar pelo desenvolvimento de métricas internacionais para avaliar a qualidade dos sistemas nacionais. O quadro metodológico de Despesa Pública e Responsabilização Financeira (**PEFA** — *Public Expenditure and Financial Accountability*) é a ferramenta de maior notoriedade. Concebido por um consórcio internacional de doadores, o PEFA congrega 31 indicadores que abrangem todas as etapas do ciclo orçamental, a abrangência, a transparência e a credibilidade orçamental. Destacam-se ainda a Base de Dados sobre Práticas e Procedimentos Orçamentais da OCDE, o Índice de Orçamento Aberto (*Open Budget Index* - OBI) e o Código de Transparência Fiscal do FMI.
@@ -167,6 +174,7 @@ O crescente interesse pelas reformas de GFP fez-se acompanhar pelo desenvolvimen
 Estas metodologias de avaliação tendem a concentrar-se na verificação de conformidade dos processos face àquilo que os manuais internacionais definem formalmente como **"boas práticas"**, relegando para segundo plano a averiguação da funcionalidade real gerada por essas práticas. A título de exemplo: a avaliação da qualidade dos classificadores orçamentais costuma aferir a mera conformidade formal com os padrões do FMI, ignorando se o instrumento serve pragmaticamente a formulação de políticas governamentais internas. Pontua-se o número de anos cobertos pelas projecções macrofiscais ou a existência formal de estratégias sectoriais orçamentadas, sem verificar o mérito e o impacto prático das decisões reais de alocação de verbas. Mede-se a transparência pela contagem do volume de relatórios publicados na internet, desconsiderando a utilidade concreta dessa informação para a cidadania ou para o debate institucional local.
 
 A Tabela 1 esquematiza a forma como as matrizes analíticas dominantes priorizam a verificação de conformidades formais em detrimento da funcionalidade substancial. Destaca-se a omissão quase total na averiguação dos fluxos reais de recursos e das transacções financeiras: inexistem indicadores consolidados que atestem a fiabilidade dos pagamentos de caixa, a tempestividade da contratação pública ou a liquidação regular dos salários aos servidores. Nesses domínios, os diagnósticos limitam-se a confirmar a existência nominal de leis e procedimentos enquadrados nas chamadas "boas práticas internacionais" (como a existência formal de uma lei de compras por concurso).
+
 
 ### Tabela 1. Uma visão limitada sobre a funcionalidade dos sistemas de GFP
 
@@ -198,6 +206,7 @@ A Tabela 1 esquematiza a forma como as matrizes analíticas dominantes priorizam
 Este descompasso de análise talvez não representasse um problema de maior gravidade caso existisse garantia cabal de que a adopção da "boa prática formal" assegurasse automaticamente a funcionalidade prática. Se houvesse prova irrefutável de que instituir um quadro formal de concursos públicos garantisse invariavelmente o fornecimento idóneo, célere e económico de bens e serviços, bastaria aos avaliadores aferir a conformidade legal dos procedimentos. Todavia, os dados não sustentam tal conclusão. Vale sublinhar que diversos países da OCDE operam com elevados níveis de funcionalidade substantiva sem estarem estritamente alinhados com todas essas prescrições procedimentais padronizadas. Tais economias moldaram os seus aparelhos burocráticos às suas próprias exigências históricas e operacionais, criando arranjos que, embora partilhem traços gerais, guardam particularidades determinantes entre si.
 
 Os países em vias de desenvolvimento, todavia, veem-se frequentemente privados dessa flexibilidade adaptativa. Por força das imposições e condicionalidades de parceiros internacionais e agências de desenvolvimento, vêem-se compelidos a cumprir cegamente a listagem de procedimentos formais exigidos pelo PEFA e por instrumentos análogos — ainda que tal conformidade burocrática em nada contribua para a eficácia do sistema de GFP, dado o desacerto gritante entre as reformas importadas e a realidade institucional local. Esta dinâmica de dependência externa evidencia a imperiosa necessidade de preservar espaço para escolhas locais de modelos de reforma, assentes na aprendizagem empírica e na adaptação institucional. O esforço central deve orientar-se para ajustar a dita "boa prática" ao contexto real dos países, habilitando os sistemas de gestão financeira do Estado a dar resposta concreta aos estrangulamentos diagnosticados localmente, em consonância com a sua capacidade administrativa real e as dinâmicas políticas internas.
+
 
 ## O que pode vir a ser a GFP?
 

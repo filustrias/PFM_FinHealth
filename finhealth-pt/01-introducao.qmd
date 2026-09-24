@@ -1,0 +1,101 @@
+---
+title: "Introdução"
+---
+
+::: {.callout-warning title="Tradução de trabalho, não oficial"}
+Esta é uma tradução de trabalho da versão de Julho de 2026 do *FinHealth
+Toolkit 2.0*, feita para apoiar as sessões do grupo técnico de trabalho. Não
+é uma tradução oficial. Em caso de divergência, prevalece
+[o original em inglês](https://docs.google.com/document/d/15R0hMEkaFh_bleCE8-GR749pVo6ymtcv/edit?usp=drive_link).
+
+As decisões de tradução ainda em aberto estão reunidas em
+[Problemas de tradução](../problemas-de-traducao.qmd).
+:::
+
+FinHealth Toolkit 2.0:
+
+**Kit de Ferramentas de Diagnóstico de Gestão de [Finanças Públicas](../glossario.qmd#g-financas-publicas) (GFP) na Saúde**
+
+Desenvolvido conjuntamente pelo Banco Mundial e pela Organização Mundial da Saúde
+
+Junho de 2026
+
+O desenvolvimento da ferramenta foi liderado por Moritz Piatti Fünfkirchen (Economista Sénior, HNP, Banco Mundial)*, Rachel Ort* *(Especialista Sénior em Governação, Governação, Banco Mundial),* *e Helene Barroy* (Especialista Sénior em Finanças Públicas, Desempenho, Financiamento e [Prestação de Serviços](../glossario.qmd#g-prestacao-de-servicos), OMS). A equipa principal incluiu Moritz Piatti Fünfkirchen, Rachel Ort, Helene Barroy, Marc Robinson *(Perito Sénior, Consultor Independente)**, Rajesh Jha* *(Especialista Sénior em Finanças Públicas, HNP, Banco Mundial)**, Manoj Jain* (Especialista Principal em Governação, Governação, Banco Mundial) e Amna Silim *(Perita Sénior, Consultora Independente)**. O trabalho beneficiou do apoio de Mariam Ali* *(Economista Sénior, HNP, Banco Mundial)*, Ali Habib (Especialista Sénior em Saúde, HNP, Banco Mundial) *e Matthew Hulse* (Especialista Sénior em Saúde, HNP, Banco Mundial), bem como de Helene Grandvoinnet *(Especialista Principal em Governação, Governação, Banco Mundial)*, antes da sua saída do Grupo Banco Mundial. Angel Bombarda (Consultor Independente, Banco Mundial) *e Alix Beith* (Consultora Independente, Banco Mundial) prestaram apoio processual e editorial.
+
+A equipa trabalhou sob a orientação de Arturo Herrera Gutierrez (Director Global, Governance GP, Banco Mundial)*, Monique Vledder* *(Directora Global, HNP, Banco Mundial)**, Kalipso Chalkidou* (Directora, Desempenho, Financiamento e Prestação de Serviços, OMS), Serdar Yilmaz *(Gestor de Prática, Governação, Banco Mundial)**, Jeremy Veillard* *(Gestor de Prática, HNP, Banco Mundial)* e Agnes Couffinhal (Líder de Programa Global, HNP, Banco Mundial)*.*
+
+A equipa agradece aos revisores pares: Joseph Kizito (Gestor de Prática, Governance GP, Banco Mundial)*, Tobias Haque* (Economista Principal, [Política Fiscal](../glossario.qmd#g-politica-fiscal) e Crescimento, Banco Mundial), Laurence Lannes *(Economista Principal, HNP, Banco Mundial)**, Abigail Perry* *(Especialista Principal em Saúde, HNP, Banco Mundial)*, Pia Schneider (Economista Principal, HNP, Banco Mundial)*, Owen Smith* (Economista Principal, HNP, Banco Mundial), Cicely Thomas *(Economista Sénior, GFF, Banco Mundial)*, Shomikho Raha (Especialista Sénior em Governação, Governação, Banco Mundial*) e Anna Vassall* (Chefe, Avaliação e Análise Económica, OMS).
+
+A equipa deseja também agradecer aos numerosos peritos em governação e saúde que prestaram aconselhamento durante a nota conceptual, a revisão de melhoria da qualidade e a fase da reunião de decisão, bem como orientação e comentários ao longo do processo, incluindo Tim Williamson (Especialista Sénior em Governação e Sector Público, Governação, Banco Mundial), Maria Arnal Canudo (Especialista em Governação, Governação, Banco Mundial), Zahid Hasnain (Especialista Principal em Governação, Governação, Banco Mundial)*, Muhammad Faisal Ali Baig* *(Especialista em Sector Público, Governação, Banco Mundial)**,* Srinivas Gurazada *(Chefe, Secretariado do [PEFA](../glossario.qmd#g-pefa))*, Abigail Perry, *Marielle Castellanos Garcia* (Consultora Independente, Banco Mundial), Blerta Maliqi *(Chefe, Qualidade dos Cuidados, OMS)*, Karin Stenberg (Economista Sénior da Saúde, Análise e [Avaliação Económica](../glossario.qmd#g-avaliacao-economica), OMS), Fahdi Dkhimi (Oficial Técnico, OMS*), Lachlan McDonald* (Consultor Independente, Banco Mundial), Feby Olfisra (Política e Estratégia de Saúde, OMS) e Denese de Guzman *(Consultora Independente, OMS)*.
+
+O relatório foi produzido com o generoso apoio do Global Financing Facility (GFF).
+
+## Siglas
+
+AAAQDisponibilidade, Acessibilidade, Aceitabilidade, Qualidade (Availability, Accessibility, Acceptability, Quality)
+
+EBIInstituição Extraorçamental (Extra-budgetary Institution)
+
+FHFinHealth
+
+GFSEstatísticas das Finanças Públicas (Government Finance Statistics)
+
+HISeguro de Saúde (Health Insurance)
+
+RHRecursos Humanos
+
+HRMISSistema de Informação de Gestão de Recursos Humanos (Human Resource Management Information System)
+
+FMIFundo Monetário Internacional
+
+TITecnologias de Informação
+
+MFMinistério das Finanças
+
+MSMinistério da Saúde
+
+MTEFQuadro de Despesa de Médio Prazo (Medium-Term Expenditure Framework)
+
+ONGOrganização Não Governamental
+
+NHMMissão Nacional de Saúde (National Health Mission, Índia)
+
+NPIInstituição Sem Fins Lucrativos (Non-profit Institution)
+
+OOPDespesa Directa das Famílias (Out of Pocket)
+
+PEFADespesa Pública e Responsabilização Financeira (Public Expenditure and Financial Accountability)
+
+GFPGestão das Finanças Públicas (Public Financial Management, PFM)
+
+CSPCuidados de Saúde Primários
+
+PHOResponsável Provincial de Saúde (Provincial Health Officer)
+
+PIMGestão do Investimento Público (Public Investment Management)
+
+PIUUnidade de Implementação de Projectos (Project Implementation Unit)
+
+SARAAvaliação da Disponibilidade e Prontidão dos Serviços (Service Availability and Readiness Assessment)
+
+SHISeguro Social de Saúde (Social Health Insurance)
+
+UHCCobertura Universal de Saúde (Universal Health Coverage)
+
+OMSOrganização Mundial da Saúde
+
+## Introdução
+
+**O FinHealth 2.0: Kit de Ferramentas de Diagnóstico de Gestão de Finanças Públicas (GFP) na Saúde visa ajudar os profissionais a identificar e a resolver os constrangimentos de GFP que contribuem para as deficiências na [prestação de serviços de saúde](../glossario.qmd#g-prestacao-de-servicos-de-saude).** **Este Kit de Ferramentas assenta numa orientação para a resolução de problemas de prestação de serviços de saúde. Começa por perguntar o que não está a funcionar nos sistemas de saúde e procura identificar os constrangimentos de GFP que estão na origem dessas deficiências.** **O objectivo do diagnóstico não é apenas identificar constrangimentos. É, antes, pensar de forma construtiva sobre a maneira de os resolver****.** **A aplicação do Kit de Ferramentas resulta em recomendações concretas e accionáveis para resolver constrangimentos decorrentes dos sistemas de gestão dos recursos públicos que abrangem todo o Governo, da forma como os recursos públicos são geridos dentro do sector da saúde e da interacção entre estes dois sistemas.**
+
+**A qualidade da GFP tem uma importância considerável para a prestação de serviços de saúde.** O financiamento público é necessário para alcançar e manter a [Cobertura Universal de Saúde](../glossario.qmd#g-cobertura-universal-de-saude) (UHC), pelo que a qualidade dos sistemas de gestão desses recursos públicos – a [gestão das finanças públicas](../glossario.qmd#g-gestao-das-financas-publicas) – é crítica (Barroy e outros 2024; Cashin e outros 2017; UHC2030, 2020; Organização Mundial da Saúde 2023). Tal foi demonstrado por trabalhos econométricos rigorosos, incluindo estudos que mostram que uma maior qualidade da GFP está associada a uma menor mortalidade infantil e materna (Goryakin e outros 2017; Piatti-Fünfkirchen e Smets 2019; Tapsoba e outros 2024). A GFP refere-se aos processos, regras e sistemas — como a preparação, a execução, o reporte e a auditoria do orçamento — em que assenta a gestão dos recursos públicos (Secretariado do PEFA 2016; Banco Mundial 1998). [^1]
+
+**Sistemas de GFP eficazes são a espinha dorsal do [financiamento da saúde](../glossario.qmd#g-financiamento-da-saude) e da prestação de serviços de saúde****: determinam se os profissionais de saúde recebem os seus salários a tempo, se as unidades sanitárias dispõem dos consumíveis e equipamentos necessários para funcionar e se os orçamentos estão disponíveis e acessíveis para as despesas operacionais que os cuidados de qualidade exigem. Onde os sistemas de GFP são frágeis — onde as libertações orçamentais são imprevisíveis, a [contratação pública](../glossario.qmd#g-contratacao-publica) é lenta ou as regras financeiras são demasiado rígidas para permitir aos gestores responder às necessidades locais — mesmo sistemas de saúde bem financiados podem falhar na prestação de serviços (Barroy e outros 2019; Piatti-Fünfkirchen e Schneider 2018; Organização Mundial da Saúde 2023; Organização Mundial da Saúde e Banco Mundial 2025). Numa emergência, uma GFP flexível e adaptativa pode também assegurar que os recursos necessários estão disponíveis, que podem ser mobilizados rapidamente e onde são necessários, e que serão utilizados com responsabilização (Barroy e outros 2022; Banco Mundial 2020).**
+
+**Este Kit de Ferramentas actualiza o diagnóstico FinHealth original, com base nas lições aprendidas com a sua implementação em mais de dez países** **(incluindo Arménia, Geórgia, Guiné-Bissau, Índia, Quirguistão, República Democrática Popular do Laos, Myanmar, Timor-Leste, Togo e Tajiquistão)****.** **A primeira versão do kit de ferramentas foi lançada em 2019 e conseguiu ligar a GFP, o financiamento da saúde e a prestação de serviços (Banco Mundial 2019). Contudo, a implementação nos países revelou que o processo de revisão exaustiva de 24 funções de GFP podia resultar em recomendações de reforma da GFP de alto nível, sem uma ligação directa ao seu impacto nos serviços de saúde. Por isso, esta orientação actualizada do Kit de Ferramentas destina-se a reforçar a orientação da metodologia para os problemas, facilitando um diagnóstico mais ajustado e a formulação de recomendações concretas e accionáveis para melhorar os serviços de saúde.**
+
+**Este Kit de Ferramentas é um produto conjunto do Banco Mundial e da Organização Mundial da Saúde (OMS).** **Destina-se a funcionários governamentais, parceiros de desenvolvimento e outros profissionais que pretendam obter melhores resultados da despesa pública em saúde. Prevê-se que seja aplicado por equipas de análise compostas por especialistas em saúde e em GFP, reunindo competências de ambas as especialidades técnicas.** **A abordagem está alinhada com a Outcome-Led PFM Initiative (Ole-PFM – Iniciativa de GFP Orientada para Resultados), que estabelece orientações práticas para a identificação dos gargalos de GFP subjacentes aos desafios de prestação do sector público, bem como para a concepção de processos de reforma que os resolvam.**
+
+**Este Kit de Ferramentas está organizado da seguinte forma****: o Capítulo 2 orienta a equipa de análise ao longo das quatro etapas de uma avaliação FinHealth, com orientações detalhadas para cada etapa. O Capítulo 3 oferece orientações aprofundadas sobre os gargalos de GFP e as suas causas subjacentes, na sua relação com os problemas de prestação de serviços de saúde, e está à disposição das equipas de análise para informar a [análise causal](../glossario.qmd#g-analise-causal). O Anexo 1 fornece orientações detalhadas para o mapeamento das organizações do sector público, dos fluxos de financiamento e das regras de GFP (em apoio à Etapa 2). O Anexo 2 apresenta exemplos de problemas de prestação de serviços de saúde e de gargalos identificados nas avaliações FinHealth 1.0 realizadas nos países (em apoio à Etapa 1). O Anexo 3 apresenta uma visão geral da relação entre os problemas de saúde e os gargalos discutidos no Capítulo 3. O Anexo 4 apresenta uma lista de leituras adicionais sobre cada gargalo de GFP enumerado no Capítulo 3 (em apoio à Etapa 3).**
+
+[^1]: O FinHealth distingue entre finanças públicas e gestão das finanças públicas. As finanças públicas centram-se nas decisões de política de alto nível sobre a forma como o Governo mobiliza receitas e aloca a despesa total, ao passo que a GFP se refere aos sistemas, regras e instituições específicos utilizados para executar e contabilizar esses recursos. Assim, as decisões sobre a forma de mobilizar receitas, o nível e a composição dos impostos, os saldos orçamentais e os níveis de despesa total são consideradas, em sentido amplo, finanças públicas, mas não GFP.

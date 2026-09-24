@@ -1,0 +1,124 @@
+---
+title: "Problemas de tradução"
+subtitle: "FinHealth 2.0 — registo de decisões pendentes e problemas do texto original"
+lang: pt
+---
+
+::: {.callout-note}
+## Sobre esta página
+Esta página acompanha a tradução de trabalho do *FinHealth Toolkit 2.0* (versão não paginada de Julho de 2026) para português de Angola. Tem três partes:
+
+- as decisões que ainda têm de ser tomadas;
+- os problemas encontrados no texto original em inglês;
+- os elementos que ficaram por concluir.
+
+A regra seguida na tradução foi a **fidelidade**: os erros do original não foram corrigidos em silêncio. Quando uma frase estava partida ou truncada e o sentido era evidente, traduziu-se pelo sentido, e o caso fica registado aqui.
+
+A coluna **Texto original** traz um excerto curto em inglês, que se pode procurar (Ctrl+F) no documento-mãe.
+:::
+
+## 1. Decisões pendentes
+
+### 1.1 Terminologia
+
+| # | Termo (EN) | Na tradução | Alternativa | Onde pesa | Decisão necessária |
+|---|---|---|---|---|---|
+| T1 | *root cause* | causa subjacente (glossário) | causa raiz (usado no livro) | Cap. 2.3, todo o Cap. 3, Anexo 3 | Escolher um termo e harmonizar livro e glossário. «Causa raiz» elimina a colisão que o glossário assinala com a definição de gargalo (*significant underlying cause*). |
+| T2 | *outcome* | resultado / resultado em saúde (glossário) | desfecho (usado no livro) | Caixa 2.2, 3.3.2, Anexo 3 | Idem. «Desfecho» evita a confusão com *results* (*results monitoring*, *results-based financing*). |
+| T3 | *PFM bottleneck* | gargalo de GFP (decidido) | constrangimento de GFP (entrada do glossário) | Todo o documento | Decisão tomada. Falta actualizar a entrada e a nota de divergência do glossário. |
+| T4 | *apportionment* / *allotment* | repartição / atribuição | designações angolanas (quotas financeiras?) | 3.2.1 | Confirmar com o especialista local a terminologia do MINFIN. |
+| T5 | *outreach* | actividades/serviços de extensão | brigadas móveis, actividades avançadas | Anexo 2 | Confirmar a designação usada no MINSA. |
+| T6 | *MoF* / *MoH* | MF / MS (genérico) | MINFIN / MINSA | Todo o documento | Manter o genérico (o documento é metodológico) ou localizar para Angola. |
+| T7 | Siglas inglesas (EBI, SHI, NPI, HRMIS, MTEF, PIU…) | mantidas em inglês, com a designação portuguesa na lista de siglas | siglas portuguesas | Todo o documento | Confirmar que o critério do glossário («mantêm-se as siglas amplamente usadas») se aplica a todas. |
+
+### 1.2 Política editorial
+
+| # | Questão | Situação actual | Decisão necessária |
+|---|---|---|---|
+| E1 | Corrigir ou manter os erros do original (secção 2) na versão publicada no livro | Mantidos, com registo nesta página | Manter fidelidade, corrigir com nota de tradutor, ou enviar a lista à equipa autora e aguardar a versão final. |
+| E2 | Publicação da tradução integral | O documento é uma versão de pré-publicação | Obter autorização da equipa autora ou publicar com aviso de «tradução de trabalho não oficial». |
+| E3 | Tabela 3.1 duplicada no original | As duas cópias foram traduzidas | Manter só uma na versão do livro (proposta: a primeira, que está completa). |
+
+## 2. Problemas no texto original
+
+**Tratamento na tradução:**
+
+- *Fiel*: traduzido tal como está, sem correcção.
+- *Pelo sentido*: frase partida ou truncada, traduzida pelo sentido evidente.
+
+### 2.1 Capa e Capítulos 1–2
+
+| # | Localização | Texto original | Problema | Tratamento | Acção sugerida |
+|---|---|---|---|---|---|
+| O1 | Capa | "June 2026" | A data da capa difere da versão do ficheiro (Julho de 2026). | Fiel ("Junho de 2026") | Confirmar a data com a equipa autora. |
+| O2 | Tabela 2.2, problema «tratamento desnecessário» | "unnecessary radiation exposure" | Atribui à ressonância magnética uma exposição a radiação; a RM não usa radiação ionizante. O mesmo exemplo repete-se no Anexo 3 (O27). | Fiel | Assinalar aos autores; considerar nota de tradutor. |
+| O3 | 2.4, pergunta de «Viabilidade» | "(iv) the techincal complexity" | O item «(iv)» aparece duas vezes e a «complexidade técnica» está duplicada. | Fiel | Assinalar aos autores. |
+
+### 2.2 Capítulo 3
+
+| # | Localização | Texto original | Problema | Tratamento | Acção sugerida |
+|---|---|---|---|---|---|
+| O4 | Tabela 3.1 | — | A tabela aparece duas vezes seguidas; a segunda cópia não tem a linha 3.2.2. | Fiel (ambas traduzidas) | Ver E3. |
+| O5 | 3.1.2, penúltimo parágrafo antes das perguntas | "Inadequate scrutiny within the may make" | Frase truncada: falta uma palavra. | Pelo sentido («no sector») | Confirmar com os autores. |
+| O6 | 3.1.3, parágrafo sobre o orçamento por programas | "(see 3.1.7)" | A remissão sobre a aprovação para alterar dotações devia apontar para 3.1.6. | Fiel | Corrigir a remissão quando houver ligações cruzadas no livro. |
+| O7 | 3.1.5, dados | "(ii) health remuneration expenditures" | Numeração «(ii)» repetida. | Fiel | Assinalar aos autores. |
+| O8 | 3.2.1, primeiro indicador de dados | "(ii) health remuneration expenditures" | Numeração «(ii)» repetida. | Fiel | Assinalar aos autores. |
+| O9 | 3.2.2, definição | "It is used for purposes authorized" | Frase partida em duas. | Pelo sentido (unida numa só) | — |
+| O10 | 3.2.5, parágrafo inicial | "Bottleneck:" | O rótulo é «Bottleneck:» em vez de «Definition:», como nas restantes secções. | Fiel («Gargalo:») | Harmonizar para «Definição:» na versão do livro? |
+| O11 | 3.2.5, último parágrafo | "it does refer to difficulties" | Falta a negação: o sentido exige *does not refer*. | Pelo sentido («não se refere») | Confirmar com os autores. |
+| O12 | 3.3.2, segundo parágrafo | "Related health services problems:" | O rótulo anuncia problemas relacionados, mas o conteúdo é a definição de produtos e resultados. | Fiel | Assinalar aos autores. |
+| O13 | 3.3.2, quarto parágrafo | "and can leave a system compliance lacking" | Frase truncada. | Pelo sentido | Confirmar com os autores. |
+| O14 | 3.3.2, primeira pergunta de diagnóstico | "are the comprehensive… is the coverage" | Pergunta truncada. | Pelo sentido | Confirmar com os autores. |
+| O15 | 3.4.3, parágrafo a seguir ao texto principal | "The first two health services problems" | Fala dos «dois primeiros» e do «terceiro» problema, mas a lista tem sete. | Fiel | Assinalar aos autores. |
+
+### 2.3 Referências
+
+| # | Localização | Texto original | Problema | Tratamento | Acção sugerida |
+|---|---|---|---|---|---|
+| O16 | Barroy e outros (2024); Tapsoba e outros (2024) | "page numbers?" | Paginação por preencher. | Mantido | Completar a partir da revista *Health Systems & Reform*. |
+| O17 | OMS-SEARO (2023) | — | A ligação é o próprio título, não um URL. | Mantido | Completar o URL. |
+| O18 | Barroy e outros (2019) | "Reform.: Health Financing" | Pontuação partida no título. | Mantido | Corrigir. |
+
+### 2.4 Anexos 1 e 2
+
+| # | Localização | Texto original | Problema | Tratamento | Acção sugerida |
+|---|---|---|---|---|---|
+| O19 | Anexo 1, «Mapeamento dos fluxos de financiamento», 1.º parágrafo | expoente "7" | Chamada de nota sem nota de rodapé correspondente. | Fiel | Remover ou reconstituir a nota. |
+| O20 | Anexo 1, definição de instituições extraorçamentais | expoente "8" | Chamada de nota solta. | Fiel | Idem. |
+| O21 | Anexo 1, tabela de definições institucionais, linhas «Instituição de saúde governamental» e «Instituição extraorçamental» | expoentes "4" e "6" | Chamadas de nota soltas. | Fiel | Idem. |
+| O22 | Anexo 1, tabela de definições institucionais, linha «Nacional vs. subnacional» | "a local (provincial/district" | Definição truncada. | Fiel | Assinalar aos autores. |
+| O23 | Anexo 2, introdução | "drawing on seven country assessments" | Refere e enumera sete países, mas o anexo inclui também casos de Timor-Leste, que não está na lista. | Fiel | Assinalar aos autores. |
+| O24 | Anexo 2, secção sobre pessoal | "Annex 2.3" | Única secção numerada, e como parágrafo simples em vez de título. | Fiel | Harmonizar os títulos na versão do livro. |
+| O25 | Anexo 2, Myanmar (contratação pública) | "D+ for procurement systems and accountability and efficiency" | Frase confusa sobre as classificações PEFA. | Fiel | Confirmar com o relatório FinHealth do Myanmar. |
+| O26 | Figura A1.1 | legenda | A legenda não corresponde às cores das caixas: o governo subnacional aparece a laranja (a legenda reserva o verde para o subnacional) e o OOP a vermelho, que não consta da legenda. | Fiel (figura redesenhada com o mesmo esquema) | Corrigir a legenda ou as cores. |
+
+### 2.5 Anexo 3
+
+| # | Localização | Texto original | Problema | Tratamento | Acção sugerida |
+|---|---|---|---|---|---|
+| O27 | Problema 19 (tratamento desnecessário) | "unnecessary radiation exposure" | Repete o erro do exemplo da RM (ver O2). | Fiel | Idem O2. |
+| O28 | Problema 2 (produtividade do pessoal) | segundo "(3.1.7)" | O gargalo 3.1.7 aparece duas vezes; a segunda explicação trata de execução, pelo que devia ser 3.2.7. | Fiel | Corrigir o rótulo para 3.2.7. |
+| O29 | Problema 13 (consumíveis não adequados à finalidade), explicação de 3.2.3 | "Where funding flows are governed by rigid rules" | Contém um segundo parágrafo sobre regras de financiamento rígidas, que parece pertencer a um item 3.4.3 em falta. | Fiel | Assinalar aos autores. |
+| O30 | Problema 22 (resposta a emergências), explicação de 3.2.1 | "Where budget rules prevent funds from being reallocated" | É cópia exacta da explicação de 3.1.6, que vem imediatamente antes. | Fiel | Pedir aos autores o texto correcto. |
+| O31 | Problema 23 (parte pequena da despesa), explicação de 3.1.2 | "funding distributions that are misaligned with stated priorities." | Frases partidas. | Fiel (literal) | Confirmar com os autores. |
+
+### 2.6 Anexo 4 e figuras
+
+| # | Localização | Texto original | Problema | Tratamento | Acção sugerida |
+|---|---|---|---|---|---|
+| O32 | Anexo 4, títulos | "Bottleneck A.1 … C.2" | Usa a numeração do FinHealth 1.0, que não corresponde às secções 3.1.1–3.4.5. | Fiel | Renumerar pelo Cap. 3 na versão do livro. |
+| O33 | Anexo 4 | "Bottleneck B.7" | O mesmo número está atribuído a dois gargalos diferentes. | Fiel | Idem O32. |
+| O34 | Anexo 4, Rajaram (2014 e 2010) | "insert all authors" | Autores por preencher. | Mantido | Completar. |
+| O35 | Anexo 4, dois manuais do Banco Mundial | "Year.?" | Ano por preencher. | Mantido | Completar. |
+| O36 | Anexo 4, Robinson (2013) | "page numbers?" | Paginação por preencher. | Mantido | Completar. |
+| O37 | Figura 2.2 | título embutido "Figure 2.1" | O título dentro da imagem tem numeração errada (fica cortado no Word). | Fiel | Corrigir no redesenho para o livro. |
+| O38 | Figura 2.2 e Caixa 2.1 | "(orange… blue… yellow)" | As cores descritas na Caixa 2.1 não correspondem às da figura. | Fiel | Harmonizar texto e figura. |
+
+## 3. Elementos por concluir
+
+| # | Elemento | Situação | Próximo passo |
+|---|---|---|---|
+| P1 | Sumário | Títulos traduzidos; números de página desactualizados | Actualizar campos no Word (F9); o ficheiro pede-o ao abrir. |
+| P2 | Figuras 2.1, 2.2 e A1.1 | Redesenhadas em PNG, em português (script `fig/figs.py`) | No livro: Figura 2.1 em Mermaid; rever as outras duas depois de decidir O26, O37 e O38. |
+| P3 | Referências e Anexo 4 | Obras mantidas no original; só «Available at» passou a «Disponível em» | Completar O16–O18 e O34–O36. |
+| P4 | Revisão técnica | — | Revisão por blocos pelo TWG-PFM / especialista local, começando pelos Capítulos 1–2. |
