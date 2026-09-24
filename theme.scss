@@ -248,6 +248,38 @@ font-weight: 600;
 }
 
 /* ======================================================================
+   Calendário do grupo de trabalho: as sessões passadas recuam, a próxima
+   destaca-se. Marcado por guião a partir da data do dia, para a tabela não
+   precisar de ser mexida a cada semana.
+   ====================================================================== */
+tr.cal-passada { opacity: 0.55; }
+
+tr.cal-proxima {
+  background: rgba(46, 90, 136, 0.09);
+  td:first-child { font-weight: 600; }
+}
+
+.cal-tag {
+  display: inline-block;
+  font-family: $headings-font-family;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  background: #2e5a88;
+  border-radius: 100px;
+  padding: 0.05rem 0.5rem;
+  margin-left: 0.5rem;
+  vertical-align: 0.08em;
+}
+
+.quarto-dark {
+  tr.cal-proxima { background: rgba(80, 140, 210, 0.16); }
+  .cal-tag { background: #3b6db3; }
+}
+
+/* ======================================================================
    Glossário (.gl-*): índice consultável, com filtro ao vivo, navegação A–Z
    e uma âncora por termo. As âncoras são o destino das hiperligações
    automáticas que virão no corpo do livro.

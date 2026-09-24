@@ -3,7 +3,7 @@ project:
   output-dir: _book
 
 book:
-  title: "PFM e FinHealth"
+  title: "Public Financial Management e FinHealth 2.0"
   subtitle: "Gestão das finanças públicas na saúde"
   date: today
   date-format: "D MMMM YYYY"
@@ -18,7 +18,8 @@ book:
     collapse-level: 1
   chapters:
     - index.qmd
-    - part: "FinHealth 2.0"
+    - calendario.qmd
+    - part: "FinHealth 2.0 — resumo"
       chapters:
         - finhealth-apresentacao.qmd
         - finhealth-tabela-2-2.qmd

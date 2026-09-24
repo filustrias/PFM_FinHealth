@@ -1,0 +1,46 @@
+---
+title: "Calendário de atividades"
+subtitle: "Grupo técnico de trabalho de PFM"
+---
+
+Os encontros são sempre às **quintas-feiras, às 14 horas, no Ministério da Saúde**.
+
+| Data | Tema |
+|:--|:--|
+| [17 de setembro de 2026]{data-d="2026-09-17"} | Apresentação dos participantes e do projeto; leitura dos termos de referência |
+| [24 de setembro de 2026]{data-d="2026-09-24"} | Glossário e termos de gestão das finanças públicas |
+| [1 de outubro de 2026]{data-d="2026-10-01"} | Introdução à metodologia do FinHealth 2.0; alcances e limites da metodologia |
+| [8 de outubro de 2026]{data-d="2026-10-08"} | Levantamento de situações: problemas de serviço de saúde, ou problemas na prestação do cuidado |
+| [15 de outubro de 2026]{data-d="2026-10-15"} | Identificação dos problemas e dos respetivos gargalos |
+| [22 de outubro de 2026]{data-d="2026-10-22"} | *(tema a definir)* |
+| [29 de outubro de 2026]{data-d="2026-10-29"} | *(tema a definir)* |
+| [5 de novembro de 2026]{data-d="2026-11-05"} | *(tema a definir)* |
+| [12 de novembro de 2026]{data-d="2026-11-12"} | *(tema a definir)* |
+| [19 de novembro de 2026]{data-d="2026-11-19"} | *(tema a definir)* |
+| [26 de novembro de 2026]{data-d="2026-11-26"} | *(tema a definir)* |
+| [3 de dezembro de 2026]{data-d="2026-12-03"} | *(tema a definir)* |
+| [10 de dezembro de 2026]{data-d="2026-12-10"} | *(tema a definir)* |
+
+: {tbl-colwidths="[32,68]"}
+
+```{=html}
+<script>
+(function () {
+  // Marca a próxima sessão, para a tabela não precisar de ser mexida a cada semana.
+  const hoje = new Date(); hoje.setHours(0, 0, 0, 0);
+  const marcas = Array.from(document.querySelectorAll("[data-d]"));
+  let proxima = null;
+  for (const m of marcas) {
+    const linha = m.closest("tr");
+    if (!linha) continue;
+    const d = new Date(m.dataset.d + "T00:00:00");
+    if (d < hoje) linha.classList.add("cal-passada");
+    else if (!proxima) { proxima = linha; linha.classList.add("cal-proxima"); }
+  }
+  if (proxima) {
+    const c = proxima.querySelector("td");
+    if (c) c.insertAdjacentHTML("beforeend", ' <span class="cal-tag">próxima</span>');
+  }
+})();
+</script>
+```

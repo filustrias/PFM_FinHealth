@@ -4,15 +4,27 @@ Este livro trata da gestão das finanças públicas na saúde — daqui em diant
 na sigla inglesa de *public financial management* — e do instrumento que a OMS e o
 Banco Mundial criaram para a diagnosticar, o FinHealth 2.0.
 
-Tem duas partes. A primeira trabalha o **método**: de onde o FinHealth veio, que forma
-de raciocínio adota, como se aplica e onde estão as suas fronteiras. A segunda trata da
-sua **aplicação em Angola**, no âmbito do projeto HIIP, cuja frente de PFM prevê uma
-avaliação do setor da saúde.
+## Onde esta frente se enquadra
 
-A separação deste livro face ao [caderno do HIIP](https://filustrias.github.io/HIIP_my_notebook/)
-é deliberada. O assunto tem público próprio — o TWG-PFM e o Ministério das Finanças, e
-não o grupo dos cuidados primários — e o material cresceu ao ponto de não caber como
-um capítulo de outro livro.
+A Plataforma de Investimento de Impacto na Saúde (*Health Impact Investment Platform*,
+HIIP) é uma iniciativa da Organização Mundial da Saúde com bancos multilaterais de
+desenvolvimento, criada para ajudar os países a preparar planos de investimento em
+cuidados de saúde primários e a mobilizar financiamento em condições favoráveis para os
+executar. Em Angola, a plataforma concretiza-se num documento de proposta de ação
+aprovado em abril de 2026, com três produtos contratuais: um plano de investimento em
+cuidados primários devidamente custeado, uma avaliação harmonizada das unidades
+sanitárias, e uma avaliação da gestão das finanças públicas do sector da saúde. É esta
+terceira que dá origem ao presente livro. A sua função dentro do conjunto é
+instrumental: identificar o que, nas regras e nas práticas financeiras, impede que o
+dinheiro já disponível chegue às unidades a tempo e na forma certa — sem o que um
+plano de investimento acrescenta recursos a um circuito que não os entrega.
 
-O livro está em português europeu. Onde os termos técnicos só existem em inglês, ficam
-em inglês com a tradução à frente na primeira ocorrência.
+## Para que serve este livro
+
+O livro é material de trabalho, para uso corrente durante as oficinas do grupo técnico
+de trabalho de PFM em Angola. Reúne o que é preciso ter à mão numa sessão: um
+**glossário** dos termos da avaliação, **textos explicativos** sobre a metodologia,
+**traduções** dos documentos de referência e o **calendário de atividades** do grupo.
+
+O livro está em português. Onde os termos técnicos só existem em inglês, ficam em
+inglês com a tradução à frente na primeira ocorrência.
