@@ -1,0 +1,18 @@
+# Prefácio {.unnumbered}
+
+Este livro trata da gestão das finanças públicas na saúde — daqui em diante **PFM**,
+na sigla inglesa de *public financial management* — e do instrumento que a OMS e o
+Banco Mundial criaram para a diagnosticar, o FinHealth 2.0.
+
+Tem duas partes. A primeira trabalha o **método**: de onde o FinHealth veio, que forma
+de raciocínio adota, como se aplica e onde estão as suas fronteiras. A segunda trata da
+sua **aplicação em Angola**, no âmbito do projeto HIIP, cuja frente de PFM prevê uma
+avaliação do setor da saúde.
+
+A separação deste livro face ao [caderno do HIIP](https://filustrias.github.io/HIIP_my_notebook/)
+é deliberada. O assunto tem público próprio — o TWG-PFM e o Ministério das Finanças, e
+não o grupo dos cuidados primários — e o material cresceu ao ponto de não caber como
+um capítulo de outro livro.
+
+O livro está em português europeu. Onde os termos técnicos só existem em inglês, ficam
+em inglês com a tradução à frente na primeira ocorrência.

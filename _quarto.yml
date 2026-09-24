@@ -1,0 +1,52 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "PFM e FinHealth"
+  subtitle: "Gestão das finanças públicas na saúde"
+  date: today
+  date-format: "D MMMM YYYY"
+  site-url: https://filustrias.github.io/PFM_FinHealth/
+  repo-url: https://github.com/filustrias/PFM_FinHealth
+  repo-branch: main
+  repo-actions: [edit, issue]
+  search: true
+  page-navigation: true
+  sidebar:
+    style: floating
+    collapse-level: 1
+  chapters:
+    - index.qmd
+    - part: "FinHealth 2.0"
+      chapters:
+        - finhealth-apresentacao.qmd
+        - finhealth-tabela-2-2.qmd
+        - finhealth-caso-timor.qmd
+    # - part: "PFM em Angola"
+    #   chapters:
+    #     - (a acrescentar)
+
+lang: pt
+
+language:
+  title-block-published: "Última atualização"
+
+format:
+  html:
+    number-sections: false
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    code-copy: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    theme:
+      light: [flatly, theme.scss]
+      dark: [darkly, theme.scss]
+    mainfont: "Inter"
+    monofont: "JetBrains Mono"
+    fontsize: 1.05em
+    linestretch: 1.6
+
+editor: visual

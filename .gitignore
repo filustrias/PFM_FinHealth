@@ -1,0 +1,9 @@
+/_book/
+/.quarto/
+**/*.quarto_ipynb
+.Rproj.user
+.Rhistory
+
+# Documentos de trabalho: ficam fora do repositório público.
+*.xlsx
+*.docx
