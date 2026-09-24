@@ -248,6 +248,39 @@ font-weight: 600;
 }
 
 /* ======================================================================
+   Figura 1 de "Isto é GFP": o ciclo da gestão das finanças públicas,
+   redesenhado em SVG com os termos em português. Texto a sério, que
+   acompanha o tema escuro e escala com o ecrã.
+   ====================================================================== */
+.gfp-fig {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 900px;
+  margin: 1.2rem auto;
+
+  text { font-family: $headings-font-family; }
+
+  .st { fill: #9dc3e6; stroke: #2e5a88; stroke-width: 1; }
+  .st-t { font-size: 14px; font-weight: 700; fill: #11304f; }
+  .bx { fill: #fff; stroke: #6b7684; stroke-width: 1; }
+  .bx-t { font-size: 13px; fill: #22303f; }
+  .ctr { font-size: 21px; font-weight: 700; fill: #11304f; }
+  .arw { fill: none; stroke: #2b3948; stroke-width: 3; }
+  .pt { fill: #2b3948; }
+}
+
+.quarto-dark .gfp-fig {
+  .st { fill: #2b4f79; stroke: #6b9bd8; }
+  .st-t { fill: #e8f0fa; }
+  .bx { fill: rgba(255, 255, 255, 0.05); stroke: #7c8898; }
+  .bx-t { fill: #d7dde5; }
+  .ctr { fill: #e8f0fa; }
+  .arw { stroke: #9aa6b4; }
+  .pt { fill: #9aa6b4; }
+}
+
+/* ======================================================================
    Calendário do grupo de trabalho: as sessões passadas recuam, a próxima
    destaca-se. Marcado por guião a partir da data do dia, para a tabela não
    precisar de ser mexida a cada semana.

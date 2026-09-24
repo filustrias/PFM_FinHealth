@@ -19,6 +19,7 @@ book:
   chapters:
     - index.qmd
     - calendario.qmd
+    - isto-e-gfp.qmd
     - part: "FinHealth 2.0 — resumo"
       chapters:
         - finhealth-apresentacao.qmd
