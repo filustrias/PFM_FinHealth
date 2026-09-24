@@ -388,12 +388,34 @@ tr.cal-proxima {
 .gl-term { font-family: $headings-font-family; font-weight: 600; }
 .gl-en { font-size: 0.85rem; color: #7a818c; font-style: italic; }
 
+// Camada editorial: termos acrescentados do FinHealth, comentários e divergências
+.gl-orig {
+  font-family: $font-family-sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #2e5a88;
+  margin-left: 0.3rem;
+}
+.gl-item > p.gl-fonte { font-size: 0.82rem; color: #7a818c; }
+.gl-item > p.gl-coment { color: #6b7280; }
+.gl-item > p.gl-diverg {
+  color: #6b7280;
+  font-style: italic;
+  font-size: 0.88rem;
+  border-left: 2px solid rgba(128, 137, 150, 0.35);
+  padding-left: 0.6rem;
+}
+.gl-diverg-rot { font-weight: 600; }
+.gl-coment a, .gl-diverg a { color: inherit; text-decoration: underline dotted; }
+
 .quarto-dark {
   .gl-btn, .gl-az a { color: #8fb8e8; }
   .gl-az a { background: rgba(80, 140, 210, 0.16); }
   .gl-az a:hover { background: rgba(80, 140, 210, 0.3); }
   .gl-item.gl-alvo { background: rgba(80, 140, 210, 0.18); }
   #gl-filter { border-color: rgba(143, 184, 232, 0.4); }
+  .gl-orig { color: #8fb8e8; }
+  .gl-item > p.gl-coment, .gl-item > p.gl-diverg { color: #a3aab4; }
 }
 
 @media (max-width: 575.98px) {

@@ -24,6 +24,7 @@ import yaml
 
 RAIZ = Path(__file__).resolve().parent.parent
 DADOS = RAIZ / "glossario.yml"
+EXTRAS = RAIZ / "glossario_comentarios.yml"   # camada editorial (opcional)
 SAIDA = RAIZ / "glossario.qmd"
 
 ABERTO_POR_OMISSAO = False
@@ -34,6 +35,24 @@ def sem_acento(s):
     return "".join(c for c in s if not unicodedata.combining(c))
 
 
+REF = re.compile(r"\[\[(g-[a-z0-9-]+)\|([^\]]+)\]\]")
+
+
+def texto_html(s, ids):
+    """Escapa o texto e converte [[g-id|texto]] em ligação para a entrada."""
+    def troca(m):
+        alvo, rot = m.group(1), m.group(2)
+        if alvo not in ids:
+            print(f"  AVISO: referência para entrada inexistente: {alvo}")
+            return rot
+        return f'<a href="#{alvo}">{rot}</a>'
+    return REF.sub(troca, html.escape(" ".join(s.split())))
+
+
+def sem_refs(s):
+    return REF.sub(lambda m: m.group(2), s)
+
+
 def letra(termo):
     ini = sem_acento(termo)[:1].upper()
     return ini if ini.isalpha() else "#"
@@ -41,7 +60,26 @@ def letra(termo):
 
 def main():
     d = yaml.safe_load(DADOS.read_text(encoding="utf-8"))
-    entradas = d["entradas"]
+    entradas = [dict(e) for e in d["entradas"]]
+
+    # ---------------------------------------------------- camada editorial
+    extras = {}
+    if EXTRAS.exists():
+        extras = yaml.safe_load(EXTRAS.read_text(encoding="utf-8")) or {}
+    ids = {e["id"] for e in entradas}
+    for nova in extras.get("novas") or []:
+        if nova["id"] in ids:
+            print(f"  AVISO: termo novo repete um id existente: {nova['id']}")
+            continue
+        entradas.append(dict(nova, origem="FinHealth"))
+        ids.add(nova["id"])
+    for chave, extra in (extras.get("comentarios") or {}).items():
+        alvo = next((e for e in entradas if e["id"] == chave), None)
+        if alvo is None:
+            print(f"  AVISO: comentário para entrada inexistente: {chave}")
+            continue
+        alvo.update(extra)
+    entradas.sort(key=lambda e: sem_acento(e["termo"]))
 
     grupos = OrderedDict()
     for e in entradas:
@@ -82,16 +120,27 @@ def main():
         o.append(f'<section class="gl-group" id="gl-{l}" data-letter="{l}">')
         o.append(f'<h3 class="gl-letter" aria-hidden="true">{l}</h3>')
         for e in itens:
-            busca = sem_acento(f'{e["termo"]} {e["ingles"]} {e["definicao"]}')
+            extra_b = " ".join(sem_refs(e.get(k, "")) for k in ("comentario", "divergencia"))
+            busca = sem_acento(f'{e["termo"]} {e["ingles"]} {e["definicao"]} {extra_b}'.strip())
+            origem = (' <span class="gl-orig">(FinHealth)</span>'
+                      if e.get("origem") == "FinHealth" else "")
+            corpo = f'<p>{html.escape(" ".join(e["definicao"].split()))}</p>'
+            if e.get("fonte"):
+                corpo += f'<p class="gl-fonte">Fonte: {html.escape(e["fonte"])}</p>'
+            if e.get("comentario"):
+                corpo += f'<p class="gl-coment">{texto_html(e["comentario"], ids)}</p>'
+            if e.get("divergencia"):
+                corpo += (f'<p class="gl-diverg"><span class="gl-diverg-rot">'
+                          f'Divergência.</span> {texto_html(e["divergencia"], ids)}</p>')
             termo_b = sem_acento(e["termo"])
             o.append(
                 f'<details class="gl-item" id="{e["id"]}"'
                 f'{" open" if ABERTO_POR_OMISSAO else ""} '
                 f'data-b="{html.escape(busca, quote=True)}" '
                 f'data-t="{html.escape(termo_b, quote=True)}">'
-                f'<summary><span class="gl-term">{html.escape(e["termo"])}</span>'
+                f'<summary><span class="gl-term">{html.escape(e["termo"])}{origem}</span>'
                 f'<span class="gl-en">{html.escape(e["ingles"])}</span></summary>'
-                f'<p>{html.escape(e["definicao"])}</p></details>'
+                f'{corpo}</details>'
             )
         o.append("</section>")
     o.append("</div>")
@@ -102,7 +151,12 @@ def main():
 
     SAIDA.write_text("\n".join(o), encoding="utf-8")
     n_lig = sum(1 for e in entradas if e.get("ligar"))
+    n_com = sum(1 for e in entradas if e.get("comentario"))
+    n_div = sum(1 for e in entradas if e.get("divergencia"))
+    n_fh = sum(1 for e in entradas if e.get("origem") == "FinHealth")
     print(f"Escrito: {SAIDA}")
+    print(f"  {n_com} comentários, {n_div} notas de divergência, "
+          f"{n_fh} termos acrescentados do FinHealth")
     print(f"  {len(entradas)} termos em {len(grupos)} letras "
           f"({n_lig} marcados para ligação automática)")
 

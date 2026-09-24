@@ -1,0 +1,175 @@
+# Camada editorial do glossário: comentários, notas de divergência e termos
+# acrescentados a partir do FinHealth 2.0. Fica separada de glossario.yml
+# (que reproduz o documento do IGFP e é regenerado por extrair_glossario.py),
+# para que uma nova versão do PDF nunca apague este trabalho.
+#
+# comentarios: chave = id da entrada em glossario.yml
+#   comentario  -> explicação complementar, mostrada a cinzento
+#   divergencia -> nota de divergência terminológica, a cinzento e itálico
+# novas: termos que não constam do glossário do IGFP; aparecem com a marca
+#   (FinHealth) e com a fonte.
+#
+# Referências cruzadas: [[g-id|texto]] vira ligação para a entrada g-id.
+# Páginas do FinHealth: numeração impressa do documento (versão de Junho 2026).
+
+comentarios:
+
+  g-bia:
+    comentario: >-
+      Atenção: a mesma sigla designa também a
+      [[g-analise-do-impacto-orcamental|análise do impacto orçamental]]
+      (Budget Impact Analysis). São análises sem relação entre si: esta pergunta
+      quem beneficia da despesa pública; a outra pergunta quanto custará ao
+      orçamento adoptar uma nova intervenção. Exemplo: cruzar a utilização de
+      centros de saúde e hospitais por quintil de rendimento com o custo público
+      de cada consulta mostra se o subsídio público à saúde chega mais aos 20%
+      mais pobres ou aos 20% mais ricos. Convém escrever sempre o nome por
+      extenso na primeira ocorrência.
+
+  g-analise-do-impacto-orcamental:
+    comentario: >-
+      Atenção: a sigla BIA designa também a
+      [[g-bia|análise de incidência de benefícios]] (Benefit Incidence
+      Analysis), que é outra coisa. A análise do impacto orçamental não pergunta
+      se a intervenção vale o que custa — isso cabe à avaliação económica —,
+      mas se o orçamento a comporta. Exemplo: incluir um novo antidiabético oral
+      no pacote dos cuidados primários pode ser custo-efectivo e, ainda assim,
+      custar nos primeiros três anos mais do que a dotação de medicamentos
+      consegue absorver; é essa conta, ano a ano, que esta análise faz.
+
+  g-cba:
+    comentario: >-
+      Ao converter também os ganhos em moeda, esta abordagem calcula o retorno
+      financeiro líquido de uma intervenção e permite dizer se ela é
+      economicamente viável face ao investimento realizado. Diferencia-se da
+      [[g-cea|análise de custo-efectividade (CEA)]] porque esta exprime os
+      benefícios em unidades de saúde reais — calculando, por exemplo, o custo
+      necessário para atingir um impacto concreto, como a diminuição de
+      internamentos ou os anos de vida ganhos.
+
+  g-cea:
+    comentario: >-
+      O resultado exprime-se como custo por unidade de efeito — por exemplo,
+      kwanzas por doente hipertenso com a tensão arterial controlada, ou por
+      caso de malária tratado. Só compara intervenções que produzem o mesmo
+      tipo de efeito; para comparar efeitos diferentes (uma vacina e uma
+      cirurgia, por exemplo) é preciso uma medida comum, o que conduz à
+      [[g-analise-custo-utilidade|análise custo-utilidade]] ou à
+      [[g-cba|análise custo-benefício]].
+
+  g-constrangimento-de-gfp:
+    comentario: >-
+      O constrangimento responde ao «porquê» de um problema já identificado, e
+      não ao «o quê». O FinHealth dá o teste (Box 2.2, p. 4): «os medicamentos
+      essenciais chegam tarde às unidades sanitárias» é um problema de
+      prestação; «os atrasos na contratação pública e na libertação de fundos
+      impedem a reposição atempada» é o constrangimento. A qualificação
+      «significativa» é deliberada: uma fragilidade da GFP que não contribui
+      para nenhum dos problemas seleccionados fica fora da análise, por mais
+      real que seja (p. 8).
+    divergencia: >-
+      No livro usa-se «gargalo» (capítulos «Origem, paradigma e método» e
+      «Problemas de serviço: a Tabela 2.2»); nos termos de referência do Grupo
+      Técnico de Trabalho, «estrangulamentos». O original é «PFM bottleneck»;
+      na introdução, o FinHealth usa também «PFM constraints» (p. 1).
+
+  g-causa-subjacente:
+    comentario: >-
+      É o nível abaixo do constrangimento: explica por que razão a regra ou
+      prática problemática existe e persiste. Exemplo, a partir do FinHealth
+      (p. 15): o constrangimento é «as unidades recebem os fundos com meses de
+      atraso»; a causa subjacente pode ser uma previsão de tesouraria fraca,
+      que obriga o Tesouro a racionar caixa e a libertar verbas à medida que a
+      receita entra. Tratar o constrangimento sem tocar na causa — pedir
+      libertações mais rápidas sem melhorar a previsão — tende a não durar.
+    divergencia: >-
+      No livro usa-se «causa raiz» (original: «root cause»). Há uma colisão a
+      resolver: o FinHealth define o constrangimento como «significant
+      underlying cause» do problema (p. 8), cuja tradução literal — «causa
+      subjacente significativa» — usa o nome que este glossário reserva para a
+      root cause. Por isso a definição de
+      [[g-constrangimento-de-gfp|constrangimento de GFP]] neste glossário diz
+      apenas «causa significativa».
+
+  g-resultado:
+    comentario: >-
+      No FinHealth, o resultado é o efeito sobre a saúde e o bem-estar —
+      mortalidade, baixo peso à nascença, controlo de uma doença crónica (Box
+      2.2, p. 4). A distinção importa porque o problema de prestação se formula
+      ao nível do [[g-produto|produto]], e não do resultado (p. 3–4): «a
+      mortalidade materna é alta» é um resultado, alto demais para servir de
+      ponto de partida; «as maternidades municipais ficam sem ocitocina» é um
+      problema de prestação, que se pode ligar a constrangimentos de GFP.
+    divergencia: >-
+      A definição acima inclui «a melhoria da cobertura» entre os exemplos de
+      resultado. No FinHealth, medidas de disponibilidade e de cobertura (como a
+      disponibilidade de redes mosquiteiras tratadas) ficam do lado do produto
+      (Box 2.2, p. 4). No livro, «outcome» traduz-se por «desfecho».
+
+  g-compromisso:
+    comentario: >-
+      Na sequência da execução, o compromisso fica entre a dotação e o
+      pagamento: a [[g-dotacao-orcamental-autorizada|dotação]] autoriza a
+      gastar, a [[g-libertacao|libertação]] torna os fundos disponíveis, o
+      compromisso vincula o Estado perante um terceiro, a
+      [[g-verificacao|verificação]] confirma a entrega e o pagamento liquida a
+      obrigação. Exemplo: quando a direcção de um hospital assina a encomenda de
+      reagentes de laboratório, nasce o compromisso; o pagamento só ocorre
+      depois de os reagentes chegarem e serem conferidos. Por isso, uma taxa de
+      execução medida em compromissos pode ser alta enquanto a medida em
+      pagamentos é baixa — ver
+      [[g-taxa-de-execucao-orcamental|taxa de execução orçamental]].
+
+  g-libertacao:
+    comentario: >-
+      É o passo que separa ter orçamento de ter dinheiro utilizável: uma
+      unidade pode ter a dotação aprovada e, ainda assim, não conseguir
+      comprometer despesa enquanto os fundos não forem libertados. Exemplo: um
+      hospital provincial tem verba aprovada para manutenção de equipamentos,
+      mas as libertações chegam em fracções irregulares e tardias; as
+      reparações acumulam-se e o equipamento fica parado, apesar de «haver
+      orçamento». No FinHealth, este padrão enquadra-se nas dificuldades no
+      fluxo de fundos (secção 3.2.1, p. 32).
+
+novas:
+
+  - id: g-diagrama-de-espinha-de-peixe
+    termo: Diagrama de espinha de peixe
+    ingles: Fishbone diagram
+    definicao: >-
+      Instrumento visual adoptado pelo FinHealth para representar a análise
+      causal: o problema de prestação de serviços seleccionado fica na
+      «cabeça» do diagrama, e os constrangimentos de GFP e as respectivas
+      causas subjacentes nas «espinhas».
+    fonte: FinHealth 2.0, Box 2.1 e Figura 2.2, p. 2–3
+    comentario: >-
+      Também conhecido como diagrama de Ishikawa. O FinHealth recomenda-o mas
+      não o impõe: a equipa pode usar outro tipo de diagrama, desde que a
+      análise causal fique representada visualmente (nota à Figura 2.2, p. 3).
+      Exemplo de leitura: na cabeça, «as unidades sanitárias ficam sem
+      medicamentos essenciais»; numa espinha, o constrangimento «libertações
+      tardias de fundos»; ligada a ela, a causa subjacente «previsão de
+      tesouraria fraca».
+
+  - id: g-financiamento-governamental-e-nao-governamental
+    termo: Financiamento governamental e não governamental
+    ingles: Government and non-government funding
+    definicao: >-
+      Classificação das fontes de financiamento do ponto de vista da
+      instituição de saúde que recebe os fundos. É governamental o
+      financiamento que a instituição recebe de uma entidade pública —
+      Ministério das Finanças, Ministério da Saúde, autoridade regional de
+      saúde ou fundo de seguro social de saúde —, por via orçamental ou
+      extraorçamental; é não governamental o que recebe directamente de fontes
+      não públicas, sobretudo pagamentos directos dos doentes e financiamento
+      de doadores entregue directamente à unidade.
+    fonte: FinHealth 2.0, Anexo 1, «Funding Sources Definitions», p. 60–61
+    comentario: >-
+      O critério é contra-intuitivo: não interessa de onde o Estado obteve o
+      dinheiro, mas por onde ele chega à unidade. Exemplo: um donativo de um
+      parceiro canalizado pelo orçamento, como apoio orçamental, é
+      financiamento governamental; o mesmo parceiro a pagar directamente os
+      incentivos do pessoal de um centro de saúde é financiamento não
+      governamental. Os pagamentos de doentes privados a instituições privadas
+      ficam fora da análise do FinHealth, por estarem fora do sistema de
+      financiamento público.
